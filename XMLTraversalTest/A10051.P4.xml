@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?>
+<!DOCTYPE ETS SYSTEM "http://www.textcreationpartnership.org/docs/code/eebo2prf.xml.dtd">
+<ETS>
+
+<HEADER><FILEDESC><TITLESTMT><TITLE TYPE="245" I2="0">Maries memoriall A sermon preached at St. Maries Spittle on Monday in Easter weeke being Aprill 1. 1616. By Daniel Price Doctor of Diuinitie, and chaplaine vnto the Kings maiestie.</TITLE><AUTHOR>Price, Daniel, 1581-1631.</AUTHOR></TITLESTMT><EXTENT>Approx. 186 KB of XML-encoded text transcribed from 36 1-bit group-IV TIFF page images.</EXTENT><PUBLICATIONSTMT><PUBPLACE>Ann Arbor, MI ; Oxford (UK) :</PUBPLACE><PUBLISHER>Text Creation Partnership,</PUBLISHER><DATE>2011-12 (EEBO-TCP Phase 2).</DATE><IDNO TYPE="DLPS">A10051</IDNO>
+
+
+<IDNO TYPE="stc">STC 20297</IDNO>
+
+<IDNO TYPE="stc">ESTC S113685</IDNO>
+
+<IDNO TYPE="eebo citation">99848916</IDNO>
+
+<IDNO TYPE="proquest">99848916</IDNO>
+
+<IDNO TYPE="vid">14038</IDNO>
+<AVAILABILITY><P>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</P></AVAILABILITY></PUBLICATIONSTMT><SERIESSTMT><TITLE>Early English books online.</TITLE></SERIESSTMT><NOTESSTMT><NOTE>(EEBO-TCP ; phase 2, no. A10051)</NOTE><NOTE>Transcribed from: (Early English Books Online ; image set 14038)</NOTE><NOTE>Images scanned from microfilm: (Early English books, 1475-1640 ; 1460:02)</NOTE></NOTESSTMT><SOURCEDESC><BIBLFULL><TITLESTMT><TITLE TYPE="245" I2="0">Maries memoriall A sermon preached at St. Maries Spittle on Monday in Easter weeke being Aprill 1. 1616. By Daniel Price Doctor of Diuinitie, and chaplaine vnto the Kings maiestie.</TITLE><AUTHOR>Price, Daniel, 1581-1631.</AUTHOR></TITLESTMT><EXTENT>[4], 67, [1] p.   </EXTENT><PUBLICATIONSTMT>
+<PUBPLACE>London :</PUBPLACE>
+<PUBLISHER>Printed by Edward Griffin,</PUBLISHER>
+<DATE>1617.</DATE>
+</PUBLICATIONSTMT><NOTESSTMT><NOTE>Reproduction of the original in the Cambridge University Library.</NOTE></NOTESSTMT></BIBLFULL></SOURCEDESC></FILEDESC><ENCODINGDESC><PROJECTDESC><P>Header created with script mrcb2eeboutf.xsl on 2014-03-05.</P></PROJECTDESC><EDITORIALDECL N="4"><P>Manually keyed and coded text linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</P><P>Issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</P><P>Keying and markup guidelines available at TCP web site (http://www.textcreationpartnership.org/docs/)</P></EDITORIALDECL></ENCODINGDESC><PROFILEDESC><LANGUSAGE ID="eng"><LANGUAGE>eng</LANGUAGE></LANGUSAGE><TEXTCLASS><KEYWORDS><TERM>Sermons, English --  17th century.</TERM></KEYWORDS></TEXTCLASS></PROFILEDESC><REVISIONDESC><CHANGE><DATE>2010-12</DATE><RESPSTMT><RESP>TCP</RESP></RESPSTMT><ITEM>Assigned for keying and markup</ITEM></CHANGE><CHANGE><DATE>2010-12</DATE><RESPSTMT><RESP>SPi Global</RESP></RESPSTMT><ITEM>Keyed and coded from ProQuest page images</ITEM></CHANGE><CHANGE><DATE>2011-02</DATE><RESPSTMT><RESP>Judith Siefring</RESP></RESPSTMT><ITEM>Sampled and proofread</ITEM></CHANGE><CHANGE><DATE>2011-02</DATE><RESPSTMT><RESP>Judith Siefring</RESP></RESPSTMT><ITEM>Text and markup reviewed and edited</ITEM></CHANGE><CHANGE><DATE>2011-06</DATE><RESPSTMT><RESP>pfs</RESP></RESPSTMT><ITEM>Batch review (QC) and XML conversion</ITEM></CHANGE></REVISIONDESC></HEADER>
+<EEBO>
+<IDG S="marc" R="OX" ID="A10051">
+<STC T="S">20297</STC>
+<BIBNO T="umi">99848916</BIBNO>
+<VID>14038</VID>
+</IDG>
+<TEXT LANG="eng">
+<FRONT>
+<DIV1 TYPE="title page">
+<PB REF="1"/>
+<PB REF="1" MS="y"/>
+<P><HI>Maries memoriall.</HI> A SERMON PREACHED AT S<SUP>t</SUP>. MARIES SPITTLE <HI>on Munday in Easter weeke</HI> being Aprill 1. 1616.</P>
+<P>By DANIEL PRICE Doctor <HI>in Diuinitie, and Chaplaine vnto the</HI> KINGS Maiestie.</P>
+<P><FIGURE>
+<FIGDESC>printer's or publisher's device</FIGDESC>
+</FIGURE></P>
+<P>LONDON Printed by <HI>Edward Griffin.</HI> 1617.</P>
+</DIV1>
+<DIV1 TYPE="dedication">
+<PB REF="2" MS="y"/>
+<PB REF="2"/>
+<HEAD>TO MY DEARE FATHER M<SUP>r</SUP>. THOMAS PRICE <HI>Preacher of Gods word</HI> in SHREWSBVRY.</HEAD>
+<OPENER><SALUTE>SIR,</SALUTE></OPENER>
+<P><SEG REND="decorInit">A</SEG>S <HI>Loue</HI> descendeth, so duty as∣cendeth,<NOTE PLACE="marg">Illi debes quod <GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>abes, cui debes quod es. Amb. in L<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>c.</NOTE> which freeth me from all suspition of <HI>flattery,</HI> in that I <HI>dedicate</HI> some
+<HI>part</HI> of that to you, of <HI>whom</HI> I haue receiued <HI>all. Saint Augustine</HI> attributeth his happinesse to the prayers of his mother
+<HI>Monica,</HI> as the chiefest meanes vnder <HI>GOD</HI> of his conuersion: and <HI>S. Ambrose</HI> vpon that of the Apostle Ep.
+<HI>6.<NOTE PLACE="marg"><HI>Ep:</HI> 6.2.</NOTE> Honour thy father and mother</HI> (which is the
+<PB REF="3"/>first commandement with promise) preferreth that
+<HI>blessing</HI> which good <HI>Parents</HI> leaue their children by prayer before all worldly reuenues which they can bequeath them.<NOTE PLACE="marg">Cyr: Al. l. <HI>4.</HI> in Gen.</NOTE> <HI>Parents beare the image of GOD:</HI> whom they blesse vpon good grounds, such shall be blessed, with a long <HI>life</HI> vpon earth,<NOTE PLACE="marg">In co<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>lis reposita est maior com∣pensatio cal.</NOTE> or they shall haue a greater re∣ward in <HI>heauen.</HI> It was a <HI>blessing</HI> for which
+<HI>Esau</HI> and <HI>Iaakob</HI> stood in <HI>competition:</HI> You haue more <HI>blessings</HI> then one, or one by <HI>GODS</HI> effectuall working, may worke effectually in more then <HI>one,</HI> which is the subiect of his
+<HI>prayer,</HI> who euer resteth</P>
+<CLOSER><SIGNED>Your dutifull sonne at command, DANIEL PRICE.</SIGNED></CLOSER>
+</DIV1>
+</FRONT>
+<BODY>
+<DIV1 TYPE="text">
+<PB N="1" REF="3"/>
+<HEAD>O HOLY SPIRIT OF <HI>truth direct mee.</HI></HEAD>
+<EPIGRAPH>
+<BIBL><HI>MATH. 26.13.</HI></BIBL>
+<Q><P>Wheresoeuer this Gospell shall be preached in the whole world, there, shall also this, that this woman hath done, be told for a memoriall of her.</P></Q>
+</EPIGRAPH>
+<P><SEG REND="decorInit">I</SEG>N <HI>Ierusalem</HI> there was a poole, which in Hebrew is called <HI>Bethesda,</HI> hauing fiue porches<NOTE N="a" PLACE="marg">Ioh.
+5.2.</NOTE>, many glorious things are spo∣ken of that city of God,<NOTE N="b" PLACE="marg">Psal. 87.3.</NOTE> <HI>Be∣thesdas</HI> poole is not the meanst of her monuments; <HI>Tertullian</HI><NOTE N="c" PLACE="marg">Tertull.</NOTE> out of the <HI>Chalde</HI> calles it
+<HI>Bethsetha</HI> the house of sheepe, and the text saith it was neere to the sheep market: <HI>Euthymius</HI><NOTE N="d" PLACE="marg">Euthym.</NOTE> <HI>Beth-hesda,</HI> the house of mercy: and so <HI>Tremellius</HI> out of the Syriacke, the house of benig¦nitie, giuing this reason of the name, because the Lord did here heale all infirmities: for as Saint<NOTE N="e" PLACE="marg">Ioh. 5.3.</NOTE>
+<HI>Iohn</HI> testifieth in these lay a great multitude of impotent folk, of blinde, lame, withered waiting for the mouing of the water: Hither came our Sauiour, <HI>Expectabant Angeli descensum, &amp; ecce Iesum noni testamenti angelum,</HI> saith <HI>Beda</HI><NOTE N="f" PLACE="marg">Beda.</NOTE>, they expected the <HI>Angell</HI> at a certaine time, our
+<PB N="2" REF="4"/><HI>Sauiour</HI> came thither at the
+<HI>solemne</HI> time, the time of the<NOTE N="g" PLACE="marg">Ioh.
+5.1.</NOTE> <HI>feast.</HI><NOTE N="h" PLACE="marg"><GAP DESC="illegible" RESP="pdcc" EXTENT="1 word" DISP="〈◊〉"/>.</NOTE>
+<HI>Cyrth</HI> thinkes this feast to be <HI>Pentecost,</HI> but<NOTE N="i" PLACE="marg"><GAP DESC="illegible" RESP="pdcc" EXTENT="1 word" DISP="〈◊〉"/>.</NOTE> <HI>Ire∣n<GAP DESC="illegible" RESP="pdcc" EXTENT="3 letters" DISP="•••"/></HI> and<NOTE N="k" PLACE="marg"><GAP DESC="illegible" RESP="pdcc" EXTENT="1 word" DISP="〈◊〉"/></NOTE> <HI>Rupertus</HI> tell vs, this feast was the Passouer, not onely because by the name of <HI>the feast</HI> the
+<HI>Passouer</HI> is commonly vnderstood in the <HI>Gospell,</HI> but also because euery <HI>yeere</HI> of his <HI>preaching</HI> heed d some
+<HI>speciall</HI> worke, against the time of the <HI>Passouer,</HI> at the <HI>Passouer</HI> he droue out the buyers and sellers out of the
+<HI>temple.</HI> At the <HI>Passouer,</HI> he fed fiue thousand, with the fiue <HI>loaues</HI> and two <HI>fishes,</HI> at the <HI>Passouer</HI> he suffered, and at the<NOTE N="l" PLACE="marg">Be<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>. <GAP DESC="illegible" RESP="pdcc" EXTENT="1 word" DISP="〈◊〉"/>. H<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>rm. tom.
+<HI>2.</HI> p. <HI>165.</HI> <GAP DESC="illegible" RESP="pdcc" EXTENT="1 word" DISP="〈◊〉"/> Ir<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>. &amp; Rup.</NOTE>
+<HI>Passo∣uer,</HI> he came to the <HI>poole</HI> of <HI>Bethesda,</HI> where the blinde, and lame, and withered, and diseased lay: Blessed
+<HI>Saui∣our,</HI> in the <HI>Synagogue</HI> was thy <HI>seat,</HI> thou wast wont to teach in the <HI>temple,</HI><NOTE PLACE="marg">Bir.</NOTE> the
+<HI>ship,</HI> the <HI>mount,</HI> the <HI>desert,</HI> were thy places of abode, o thou <HI>fairest</HI> of the <HI>sonnes</HI> of men, what dost thou in the <HI>houses</HI> of the <HI>sicke!</HI> in the
+<HI>Hospitalls</HI> of the diseased! O thou redeemer of mankinde <HI>thou knewest</HI> the whole <HI>head</HI> was <HI>sicke,</HI> and the <HI>whole heart</HI> was <HI>heauy,</HI> therefore camest thou from the <HI>mountaine of spices</HI> to this valley of teares: All the <HI>world,</HI> was as this
+<HI>poole</HI> in all parts whereof as in these porches, lay the
+<HI>lame,</HI> and <HI>diseased,</HI> our <HI>Sauiour</HI> tooke notice of the <HI>infirmities,</HI> nay <HI>tulit,</HI> nay more <HI>sustulit,</HI> he tooke <HI>on him,</HI> and tooke <HI>from vs,</HI> all our
+<HI>infirmities</HI> <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, as<NOTE N="m" PLACE="marg">Damascen</NOTE> <HI>Damascen</HI> speakes; he tooke on him all our <HI>miserable,</HI> hee tooke from vs all our <HI>damnable</HI> infirmities, left <HI>no place</HI> vnlookt for to finde vs, sought the lost <HI>groate</HI> in the <HI>house,</HI> lost <HI>sheepe</HI> in the
+<HI>wildernesse,</HI> lost <HI>son</HI> in the <HI>world,</HI> and left no place either <HI>vnsought</HI> or <HI>vnsanctified,</HI> sanctified the <HI>house</HI> in his <HI>conception,</HI> the <HI>stable</HI> in his
+<HI>incarnation,</HI> the <HI>fields</HI> by the message of his
+<HI>birth,</HI> the <HI>riuer</HI> by the blessing of his
+<HI>baptisme,</HI> the <HI>sea-shore</HI> by his <HI>teaching,</HI> the
+<HI>valley</HI> by his <HI>healing,</HI> the <HI>garden</HI> by his
+<HI>praying,</HI> the <HI>Temple</HI> when hee was <HI>offered,</HI> and the
+<HI>mount</HI> when hee <HI>suffered,</HI> hee hath consecrated and hallowed <HI>hospitalls</HI> as holy places by <HI>Bethesdaes</HI> poole, and her <HI>porches,</HI> whether at the <HI>Passo∣uer,</HI>
+<PB N="3" REF="4"/>the great feast hee entered and cured the man im∣potent for many yeeres<NOTE N="n" PLACE="marg">Ioh. 5.9.</NOTE></P>
+<P><HI>Blessed</HI> and <HI>beloued,</HI> this day is that
+<HI>scripture</HI> fulfilled in our eares, this honourable <HI>Citie</HI> is as <HI>Ierusalem,</HI> this <HI>spittle</HI> as that <HI>poole,</HI> your
+<HI>hospitalls</HI> as those <HI>porches,</HI> this <HI>Easter</HI> as that <HI>Passouer,</HI> heere are the lame, blinde, may∣med, and the diseased: shall we now pray that the <HI>An∣gell</HI> may descend to moue the <HI>waters?</HI> No, the <HI>Angell</HI> hath descended, the blessed <HI>Angells</HI> of the Lord are <HI>wit∣nesses</HI> to you, that the <HI>waters</HI> are stird, that you haue cast your bread vpon the waters, and the blessed spirit of God hath promised<NOTE N="o" PLACE="marg">Eccles. 11.1.</NOTE> that after many daies you <HI>shall</HI> finde it. Our <HI>Sauiour</HI> himselfe hath assured you, that when
+<HI>two or three</HI><NOTE N="p" PLACE="marg">Math. 18.20.</NOTE> are gathered together in his name, he will be in the midst of them, how much more is hee now present, in the great congregation, hee neuer saw the
+<HI>multitude</HI> but he had <HI>compassion</HI> on them, either hee
+<HI>fed</HI><NOTE N="q" PLACE="marg">Mark 6.34.</NOTE> the multitude, or
+<HI>taught</HI><NOTE N="r" PLACE="marg">Ioh. 6.5.</NOTE> the multitude, or<NOTE N="s" PLACE="marg">Math. 4.24.</NOTE> <HI>healed</HI> the multitude, or
+<HI>blessed</HI><NOTE N="t" PLACE="marg">Math. 5.3.</NOTE> the multitude. In the fifth of <HI>Mathew,</HI> when he had <HI>healed</HI> them in the
+<HI>vally,</HI> hee taught them after in the mount, and beginning to teach them hee first <HI>blesseth</HI> them, that is his first <HI>Sermon,</HI> wee read of,<NOTE PLACE="marg">Math. 4.24. Math. 5.3.</NOTE> the first
+<HI>word</HI> of that first <HI>Sermon</HI> is <HI>blessing,</HI> and the first <HI>blessing</HI> a <HI>blessing</HI> for the
+<HI>poore</HI><NOTE N="u" PLACE="marg">Math. 5.3.</NOTE> The cause of the meeting of <HI>this multitude,</HI> at this solemne <HI>Passouer,</HI> is that this honourable <HI>Citie</HI> an ancient <HI>mother in Israell</HI> may receiue <HI>a blessing</HI> for her <HI>blessing</HI> poured out vpon the <HI>poore: Domine ex ore infantium perfecisti laudem,</HI> as wee may say with the Psalmist<NOTE N="*" PLACE="marg">Psal <GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>. 2.</NOTE>, Lord wee haue heard and seene that out of the <HI>mouthes</HI> of these
+<HI>babes</HI> and <HI>little ones</HI> thou hast ordeined
+<HI>strength,</HI><NOTE N="x" PLACE="marg">Ioh 11.5.</NOTE> and
+<HI>perfitted</HI> thy <HI>praise,</HI> Lord wee haue <HI>heard,</HI> and
+<HI>seene,</HI> the <HI>blinde</HI> see, the <HI>lame</HI> walke, the
+<HI>vlcerated clensed,</HI> the <HI>dease</HI> heare, and to the poore the
+<HI>Gospell</HI> is <HI>preached.</HI> O Lord holy and reue∣rend is thy name<NOTE N="y" PLACE="marg">Psal. 111.9.</NOTE> blessed be thy name for euer and e∣uer.<NOTE N="z" PLACE="marg">Leuit. 21.18.</NOTE> There was a
+<HI>time</HI> that <HI>some</HI> sort of people were by
+<PB N="4" REF="5"/><HI>proscription</HI> banished the temple,
+<HI>Cacus &amp; Claudus non intrabunt in templum,</HI> an order among the
+<HI>Iewes</HI> neither the <HI>halt</HI> nor <HI>blinde</HI> must enter into the Temple, which Law seemeth <HI>strange,</HI> not only seeing that
+<HI>Caeci</HI> and <HI>Clau∣di</HI> among the Romanes as <HI>Plutarch</HI><NOTE N="a" PLACE="marg">Plut. in vita Coriolam.</NOTE> noteth were the surnames of chiefe families of note, but also because the <HI>Iewes</HI> themselues, descended originally from the <HI>blinde</HI> and <HI>lame,</HI> for
+<HI>Isaack</HI> the <HI>son</HI><NOTE N="b" PLACE="marg">Gen. 27.1.</NOTE> of the <HI>father</HI> of the <HI>faith full</HI> was blinde,<NOTE N="c" PLACE="marg">Gen. 32.31.</NOTE> and <HI>Iacob</HI> the sonne of
+<HI>Isaack</HI> himselfe the <HI>father</HI> o the <HI>Patriarches</HI> was lame: But this <HI>custome</HI> is <HI>antiquited,</HI> and now not only, the
+<HI>doore</HI> of the <HI>Temple</HI> is open, but the <HI>vetle</HI> of the
+<HI>Temple</HI> is broken and the master of the fea<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>th wh<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>en<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> his
+<HI>seruants</HI> into the <HI>streetes</HI> and <HI>lanes</HI> of the
+<HI>Cu<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>,</HI> to bring in <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, the beggers, and maimed, and halt, and blinde, our <HI>Churches</HI> are <HI>op<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>n</HI> to receiue the
+<HI>poore,</HI><NOTE N="d" PLACE="marg">Luk. 14.21.</NOTE> vnto the poore the Gospell is <HI>preached,</HI> they are not onely cured in
+<HI>Bethesdae?</HI> poole, but councelled in this place as in <HI>Salo∣mons porch,</HI> they are not onely cured in the soares of <HI>A∣dames</HI> bodie, but prepared for the companie of their brother <HI>Lazarus</HI> in
+<HI>Abrahams</HI> bosome,<NOTE N="e" PLACE="marg">Math. 5.3.</NOTE> and therfore I say with our Sauiour <HI>blessed</HI> be the
+<HI>poore,</HI><NOTE N="f" PLACE="marg">Psal. 41.1.</NOTE> and with the
+<HI>Psalmist</HI> blessed be they that consider the poore,<NOTE N="g" PLACE="marg">Deut. 33.1.</NOTE> a bles∣sing as ample as euer
+<HI>Moses</HI> wished <HI>Israel,</HI> the <HI>good-will</HI> and
+<HI>blessing</HI> of him that dwelt in the <HI>Bush,</HI><NOTE N="h" PLACE="marg">Deut. 33.16.</NOTE> be vpon you all, <HI>the Lord</HI> blesse you with the <HI>blessings</HI> of heauen a∣boue, the
+<HI>blessings</HI> of the <HI>deepe</HI> beneath, the
+<HI>blessings</HI> of the <HI>fields</HI> and <HI>fruites,</HI> the blessing of the <HI>barnes</HI> and <HI>bas∣kets,</HI> the blessing of <HI>City</HI> and <HI>Countrey,</HI> and the blessings of both
+<HI>testaments,</HI> of both <HI>lifes,</HI> of both <HI>worlds,</HI> be vpon you all from <HI>this day</HI> forth for euermore.</P>
+<P>I am not yet you see entred into the tent of my Text, my meditations are yet as the <HI>affring</HI> betwixt the <HI>porch</HI> and the
+<HI>altar,</HI> or rather yet we bee in <HI>atrio</HI> the entrie, I must not go thorough the Temple, and neither must I stay at the <HI>kings pillar,</HI> nor the <HI>Priests altar,</HI> the holy oint∣ment
+<PB N="5" REF="5"/>in this historie is neither <HI>belonging</HI> to the <HI>Corona∣tion</HI> of the <HI>King,</HI> nor <HI>Consecration</HI> of the <HI>Priest,</HI> nor <HI>Dedi∣cation</HI> of the <HI>holy place.</HI> This storie tels vs of the anoin∣ting of our <HI>Sauiour,</HI> and his vnction was rather (saith <HI>Ierome) spiritualis</HI> then
+<HI>ritualis:</HI><NOTE PLACE="marg">Ierom. in Isay.</NOTE> hee was a
+<HI>Priest</HI> neuer anointed as a <HI>Priest,</HI> and a <HI>King</HI> neuer anointed as a <HI>King.</HI> God anointed <HI>Iesus of Nazareth</HI> with the <HI>Holy Ghost,</HI> saith <HI>S. Peter;</HI><NOTE PLACE="marg">Acts 8.38.</NOTE> God euen thy God hath anointed thee with the oile of <HI>gladnesse</HI> aboue thy <HI>fellowes,</HI> saith the Psalmist. <HI>Saul</HI> was anointed but with a <HI>viall</HI> of oile,<NOTE PLACE="marg">Psal 45.7. 1 Sam 10.1. 1 Sam. 16.1.</NOTE>
+<HI>Dauid</HI> with a full horne of oile, but he is anointed aboue hi
+<HI>fellowes,</HI> with the oile of <HI>gladnesse,</HI> from the crowne of his head, to the skirt of his garment.<NOTE PLACE="marg">Vers. 8.</NOTE> Therefore saith <HI>Iudas,</HI> <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>To what purpose is this waste?</HI> Anointed by the <HI>Father,</HI> anointed by the <HI>Holy Ghost,</HI> anointed with oile of <HI>gladnesse? Vnctio spiritualis,</HI> saith <HI>Innocentius, agit &amp; auget proculdubio quod designat.</HI><NOTE PLACE="marg">Im. oc. de sacr. vncti. nu.</NOTE> What needs this anointing, especially from a woman a wo∣man <HI>weake</HI> by hersex, <HI>wicked</HI> by her sinne; a woman, if the <HI>most,</HI> and
+<HI>best,</HI> and <HI>ancientest Interpreters</HI> bee not de∣ceiued,
+<HI>sinfull</HI> for her life, <HI>hatefull</HI> for her lust: a
+<HI>notorious</HI> enormous publike Publican, Citie sinner. <HI>Magdalena lena, Magdalen</HI> possessed formerly with seuen
+<HI>Deuils,</HI><NOTE PLACE="marg">Luk. 7.37.</NOTE> she of all others, she to be so <HI>bold,</HI> to powre her oile vpon the head of her
+<HI>Sauiour.</HI> Modest was that miserable <HI>woman,</HI> that trembled when shee touched, and durst not <HI>touch</HI> him, but the hemme of his
+<HI>garment.</HI> This sorrowfull solitarie soule in the
+<HI>spring</HI> of her repen∣tance, washed his feet with her
+<HI>teares,</HI> no more but his <HI>feet,</HI> stood behinde him,
+<HI>kneeling, weeping, washing, wiping</HI> his feet, <HI>kissing</HI> his feet, <HI>anointing</HI> his feet with a box of ointment, and behold the
+<HI>dew</HI> of her <HI>deuotion</HI> falleth not, the <HI>Sunne</HI> of
+<HI>righteousnesse</HI> draweth it vp. <HI>Aarons</HI> oile was deriued from the <HI>head</HI> to the <HI>feet,</HI><NOTE PLACE="marg">Luk 7.47.</NOTE>
+<HI>Magdalens oile</HI> from the <HI>feet</HI> to the <HI>head: Dilexit multum,</HI> was her first reward, <HI>She loued much;</HI> and <HI>Loue</HI> is not ruled with
+<PB N="6" REF="6"/><HI>reason,</HI> but with <HI>loue:</HI> it neither <HI>regardeth</HI> what can bee, nor what should be done, but only what it selfe <HI>desireth</HI> to do. No difficultie can stay it, no impossibilitie appall it.<NOTE PLACE="marg">Greg. de Mar. Magd.</NOTE>
+<HI>Gregory</HI> speaketh of her, <HI>Amanti semel aspicere non sufficit, vis amoris intentionem multiplicat vnctionis; Loue</HI> doubled this duties, for <HI>Loue</HI> is title iust enough, and armour strong enough for all assaults, it selfe a reward of all <HI>labours.</HI> Affection like a fiery <HI>Cherubin</HI> flies from anointing his feet to his head. <HI>Iudas,</HI> aske no other rea∣son, <HI>Dilexit multum,</HI> shee loued much. There was no <HI>Disciple</HI> Sathan could fasten on to betray our Sauiour but <HI>Iudas:</HI> the <HI>bagge</HI> was a <HI>curse</HI> to
+<HI>Iudas,</HI> as well as the <HI>soppe</HI> at the supper. <HI>Iudas</HI> that carried the bagge, was hee (as<NOTE N="a" PLACE="marg">Ioh. 12.4.</NOTE>
+<HI>S. Iohn</HI> tels vs) that repined at the bountie of the loue and labour of this woman: <HI>Iudas</HI> censures it, our <HI>Sauiour</HI> commends it:
+<HI>Iudas</HI> murmureth: Let her alone, Why trouble ye the woman, saith our
+<HI>Sauiour:</HI> Where∣fore is this waste? saith <HI>Iudas.</HI> It is a good worke, saith our <HI>Sauiour;</HI> it might haue beene giuen to the poore saith <HI>Iudas:</HI> The poore yee haue alwayes, but mee yee haue not, saith our <HI>Sauiour.</HI> It might haue beene sold for much, saith
+<HI>Iudas:</HI> In that she hath powred this <HI>oint∣ment</HI> on my
+<HI>body,</HI> she did it for my <HI>buriall,</HI> saith our
+<HI>Sa∣uiour;</HI> and addes this for a <HI>Corollarie, Wheresoeuer this Gospell shall be preached through the whole world, there shall this that this woman hath done be told for a memoriall of her.</HI> Our <HI>Saui<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ur</HI> gaue many gratious <HI>testimonies</HI> of many in the Gospell:<NOTE PLACE="marg">Iob. 1.17.</NOTE> of <HI>Nathaniel,</HI> Behold a true
+<HI>Israelite;</HI> of the <HI>Centurion,</HI> I haue not found such faith in <HI>Israel;</HI> of the b <HI>Canaanite,</HI> O woman, great is thy faith; of the sinfull woman <HI>Magdalen,</HI> Much is forgiuen her, be∣cause<NOTE N="c" PLACE="marg">Luk. 7.47.</NOTE> <HI>shee loued much:</HI> But all these are farre short of <HI>Maries</HI> sweet smelling memoriall. A time there was that our <HI>Sauiour</HI> commended<NOTE N="d" PLACE="marg">Luk.
+10.42.</NOTE> <HI>Mary</HI> for her hearing him, aboue <HI>Martha</HI> for entertaining him, <HI>Mary</HI> hath cho¦s<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>n the better part, which shall not be taken from her.
+<PB N="7" REF="6"/><HI>Non opus repreh<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ndit, sed munus aistinxit,</HI> saith<NOTE N="e" PLACE="marg">Aug. de verl is Dom<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>i, ser. <HI>27.</HI></NOTE> <HI>Austine:</HI> But now <HI>Mary</HI> takes vpon her <HI>Marthaes</HI> dutie, and is as much honourable in entertaining as
+<HI>Martha,</HI> as shee was in <HI>hearing</HI> as <HI>Mary:</HI> shee hath chosen our <HI>Sauiours</HI> head to anoint, she hath chosen the better part, which shall not be taken from her. <HI>For wheresoeuer this Gospell shall be preached, &amp;c.</HI></P>
+<P>I finde good workes ranked into two files, the offices of
+<HI>Deuotion,</HI> as <HI>Almes,</HI> and such like, which be <HI>opera mi∣sericordit;</HI> and the duties of <HI>Religion,</HI> as <HI>Praiers, Repen∣tance, sanctitie</HI> of the <HI>heart, mortifying</HI> of the
+<HI>members, cleering</HI> of the <HI>conscience</HI> from dead workes to serue the liuing God, <HI>furthering</HI> by all our endeuours the
+<HI>glory</HI> of God; these be <HI>opera iustitiae:</HI> The former bee
+<HI>manuum <HI>sacrificia,</HI> the latter <HI>cordium sacrificia:</HI> In the first the wi∣thered hand is only <HI>healed,</HI> but in the
+<HI>second</HI> the <HI>dead</HI> is raised: the first <HI>seedeth</HI> Christ in the members of his manhood, the second yeeldeth Christ the honour of his Godhead: the first is <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, the second
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>: the <HI>first</HI> is the washing of Christs feet, the latter the an∣nointing of his head: <HI>Magdalen</HI> a sinner may annoint his feet, but <HI>Mary</HI> a <HI>Conuert</HI> only may <HI>anoint</HI> his head▪ The first is as the <HI>Widowes mite,</HI> a <HI>good worke,</HI> and not <HI>vn∣rewarded;</HI> but the second is <HI>Salomons</HI> offering, honoured and proclaimed: the first as <HI>the dawning</HI> of the day, the second as the <HI>snining</HI> of the Sunne. Both these haue glo∣riously appeared in this your Citie, and the former the
+<HI>anointing</HI> of Christs feet, the <HI>feeding,</HI> cloathing, healing of his <HI>hungrie,</HI> naked, sicke and weake <HI>seruants,</HI> hath beene often <HI>vrged</HI> in this place; and well it is, that so it is: for farre be it but wee anoint <HI>Christs feet,</HI> seeing he wash∣ed his
+<HI>seruants</HI> feet<NOTE N="a" PLACE="marg">Ioh. 13.5.</NOTE>: farre be it but <HI>Almes</HI> should euer haue their honour. <HI>Paul</HI> was
+<HI>Collector</HI> for the poore<NOTE N="b" PLACE="marg">1 Cor. 16.1.</NOTE>, and our <HI>Sauiour</HI> was <HI>Ouer-seer</HI> for the poore<NOTE N="c" PLACE="marg">Luk. 21.4.</NOTE>: <HI>Almes</HI> are the <HI>fruit</HI> of the Saints<NOTE N="d" PLACE="marg">Rom. 15.28.</NOTE>, and an odour of a sweet smell, a sacrifice acceptable, well pleasing vnto God<NOTE N="e" PLACE="marg">Phil. 4.10.</NOTE>:
+<PB N="8" REF="7"/>These ought you to <HI>haue done,</HI> and not to leaue the other <HI>vndone;</HI><NOTE PLACE="marg">Matth. 23.23.</NOTE> for as <HI>Peter</HI> said to <HI>Christ,</HI> so <HI>Christ</HI> saith to vs, not my feet only,<NOTE PLACE="marg"><HI>Ioh 13.9.</HI> Chrysost<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>m. Augustin. Ambr<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>s. Orige<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>. Chriso<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>.</NOTE> but my head: for as the starre of my <HI>Interpreters</HI> leadeth mee, though by diuers
+<HI>lines,</HI> yet in all of them there is but one and the same
+<HI>light,</HI> the <HI>anoin∣ting of Christs head</HI> is <HI>veneranda meditatio diuinitatis, &amp; deuota contemplatio passionis &amp; resurrectionis,</HI> a reuerend awfull meditation of Christ his diuinitie, and a deuout contemplation of Christ his <HI>blessed,</HI> yet
+<HI>bloudie Passion,</HI> and of his <HI>great</HI> and <HI>glorious Resurrection. Aarons</HI> head was anointed with bloud and oile<NOTE N="f" PLACE="marg">Leuit. 8.30.</NOTE>; wee must anoint our <HI>Sauiours head</HI> with our <HI>oile,</HI> seeing he hath anointed <HI>our heads</HI> with his
+<HI>bloud,</HI> for the blessing of his bloud is vpon vs and vpon our seed for euer. It is Christs <HI>speech</HI> to the <HI>Church</HI> in the <HI>Canticles, Dul<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>iora vnguenta quàm aromata,</HI><NOTE PLACE="marg">Cant. 4.10.</NOTE> Thy ointments are <HI>sweeter</HI> then thy spices. Of all the <HI>ointments</HI> in the whole <HI>Booke of God,</HI> none so sweet as this: The holy ointment appointed by <HI>God,</HI> continued but till the <HI>Captiuitie;</HI> then the <HI>holy fire</HI> went out, the <HI>holy Arke</HI> was spoiled, and the <HI>holy oile</HI> spilt.
+<HI>Ni∣hil tam diffusivum,</HI><NOTE PLACE="marg">Beru.</NOTE> <HI>ac oleum,</HI> nothing of so spreading a diffusiue nature as <HI>oile,</HI> no oile euer so <HI>diffusiue,</HI> as this. <HI>Aarons</HI> ointment was
+<HI>odoriferous</HI> and <HI>diffisiue,</HI> but from the <HI>head</HI> to the <HI>beard,</HI> and so to the <HI>body,</HI> as it was vsed, so it wasted. <HI>Elias</HI> oile <HI>diffusiue</HI> and <HI>miraculous</HI> was
+<HI>spent</HI> and <HI>wasted</HI> not, spread ouer all the
+<HI>house,</HI> for the suste∣nance of a <HI>Prophet,</HI><NOTE PLACE="marg">Kings 17.15.</NOTE> a <HI>Widow,</HI> a <HI>childe,</HI> a whole
+<HI>familie,</HI> a whole <HI>yeere,</HI> so long <HI>continued,</HI> but then <HI>confined. Elishaes</HI> oile was diffusiue and <HI>pretious,</HI> and the more powred out, the more <HI>increased:</HI> it filled all the
+<HI>widowes</HI> vessels, all her <HI>neighbours</HI> vessels, filled all the <HI>vessels</HI> shee could borrow, and paid all the
+<HI>debt</HI> that her <HI>husband had bor∣rowed;</HI> but when it had supplied <HI>the widowes want,</HI> the <HI>fountaine failed.</HI> But neither <HI>Aarons</HI> holy vessell of oile, nor <HI>Samuels</HI> viall, nor <HI>Dauids</HI> horne, nor the widow of <HI>Zareptas</HI> cruise, nor the Prophets <HI>Widowes Pot</HI> of oile,
+<PB N="9" REF="7"/>nor the <HI>Alablaster</HI> box of the sinfull womans <HI>ointment,</HI> so <HI>pretious,</HI> so
+<HI>permanent,</HI> so <HI>odoriferous</HI> as this <HI>Saints oint∣ment,</HI> which as the <HI>Orient Sun</HI> is euer in the <HI>full. S. Iohn</HI> tels vs,<NOTE PLACE="marg">Iohn 12.5.</NOTE> that the house</HI> was filled with the odour of the <HI>oint∣ment:</HI> but our <HI>Sauiour</HI> tels vs, the whole world shall bee filled with the <HI>odour</HI> hereof, for
+<HI>wheresoeuer this Gospell is preached through the whole world, &amp;c.</HI> It is <HI>sweet</HI> in all <HI>nostrils,</HI> not in
+<HI>Bethany</HI> only, or <HI>Galilie,</HI> but <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>,
+<HI>where∣soeuer;</HI> nor as a <HI>Storie,</HI> or <HI>Parable,</HI> but
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, a <HI>Go∣spell;</HI> nor as a <HI>Rubricke</HI> or
+<HI>title</HI> of a <HI>Gospell,</HI> but <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, a
+<HI>Gospell</HI> of it selfe, this <HI>Gospell;</HI> nor a
+<HI>Gospell</HI> as the <HI>talent</HI> hid in the <HI>banke,</HI> or the
+<HI>candle</HI> vnder the <HI>bushell,</HI> but <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, a preached <HI>Gospell;</HI> nor a <HI>Gospell</HI> prea∣ched only in
+<HI>Canaan,</HI> or on the other side <HI>Iordan,</HI> but
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, throughout the whole <HI>world;</HI> nor so
+<HI>preached,</HI> as that the <HI>Act</HI> shall bee <HI>remembred,</HI> and the <HI>Author</HI> neglected, but <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, this that this
+<HI>wo∣man</HI> hath done; nor so <HI>preached,</HI> as that the
+<HI>memory</HI> of this that she hath done <HI>should euer be forgotten;</HI> <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, shall bee told for a <HI>memoriall</HI> of her. This were <HI>enough.</HI> The <HI>oile</HI> was <HI>pretious,</HI> but the box of <HI>ointment</HI> could not be so <HI>pretious</HI> as now it is
+<HI>fa∣mous;</HI> a stranger increase then the growth of a <HI>graine</HI> of mustard seed, that is least of all <HI>seeds,</HI><NOTE PLACE="marg">Matth. 13.32.</NOTE> yet greatest of all <HI>herbes:</HI> but this <HI>miraculous ointment</HI> farre beyond that, it shall spread so
+<HI>farre</HI> as the <HI>Gospell</HI> shall bee <HI>preached,</HI> through the <HI>world,</HI> and shall be preached as long as the <HI>world</HI> shall be continued. <HI>Ecce Prophetiam &amp; Prophetam, Euangelistam &amp; Euangelium;</HI> it is a <HI>Prophecie</HI> and a <HI>Go∣spell,</HI> spoken by a <HI>Prophet</HI> and an <HI>Euangelist.</HI> All the <HI>Prophets</HI> prophecied of <HI>Christ,</HI> and behold <HI>Christ</HI> pro∣phecieth of
+<HI>Mary:</HI> All the <HI>Euangelists</HI> wrote the <HI>Gospell</HI> of
+<HI>Christ, Christ preach<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>th,</HI> and <HI>prophecieth,</HI> and
+<HI>proclai∣meth</HI> thi<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> <HI>Gospell</HI> of <HI>Mary▪</HI> and sealeth his <HI>prophecie</HI> and <HI>preaching</HI> with an oath,
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>Verily I say to you, Wheresoeuer, &amp;c.</HI></P>
+<PB N="10" REF="8"/>
+<P>She brought a box of <HI>Alablaster,</HI> her box not
+<HI>emptie,</HI> not <HI>mustie.</HI> Boxes of <HI>Alablaster</HI> may be like the <HI>Pharisies Sepulchers,</HI> carrying <HI>faire titles</HI> without, corrupt <HI>carcases</HI> within. The box might be
+<HI>pretious,</HI> the ointment <HI>poiso∣nous:</HI> but as her <HI>box</HI> was no <HI>stained Alablaster,</HI> for the box was <HI>pure;</HI> so the ointment <HI>pretious:</HI> As the oile was enough in that <HI>little box</HI> to anoint her Sauiours <HI>head</HI> and <HI>body;</HI> so the
+<HI>Alablaster</HI> was enough to build a mo∣nument for her <HI>body</HI> and
+<HI>memory. Babylon</HI> thought to be famous for a Tower, the
+<HI>R<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ubenites</HI> for their monu∣ment built an <HI>Altar, Absalon</HI> for his memoriall set vp a <HI>Pillar, Hercules</HI> vpon two
+<HI>Promontories</HI> erected for a per∣petuall remembrance two
+<HI>Pillars,</HI><NOTE PLACE="marg">1 Machh. 1<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>.27</NOTE> <HI>Simon Macchabeus</HI> set vp seuen pillars for a <HI>Sepulchre</HI> of the
+<HI>Macchabees, Artemisia</HI> for her husband made a <HI>Royall Tombe,</HI> one of the wonders of the world, with 36. pillars. But all, all the
+<HI>Statues, Tombes,</HI> and <HI>Obelisks,</HI> and <HI>Piles,</HI> and
+<HI>Pillars,</HI> and <HI>Piramides,</HI> and <HI>Ornaments,</HI> and
+<HI>Monuments,</HI> in the whole world, are nothing to <HI>Maries memoriall,</HI> built out of this small <HI>box of Alablaster.</HI></P>
+<P>I haue yet but shewed you the <HI>box,</HI> at most but
+<HI>ope∣ned it:</HI> now as the <HI>Spouse</HI> speaketh,<NOTE PLACE="marg">Cant. 1.3:</NOTE> <HI>because of the sauour of the good ointment, her ointment must be powred out.</HI></P>
+<P>In this box of <HI>ointment</HI> there is the <HI>Prophecie</HI> of a <HI>Go∣spell:</HI> The whole Bible is but <HI>Prophecie</HI> and
+<HI>Gospell,</HI> they be both in this <HI>box.</HI> Beautifull is the
+<HI>box, odoriferous</HI> is this of all other <HI>ointments:</HI> Sacred is the <HI>Prophecie,</HI> glo∣rious is this of all <HI>Gospels:</HI> neuer any prophecie so <HI>inlayed</HI> or invellopd with a <HI>Gospell,</HI> euery word the <HI>Gospell,</HI> euery word the <HI>Prophecie:</HI> in which
+<HI>Prophecie,</HI> or <HI>Gospell,</HI> or <HI>Prophecie</HI> of the
+<HI>Gospell,</HI> obserue two generall parts, The two great lights of heauen, the <HI>Sunne</HI> and <HI>Moone,</HI> for as God giueth light to the
+<HI>Sunne,</HI> and the <HI>Sunne</HI> to the <HI>Moone,</HI> so Christ giueth light to this <HI>Gospel,</HI> &amp; this <HI>Gospel</HI> life to
+<HI>Maries</HI> memoriall. 1. The <HI>Promulgation</HI> of the <HI>Go∣spell, This Gospell shall be preached, &amp;c.</HI> 2. The <HI>Proclamation</HI> of <HI>Maries</HI> memoriall, <HI>Mention shall be made of this, &amp;c.</HI></P>
+<PB N="11" REF="8"/>
+<P>In the first <HI>generall part,</HI> obserue first the
+<HI>sub∣iect,</HI> the <HI>Gospell,</HI> not a <HI>Storie,</HI> or
+<HI>Parable,</HI> but a <HI>Gospell, Euangelium Regni</HI><NOTE N="a" PLACE="marg">Matth. 4.23.</NOTE>, <HI>Euangelium Dei</HI><NOTE N="b" PLACE="marg">Rom. 1.1.</NOTE>, <HI>Euangelium Chri∣sts</HI><NOTE N="c" PLACE="marg">Phil. 1.5.</NOTE>, <HI>Euangelium salutis</HI><NOTE N="d" PLACE="marg">Eph. 1.13.18.</NOTE>, <HI>Euangelium mortis &amp; resurre∣ctionis Christs,</HI> as my Interpreters tell mee, the Gospell of the <HI>passion</HI> and <HI>resurrection</HI> of our Lord and Sauiour.
+2. The <HI>publishing</HI> of this <HI>Gospell,</HI> the Gospell shall bee <HI>preached,</HI> not <HI>written</HI> only, and laid vp, as the
+<HI>Tables</HI> in the <HI>Arke;</HI> not read and repeated only, as
+<HI>Moyses Law</HI> in the <HI>Synagogue;</HI> not endorsed on the doores, as the <HI>Pro∣phecies</HI> were on the Temple; not <HI>inscribed</HI> or
+<HI>embrodered</HI> on the <HI>Philacteries,</HI> as the <HI>Pharisies</HI> did the <HI>Decalogue;</HI> not tied vp in the <HI>napkin</HI> of
+<HI>silence,</HI> or <HI>buried</HI> in the <HI>banke</HI> of
+<HI>negligence,</HI> but proclaimed and <HI>preached;</HI> This Go∣spell shall be preached. 3. The <HI>extent</HI> of this <HI>preaching,</HI> This Gospell shall be <HI>preached</HI> in the whole <HI>world,</HI> not in some <HI>Cantons</HI> or <HI>Corners</HI> of the <HI>world;</HI> not on the
+<HI>Mount</HI> only, as <HI>Moyses</HI> gaue his <HI>Law;</HI> not in the
+<HI>valley</HI> only, as <HI>Iehoshaphat</HI> gaue his <HI>thankes;</HI> or in the <HI>wildernesse,</HI> as <HI>Iohn Baptist</HI> gaue his
+<HI>warning;</HI> but in the whole <HI>world,</HI> from one <HI>Sea</HI> vnto
+<HI>another,</HI> from the <HI>Riuer</HI> vnto the <HI>worlds end:</HI> This Gospell is gone throughout <HI>all the earth,</HI> and <HI>this sound vnto the end of the world.</HI> This Gospell shall be <HI>preached</HI> in the whole world.</P>
+<P>In the second <HI>generall part</HI> obserue first a particular act which must follow the generall <HI>preaching of this Go∣spell;</HI> this expressed by the words, <HI>This done,</HI> in the se¦uenth verse, <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>precious ointment,</HI> in the tenth, <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>a good worke,</HI> verse 11. preferred be∣fore other <HI>good workes,</HI> as before giuing to the <HI>poore,</HI> The poore ye haue alwayes, me ye haue not <HI>alwayes;</HI> verse 12. commended not only for the <HI>excellencie</HI> of the act, but the <HI>opportunitie</HI> of the time, In that she powred this <HI>ointment</HI> on my body, she did it for my <HI>buriall.</HI> Our Sauiour ioyneth, This Gospell shall bee preached, and this. Secondly, the <HI>Author</HI> or <HI>Actor</HI> of this
+<PB N="12" REF="9"/><HI>deed,</HI><NOTE PLACE="marg">Math.
+16.7.</NOTE> this <HI>woman, Matthew</HI> sayes no more, I here came vnto him a woman hauing an <HI>Alablaster</HI> box, <HI>Marke</HI> saith no more<NOTE N="*" PLACE="marg">Mark. 14.4.</NOTE> then <HI>Mathew,</HI> Saint<NOTE N="x" PLACE="marg">Ioh. 12.3.</NOTE> <HI>Iohn</HI> <GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ames this
+<HI>woman. Mary</HI> tooke a pound of ointment; A blessed <HI>woman,</HI> as blessed as euer any, but onely <HI>shee</HI> whom all
+<HI>generations</HI> shall call <HI>blessed.</HI> This woman,
+<HI>ho∣nour</HI> of her <HI>name, ornament</HI> of her <HI>Tribe,</HI> the
+<HI>glory</HI> of her <HI>sex,</HI> admitted to annoynt the <HI>head</HI> of our Sauiour: <HI>Iohn Baptist</HI> the greatest of the sonnes of
+<HI>women,</HI> not admit∣ted to performe so much a<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> this <HI>woman,</HI> he baptised with <HI>water,</HI> she annoints with <HI>oile, baptisme common</HI> to the <HI>com∣mon</HI> people, <HI>vnction</HI> annointing of the
+<HI>head,</HI> proper to the <HI>King</HI> the head of the people, this
+<HI>woman</HI> did this, she <HI>an∣nointed</HI> the King of <HI>Kings,</HI> therefore our Sauiour tooke so gracious <HI>notice</HI> of it, <HI>this that this woman.</HI> Thirdly, the <HI>memoriall</HI> hereof, <HI>this that this woman hath done,</HI> shall be told in <HI>memoriall</HI> of her.
+<HI>Maries</HI> memory is continu∣ed by <HI>Christ,</HI> by the
+<HI>Church,</HI> by the <HI>Disciples,</HI> by the <HI>Saints</HI> in all ages, sooner <HI>heauen</HI> and <HI>earth</HI> loose their <HI>stations, sunne</HI> and <HI>moone</HI> their <HI>motions, winter</HI> and
+<HI>summer</HI> their <HI>seasons,</HI> all the world shall sooner vanish, and the frame of <HI>nature</HI> perish then this
+<HI>memoriall</HI> faile to <HI>re∣maine</HI> among the <HI>posterities,</HI> this that this woman hath done, shall be told for a memoriall of her.
+<HI>Lastly,</HI> it shall be <HI>wheresoeuer,</HI> in euery
+<HI>place</HI> where the <HI>Gospell</HI> is <HI>read,</HI> or
+<HI>heard,</HI> or <HI>preached, Maries memory</HI> followes our
+<HI>Saui∣our</HI> as the <HI>marigold</HI> the <HI>sunne: Mary</HI> that followed <HI>Christ</HI> to the <HI>feast</HI> of the <HI>Pharisie,</HI> to the <HI>house</HI> of the <HI>Leper,</HI> to the <HI>graue</HI> of
+<HI>Lazarus,</HI> to the <HI>Crosse,</HI> to the <HI>Sepulcher,</HI> to the
+<HI>Garden,</HI> to <HI>Galile,</HI> now followes our <HI>Sauiour</HI> ouer all the <HI>world,</HI> for wheresoeuer the <HI>Gospell</HI> is preached. You see here be no lesse then seauen <HI>particulers,</HI> a whole
+<HI>weeks worke,</HI> nay more a <HI>iourney</HI> ouer all the <HI>whole world.</HI> This is onely the <HI>comfort,</HI> as the <HI>wisemen</HI> were lead by the <HI>light</HI> of a <HI>starre,</HI> so we shall go by the
+<HI>light</HI> of the <HI>Gospell.</HI> And to <HI>settle</HI> your
+<HI>attentions,</HI> I beganne at the marke of my
+<PB N="13" REF="9"/>meditations, beginning as S. <HI>Marke</HI> beginnes his first chapter, The Gospell of Iesus Christ, wheresoeuer this Gospell.</P>
+<P><HI>Nomen Euangelij nomen gaudij,</HI> saith the
+<HI>glosse,</HI> the name of <HI>Gospell</HI> is a name of
+<HI>gladnesse,</HI><NOTE PLACE="marg">1 <HI>Glosse.</HI></NOTE> sweete is this <HI>name,</HI> and the Saints <HI>loue it well.</HI> The name of <HI>Law</HI> was <HI>strange,</HI> a <HI>name</HI> not so much as knowne to the <HI>Grecians</HI> in the time of <HI>Homer,</HI> as
+<HI>Iosephus</HI><NOTE N="y" PLACE="marg">Ioseph. contra Appion. lib.
+<HI><GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>.</HI></NOTE> against <HI>Appion</HI> obserueth that the word
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> is not so much as once vsed in all the writings of
+<HI>Homer,</HI><NOTE PLACE="marg">Scapula pag. <HI>10.</HI></NOTE> but the name
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> as <HI>Budeus</HI> obserues is found in <HI>Homer, Euripides,</HI> and <HI>Aristophanes,</HI> and <HI>Atheneus,</HI> and
+<HI>Plutarch,</HI> wherein we see as neither the <HI>Iewes</HI> Law, no nor the name of it, was knowne a long time to the <HI>Gretians,</HI> so the name of <HI>Gospell</HI> before the <HI>Gospell</HI> was known to the
+<HI>Gentiles,</HI> &amp; a name vsed for <HI>glad-tidings</HI> among the Gentiles, as if it were most pro∣perly the light of the <HI>Gentiles:</HI> the 70. <HI>Interpreters</HI> vse it as oft as they meete with
+<HI>Basar</HI> or <HI>Besora</HI> which signi∣fie to deliuer a message, or be a Messenger. Saint<NOTE N="a" PLACE="marg">Luk.
+1.1.</NOTE> <HI>Luke</HI> tells vs <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, many tooke in hand to write this <HI>Gospell.</HI> And <HI>Theophilact</HI> vpon those words<NOTE N="b" PLACE="marg">Theoph. in <HI>1.</HI> Luke.</NOTE> saith <HI>attentarunt quidem Pset<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>doapostols, non perfecerunt: Cle∣mens Alexandrinus</HI> tells vs the <HI>Tatiani</HI> had a Gospell <HI>se∣cundum Egiptios:</HI> and
+<HI>Epiphanius</HI> that some had a <HI>Gospell secundum Hebraeos. Gnostickes</HI> had the Gospell of <HI>Philip,</HI> and the
+<HI>Maniches</HI> the Gospell of <HI>Thomas,</HI> and others the Gospell of
+<HI>Matthias:</HI> But <HI>Basilides</HI> of all others as Saint
+<HI>Hierome</HI> obserues was the most <HI>bold</HI> and
+<HI>blasphemous,</HI> that durst write a <HI>booke</HI> and entitle it his
+<HI>Gospell.</HI> But as all the <HI>Fathers</HI> confuted those
+<HI>heresies,</HI> and stopped the mouthes of these blasphemies, so especially <HI>Irenaeus</HI> by the foure windes, Saint <HI>Hierome</HI> out of <HI>Zacharies</HI> vision<NOTE N="c" PLACE="marg">Zach. 6.1.</NOTE> by the foure Chariots, and Saint <HI>Austin</HI> out of <HI>Ezekiels</HI> vision<NOTE N="d" PLACE="marg">Ezek. 1.6.</NOTE> by the foure Cherubins, shew there be no more but foure <HI>Euangelists,</HI> and these foure to concurre to one <HI>quatuor Euangelia esse vnum Euangelium, et si aliud at∣que
+<PB N="14" REF="10"/>aliud ob personarū differentiam, vnum tamen ob eorum quae loquuntur consonantiam,</HI> saith <HI>Chrysostome:</HI> the <HI>Gospell</HI> is therefore the glad-tidings of God to
+<HI>saluation,</HI><NOTE PLACE="marg">Chrysost. tom. <HI>4.</HI> in Epist. ad Gal.</NOTE> brin∣ging the ioyfull message that <HI>Iesus Christ</HI> came into the <HI>world</HI> to saue <HI>sinners:</HI> the Law was <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>,<NOTE N="f" PLACE="marg">2 Cor. 3.7.</NOTE> but the Gospell <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, The Law of <HI>death</HI> was turned into the Gospell of <HI>life,</HI> and therefore was <HI>Moses</HI> in the transfiguration with Christ, because the Law of <HI>Moses</HI> was
+<HI>transfigured</HI> by the <HI>Gospell</HI> of <HI>Christ</HI> Now the Gospell doth <HI>consider Christ</HI> especially either as hee was
+<HI>corpus carnis</HI> in his incarnation, in the veile of flesh or as
+<HI>corpus mortis,</HI> in his Passion as hee was in the shad∣dow of death, or as <HI>primitiae resurrectionis,</HI> in his resur∣rection, and triumph ouer death, and as in all other of Christ his passages, so especially in these the Gospell is the glad-tidings: it was glad-tiding in his birth, when the Messenger was an Angell, the message a Gospell, but when the Sauiour of men and Angells deliuers a Gospell much more it is glad-tidings. So is it here where our Sauiour the Authour of the Gospell deliuers a Gos∣pell. <HI>This Gospell:</HI> and what this Gospell is is expressed in the second verse, it is the crucifying of Christ, in the twelfth verse the buriall and resurrection of Christ and indeed these of all other, are the glad-tidings of the Gos∣pell, for the Passion and resurrection of Christ are the lines, that the Patriarches and Prophets beheld by the perspectiue of faith in the beautifull peeces of Gods promises, these aboue all, bee the glad-tidings, euen this Gospell of Christs death and triumph ouer death: the Angells in Christs resurrection told the women <HI>Luk.</HI> 20.6. Remember how he spake vnto you in <HI>Galile,</HI> the sonne of man shall be deliuered into the hands of sinne∣full men,<NOTE PLACE="marg">Luk. 24.6.</NOTE> and be crucified, and the third day rise againe. Indeed this was the Gospell, and this Gospell he especi∣ally taught his Disciples, and hee taught his Gospell e∣specially in <HI>Galile,</HI> when he came into <HI>Galile</HI> hee taught
+<PB N="15" REF="10"/>his Disciples the sonne of man shall bee deliuered and killed, and rise the third day, <HI>Mark.</HI> 9.31.<NOTE PLACE="marg">Math.
+9.31.</NOTE> while they a∣bode in <HI>Galile</HI> he taught his Disciples the sonne of man, shall be betraied into the hands of men, they shall kill him and be shall be raised againe the third day,<NOTE PLACE="marg">Math.
+17.22.</NOTE> <HI>Math.</HI> 17.22. when he came towards <HI>Ierusalem</HI> from <HI>Galile,</HI> he taught them this, the Sauiour of man shall bee deli∣uered to the Gentiles, shall bee crucified and the third day shall rise againe, <HI>Math.</HI> 20.19. going to <HI>Galile,</HI><NOTE PLACE="marg">Math. 20.19.</NOTE> in <HI>Galile,</HI> throughout
+<HI>Galile,</HI> comming out of <HI>Galile</HI> hee taught his Disciples his Passion and resurrection. <HI>Galile</HI> as <HI>Ierome</HI> and others, signifieth <HI>transmigrationem,</HI><NOTE PLACE="marg">Ierom. interp. Nom. Heb.</NOTE> a de∣parture a transmigration. It was the Gospell of
+<HI>Galile,</HI> of his transmigration, he did teach this Gospell of trans∣migration, in the Land of transmigration, it was trans∣migration from life to death by his Passion, from death to life by his resurrection. The whole Gospell is an E∣pistle sent from God saith
+<HI>Austin, Euangelium Dei, episto∣la de caelo missa:</HI><NOTE PLACE="marg">Austin.</NOTE> And it representeth Christ vnto vs
+<HI>spi∣rantem, docentem, mira patrantem dira patientem,</HI> preach∣ing, teaching, accomplishing wonderfull suffering sor∣rowfull things,<NOTE PLACE="marg">Basill.</NOTE> as <HI>Basill</HI> speakes this death the ministery of our life, the life of man, but death of sinne, death of Sathan, in the death of our Sauiour. This is a Gospell of glad-tidings, and is it glad tidings? to heare that such a person as the sonne of God,<NOTE PLACE="marg">Math. 13.99.</NOTE> <HI>Mark.</HI> 15.39 suffered such a Passion as the curse of the Law, <HI>Gal.</HI> 3.15. by so great a compassion, as to doe it for his enemies.<NOTE PLACE="marg">Rom. 5.</NOTE> That in his birth he was placed among beasts, then tempted by Deuills, then persecuted by Tyrants, then condemned by murtherers, then crucified among theeues, and thus he did liue, thus he did die. To heare him contemned for his progeny, a Carpenters sonne; for his Prouince, a <HI>Galilean;</HI> for his profession, a Samaritan; his Disci∣ples Law breakers, his doctrine treason, seducing the people, his miracles impostures, casting out Deuils by
+<PB N="16" REF="11"/><HI>Beelsebub,</HI> his company Publicans and sinners, for his whole life breaking the Sabbaoth, a bibber of wine, working by the Deuill, possessed with the Deuill: Ther∣fore hee must die. If it bee glad-tidings? to heare of <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>,<NOTE PLACE="marg">Nazianz.</NOTE> as <HI>Nazianzene</HI> collects, them of the stripes, and scoffings, and spittings, and thornes, and crosse, and nailes, and speare, and sweate, and bloud, and wounds, and distresfull crie, and horrid death: to heare and see this prodigious Tragedy, in a theatre of dead mens bones, couered ouer with ruth∣full darkenesse, Angells, Diuells, rockes, graues, the whole vniuers and Creature concurring to this specta∣cle, onely the sunne absenting, abhorring to see such a death,<NOTE PLACE="marg">Alle<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>tus.</NOTE> <HI>Supplicium quo nullum maius, opprobrium quo nullū vilius,</HI> the graue and hell, yelling out their griefe, for the wonder of our redemption, by this wofull passion.</P>
+<P>If this be <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> glad tidings? as who dare deny it to be, for if <HI>Appian</HI> writing of the murther of <HI>Tully</HI> en∣dorsed his letter, <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>Carrying good newes to Anthory:</HI> then how glad, how good, those tidings of the death of Christ; If it bee glad-tidings, as who can deny it to be? vnlesse they bee enemies to the crosse of Christ, and seeke to euacuate the crosse of Christ, 1 <HI>Cor.</HI> 1.17. whereas Christ hath reconciled all things by his crosse, <HI>Coloss</HI> 1.20. and shine enmity by his body on the crosse, <HI>Ephes.</HI> 2.16. and the power of God is the preaching of the crosse, 1 <HI>Cor.</HI> 1.18. The crosse being <HI>non patibutum Patientis, sed tribunal Trium phantiss,</HI> as <HI>Ierome</HI> calles it: If in the stormy winter of his death,<NOTE PLACE="marg">Hi<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>on<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>.</NOTE> such life, then what lustre, what glory, what beautie, what life of life, in the spring of life. The crosse of Christ is the onely knowledge of a Christ an, 1 <HI>Cor</HI> 2.2. The excellencie of his knowledge, <HI>Phil.</HI> 3.8. The glorie of his knowledge, <HI>Gal.</HI>
+6.14. Which made the Apostle crie out God forbid, that I should glorie in any thing but in the crosse of our Lord Iesus Christ. But
+<PB N="17" REF="11"/>looke how farre life surpasseth death, so farre is the ioy of the Resurrection aboue the Passion, no tongue can expresse this noble act of the Lord his blessed and tri∣umphant Resurrection, <HI>Mori dignatus est ex voluntate,</HI><NOTE PLACE="marg">Tertull.</NOTE> <HI>sed resurrexit ex potestate,</HI> saith <HI>Tertullian;</HI> when neither bowells of the earth, nor ligament of the graue, nor sor∣rowes of death, nor power of hell, able to containe him, but that Christ is risen againe, Christ is risen from the dead, a<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> <GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>he best time of the whole yeere, the time of the great Passouer, first day of the weeke, best day of the yeere, first houre of the day, at dawning of the daw∣nie day, <HI>Math.</HI> 28.1. rising of the sunne, <HI>Mark.</HI>
+16.1. early in the morning, <HI>Luk.</HI> 24.1. early while it was dark,
+<HI>Iohn</HI> 20.1. <HI>Oritus ex alto, oriens ex imo,</HI> hee that was the resurrection and life, rose by his resurrection vnto life, and became the first fruites of the dead, 1 <HI>Cor.</HI> 15.20. first begotten of the dead, <HI>Reuel.</HI> 1.5. first borne of the dead, <HI>Coloss.</HI>
+1.18. first of those that did arise from the dead, <HI>Acts</HI> 26.23. Here is glory, and ioy, and glad∣tidings, and if euer the soules of the Saints and seruants of God, were transported out of their bodily senses, it should be at this Gospell that I bring vnto you of glad∣tidings, of great ioy that shall bee to all people, that Christ is risen from the dead, and become the first fruits of them that sleepe; Christ is risen from the dead, and now dieth no more, Christ is risen from the dead, death where is thy sting? graue where is thy victorie? thankes be giuen vnto God, who hath giuen vs victorie by our Lord Iesus Christ. It may seeme to be collected, that this Gospell, is the Gospell of the resurrection not only in 32. vers. <HI>when I am risen, I will go before you into Galile:</HI> but more manifestly out of the 12. vers. <HI>In that shee pou∣red this ointment on my body, she did it for my buriall:</HI> why was the body annointed for the buriall, but in respect of the resurrection of the body? Saint <HI>Paul</HI> asketh the question, why are they baptized for the dead,<NOTE PLACE="marg">1 Cor. 15.</NOTE> if no
+<PB N="18" REF="12"/>resurrection of the dead? why an annointing of Christs body, vnlesse because of the resurrection of his body?
+<HI>Resurrectio Christi complementum omnium promissionum,</HI> saith
+<HI>Aquinas,</HI><NOTE PLACE="marg">Aquia.</NOTE> without which, no promise performed, no prophesie fulfilled, no mysterie reuealed, no body redeemed from the power of death, no soule could re∣ceiue the Gospell of life; Christ tooke vpon him the name of the resurrection,<NOTE PLACE="marg">Ioh.
+11.25.</NOTE> <HI>Iob.</HI> 11.25. gaue no signe but of the resurrection,<NOTE PLACE="marg">Math. 12 39.</NOTE> <HI>Math.</HI> 12.39. shewed his power, wrought our righteousnesse, by no meanes so euidently as by the resurrection,<NOTE PLACE="marg">Rom 4.25.</NOTE>
+<HI>Rom.</HI> 4.25. taught his Disciples, no doctrine so frequently, in 6. Chapters in <HI>Mathew,</HI> in 5. <HI>Marke,</HI> in 4. in <HI>Luke</HI> often in <HI>Iohn,</HI> mention of his resurrection: so that especially this Gospell is the Gospell of Christs resurrection from which root ariseth this fruitfull branch of doctune:<NOTE PLACE="marg">Doct.</NOTE> The resurrection of Christ is the most glad-tiding, of the Gospell, and con∣teineth in it the summe of the whole Gospell. So S. <HI>Au∣stin, Resurrectio Christs tota fides Christianorum.</HI><NOTE PLACE="marg">Austin.</NOTE> The re∣surrection of Christ is the whole faith of Christians: So <HI>Bernard,</HI><NOTE PLACE="marg">Bern.</NOTE>
+<HI>vis Euangelij Epitomen, en resurrectionem,</HI> wilt thou haue an Epitome of all the Gospell, behold the resurrection:<NOTE PLACE="marg">Hilary.</NOTE> So <HI>Hilary, Resurrectionis testimonium pro∣prium munus Apostolorum,</HI> The testimonie of the resur∣rection is the chiefe office of the Apostles. The reasons of this doctrine are many, without this all the mysteries of our redemption were vaine: Please but to walke into the spring Garden of the resurrection the 15. of the 1.
+<HI>Cor.</HI> where the Apostle sheweth that if it were not for the resurrection of Christ that are already a sleep are perished,<NOTE PLACE="marg">1. Cor. 15.</NOTE> they that are aliue, are in their sinnes, and therefore dead, twise telleth them your faith vaine, our preaching vaine, and wee and you of all men most mi∣serable, Hearers and Preachers, and liuing, &amp; dead, and all miserable. Death should wound vs vnto death, the graue shut her mouth vpon vs, the deuouring throate of
+<PB N="19" REF="12"/>an open Sepulchre close her iawes vpon vs: our portion onely in this life, and we no better then the life of beasts, temples, and Bibles, and faith, and hope, and heauen, and all in vaine, were it not for the resurrection of Christ from the dead. Againe the resurrection of Christ in that one act comprehendeth all the acts of the Gos∣pell; here is Christs incarnation, hee tooke flesh againe vpon him, here is his conception as before a virgine mother, so here a virgine sepulchre, here is his baptisme, as he came out of the waters, so now hee commeth out of the earth, as in the temptation after fourtie daies hee came from the wildernesse, so hereafter fourtie houres he commeth into the world, here is his transmigration, whereby he is translated from death to life. In his re∣surrection the confluence of all his miracles, hee that gaue sight to the blinde, openeth his owne eies, and eares to the deafe, openeth his owne eares, and speech to the dumbe, openeth his owne mouth, he that badde the lame man arise and walke, ariseth from death and walketh, and herein worketh the greatest miracle that euer hee did: <HI>Non suscitauit alterum sed se seipsum,</HI><NOTE PLACE="marg">Bern.</NOTE> <HI>nec suscitatiosed resurrectio,</HI> saith <HI>Bernard,</HI> Hee raised not vp another but himselfe, and it was not passiuely to bee raised by another power, but actiuely by his owne, not a raising but a rising. So that this of all others is the summe of the Gospell, neuer glad-tidings till now, ne∣uer so glad, so good-tidings as now,<NOTE PLACE="marg">Bona:</NOTE> <HI>In nascendo contulit consortium naturae, in patiendo beneficium gratiae, in resurgen∣do complementum gloriae:</HI> In his birth hee conferred the fellowship of nature, in death, the benefit of grace, in rising, complement of glory, saith <HI>Bonauenture.</HI> Herein, onely herein he brought <HI>defunctis vitam, peccatoribus ve∣niam, Sanctis gloriam:</HI> Life to the dead, pardon to sin∣ners, glory to Saints, as
+<HI>Bernard</HI> speaketh. Therefore we reioyce, and hereby our ioy shall bee full: <HI>Surrexit Christus exultet vniuersus mundus,</HI> The ioy of this time,
+<PB N="20" REF="13"/>like that of the <HI>Spouse</HI> in the
+<HI>Canticles,</HI> which may be ap∣plied to Christs resurrection;
+<HI>Arise my Loue, my faire one, the winter is past, the raine is oner and gone, the flowers appeare in the earth, the time of the singing of birds is come, the voice of the Turtle is heard in our Land, the Figge-tree putteth forth her greene figges, and the Ʋines with their ten∣der grapes yeeld a good smell: Arise, my Loue, my Doue, my Faire one,</HI><NOTE PLACE="marg">Austin.</NOTE> <HI>and come away Exultet vniuersus mundus,</HI> Let the world reioyce and all that are therein. The <HI>righteous branch</HI> of the root of <HI>Iesse</HI> hath reflourished, the
+<HI>Lion</HI> of the Tribe of <HI>Iudah</HI> is awakened, our <HI>Phenix</HI> is risen from his owne ashes, our <HI>Eagle</HI> renewed his bill, our
+<HI>Ioseph</HI> is brought out of <HI>prison,</HI> our <HI>Sampson</HI> hath carried away the gates of <HI>Assah,</HI> our <HI>Mordecai</HI> is exalted, our <HI>Daniel</HI> de∣liuered from the denne, our <HI>Ionas</HI> is cast vp by the whale, our <HI>Lazarus</HI> restored to life, our
+<HI>Glory,</HI> our <HI>Gospell,</HI> our <HI>Glad tidings,</HI> our
+<HI>Christ</HI> is risen from the dead.</P>
+<P>Let vs then aboue all other <HI>meditations</HI> reioyce in the knowledge of the <HI>Gospell of Christ,</HI><NOTE PLACE="marg">Vse.</NOTE> and especially in the remembrance of the resurrection of our Lord and Sa∣uiour <HI>Iesus Christ,</HI> seeing that as the Gospell is the pow∣er of God to saluation, so the
+<HI>resurrection,</HI> of all other parts, hath manifested the power of our
+<HI>redemption,</HI> from the <HI>graue,</HI> from <HI>sinne,</HI> from
+<HI>death,</HI> from the <HI>Deuill.</HI> Let vs reioyce in the
+<HI>resurrection</HI> of our <HI>Lord</HI> and <HI>Saui∣ur,</HI> seeing by this hee shall raise our vile bodies, to bee like his <HI>glorious body.</HI> Let vs with all care embrace <HI>this faith,</HI> seeing the bright <HI>morning starre</HI> which was dark∣ned by <HI>death,</HI> hath recouered <HI>light,</HI> let vs be sure he will bring vs out of
+<HI>darknesse</HI> into the light of his <HI>countenance. Abraham</HI> saw the day of <HI>Christs birth,</HI><NOTE PLACE="marg">G<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>eg. Mor.</NOTE>
+<HI>Esay</HI> fore saw the day of <HI>Christs death, Iob</HI> saw the day his <HI>dunghill.</HI> Let vs beginne the first resurrection from
+<HI>sinne</HI> to <HI>grace,</HI> that wee may be raised from
+<HI>nature</HI> to <HI>glory.</HI> Of all the Feasts of the whole
+<HI>Church</HI> in the whole <HI>yeere,</HI> wee haue none
+<PB N="21" REF="13"/>like this: the <HI>Church</HI> inioyneth the rest, <HI>Scripture</HI> com∣mands this: <HI>S. Paul</HI> giues an iniunction for celebrating of <HI>Easter;</HI> <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> <HI>Christ</HI> our <HI>Passeouer</HI> is offered for vs,<NOTE PLACE="marg">1 Cor.
+5.7.</NOTE> let vs keepe the <HI>Feast,</HI> our <HI>Passeouer,</HI> for vs let vs, <HI>Nostrum, Nobis, Nos. Christ</HI> the <HI>Passeouer</HI> indeed, as hee was <HI>offered,</HI> and our <HI>Passeouer</HI> as he was
+<HI>raised,</HI> passing from death to life: Let vs then keepe this
+<HI>Feast. Pauls</HI> iniunction is an <HI>Epi∣stle</HI> for this
+<HI>Gospell,</HI> of this <HI>Feast.</HI> All the <HI>Saints</HI> on earth through the Christian world, keepe this Feast, as their ioy and
+<HI>Iubile:</HI> All the <HI>Angels</HI> in heauen (saith <HI>Cyprian</HI>) obserue the same;<NOTE PLACE="marg">Cyprian.</NOTE> <HI>Ipsi Angeli eius gaudia Paschata agunt in coelestibus.</HI> Let vs then obserue these
+<HI>solemnities,</HI> in the meditation of this <HI>Gospell,</HI> with all reuerence to this <HI>glad tidings</HI> of <HI>Christs resurrection.</HI> Let vs keepe the feast, not with old <HI>leauen,</HI> not with the old
+<HI>leauen</HI> of <HI>malice</HI> and <HI>wickednesse,</HI> but with the
+<HI>vnleauened bread</HI> of <HI>since∣ritie</HI> and <HI>truth.</HI> Let the
+<HI>dead</HI> burie their <HI>dead;</HI> let vs bring forth some
+<HI>fruits</HI> of the <HI>Gospell,</HI> to arise from dead workes, to serue the liuing God. <HI>Epicures, Basilidians, Sadduces, Saturnians,</HI> denie the <HI>truth</HI> of Christs <HI>resurre∣ction:</HI> let not vs denie the <HI>power.</HI> Which we doe if wee bring not forth the fruits of the
+<HI>Gospell,</HI> if we cast not off the <HI>workes</HI> of <HI>death</HI> and <HI>darknesse.</HI> Christ appeared first to <HI>Mary Magdalen,</HI> and sent her to be the first <HI>messenger</HI> to
+<HI>Peter;</HI> Christ to <HI>Magdalen, Magdalen</HI> to <HI>Peter, Mag∣dalen</HI> the <HI>greatest sinner</HI> among <HI>women, Peter</HI> the
+<HI>greatest sinner</HI> among <HI>men; Magdalen</HI> to <HI>Peter, Magdalen</HI> clean∣sed of <HI>seuen Deuils,</HI> sent to <HI>Peter</HI> pardoned of <HI>three deni∣als.</HI> Let <HI>Magdalen</HI> and <HI>Peter</HI> preach this to you, or ra∣ther <HI>Christ</HI> himselfe, and <HI>this day if ye will heare his voice,</HI><NOTE PLACE="marg">Psal 95.7.</NOTE>
+<HI>harden not your hearts.</HI> Beloued, hee that is risen from the
+<HI>graue,</HI> is not risen in all your <HI>hearts;</HI> with the
+<HI>Phari∣sies</HI> yee haue laid a <HI>stone,</HI> and the <HI>Deuill</HI> he hath laid the <HI>watch,</HI> and that heauy graue stone of
+<HI>sinne</HI> sealed <HI>downe,</HI> presseth downe soules: few will be <HI>raised,</HI> few shall bee
+<PB N="22" REF="14"/><HI>saued.</HI> The <HI>hypocrite</HI> dares not rise, hee hath so many <HI>shapes,</HI> he feareth God will not know him, if he meet him. The <HI>harlot</HI> cannot rise, shee is a dead soule in a <HI>painted Sepulchre.</HI> The <HI>drunkard</HI> would rise, but hath neither <HI>hand</HI> nor <HI>foot</HI> to help himselfe, the earths
+<HI>monster,</HI> and his owne <HI>murtherer.</HI> The <HI>Gallant</HI> like
+<HI>Lazarus</HI> in the graue, <HI>is fast bound, is close prisoner to his owne clothes.</HI> The <HI>Vsurer</HI> is <HI>Iaylor</HI> to other mens
+<HI>bonds,</HI> and <HI>bondslaue</HI> to his owne <HI>money.</HI> The
+<HI>Courtier</HI> of all other is most <HI>carefull</HI> to rise, yet no man sleepes <HI>longer,</HI> either fettered with <HI>hopes,</HI> or ensnared by <HI>fancie,</HI> or <HI>bewitched</HI> by <HI>fau<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ur,</HI> but beginning with false <HI>footing,</HI> fals, and lies by it. The plaine
+<HI>Country man</HI> riseth vp early, goeth late to bed, ea∣teth the bread of
+<HI>carefulnesse,</HI> obserueth how dearth <HI>ari∣seth,</HI> but for other <HI>rising,</HI> he beleeues it is enough if hee shall rise at the last day. The <HI>Citizen,</HI> of all other is most <HI>likely</HI> to arise, the <HI>Citie</HI> being the Sea into which all the <HI>fresh riuers</HI> runne, though many <HI>ships</HI> here suffer ship∣wracke. The <HI>Citizen</HI> is willing to <HI>rise,</HI> for it is impossi∣ble how he should <HI>sleepe,</HI> and as worthy to rise as any; he is the States <HI>Treasurer,</HI> and the Lands <HI>Pillar,</HI> and sure the
+<HI>Citizens</HI> rising would be <HI>blessed</HI> if hi<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>
+<HI>staires</HI> were not <HI>crooked.</HI> We our selues that preach the
+<HI>resurrection,</HI> can∣not rise, because we will not heare our
+<HI>selues.</HI> The <HI>Church</HI> as well as <HI>Church-yard</HI> is full of <HI>dead bodies:</HI> willingly would many of vs rise, though by <HI>Simon Magus</HI> ac∣quaintance: others would rise, but they haue no
+<HI>An∣gels</HI> to put them into the <HI>Poole:</HI> others are risen, and worse then <HI>Magdalen,</HI> neuer preached since their
+<HI>resur∣rection.</HI> Beloued, these are not the fruits of the
+<HI>Gospell,</HI> not the fruits of the <HI>resurrection.</HI> I am no
+<HI>Satyre,</HI> nor this place a <HI>Pasquill:</HI> I acknowledge many, and many blessed <HI>seruants</HI> of God, to be <HI>fruitfull</HI> in this
+<HI>doctrine,</HI> in <HI>Church, Court, Citie, Countrey:</HI> yet be there not in this <HI>Auditorie,</HI> that would be more heartily <HI>inflamed</HI> with some other <HI>Gospell</HI> then this <HI>Gospell,</HI> some other doctrine
+<PB N="23" REF="14"/>then this of the <HI>Resurrection?</HI> Som<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>
+<GAP DESC="illegible" RESP="pdcc" EXTENT="1 word" DISP="〈◊〉"/> <HI>Ca<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>iz <GAP DESC="illegible" RESP="pdcc" EXTENT="1 span" DISP="〈…〉"/></HI> would willingly heare this Tex<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> pra<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>ised,
+<HI>Owe noth<GAP DESC="illegible" RESP="pdcc" EXTENT="3 letters" DISP="•••"/> to any man but loue:</HI> and some poo<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>e <HI>Creditors</HI> this T<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>x<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> vrged, <HI>The good man is m<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>rcifull, and lendeth.</HI> Some grea<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> Lawyers desire to heare this Text pressed, <HI>The Law is good, if a man vse it lawfully,</HI> 1. <HI>Tim.</HI> 1.8. but some poore <HI>Clients</HI> this Text opened, <HI>Brethren, there is vtterly a fault among you, that yee goe to law one with another,</HI> 1. <HI>Cor</HI> 6.7. The <HI>Glutton</HI> would no Text but this, <HI>Goe eat of the fat, and drinke of the sweet, Nehemiah</HI> 8.10. The <HI>I surer</HI> none but this Text, <HI>A wise man put out his Talents to vse, Mat.</HI> 25.14. The <HI>Country man</HI> would heare the <HI>Citie</HI> and <HI>Countrey</HI> compared to <HI>Pharaohs</HI> fat and leane kine, the one <HI>deuouring</HI> the other. The <HI>Citizen</HI> and <HI>Countrey man</HI> would heare that Christ was first persecuted by the <HI>Court,</HI> at his <HI>birth</HI> by <HI>Herod</HI> and his Court, at his <HI>death</HI> by <HI>P<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>late</HI> and his Court. Of all Texts, there is one tedi∣ous to all in Countrey and City. Yet in the meane time the poore
+<HI>Minister</HI> hath found the <HI>Text,</HI> and preached it, though it
+<HI>takes no successe,</HI> and it is a <HI>Text</HI> to be taught all, and his Text is <HI>Deut.</HI> 14.22.<NOTE PLACE="marg">Deut. 14 22.</NOTE>
+<HI>Thou shalt truly tithe of all thy increase.</HI> And he is bound to
+<HI>preach</HI> this, for how can he preach vnlesse he be maintained? and bound be∣cause hee <HI>heareth God curse</HI> where man <HI>denieth tithe.</HI> Reade when you come home, with horrour,<NOTE PLACE="marg">Mal.
+3.8:</NOTE> <HI>Mal.</HI> 3.8. <HI>Will a man rob God? yet yee haue robbed mee, saith the Lord.</HI> But yee say, Wherein haue wee robbed thee? His answer is, <HI>In tithes and offerings, therefore yee are cursed with a curse.</HI> But I forget my selfe. Christs salu∣tation in the resurrection was <HI>Peace be vnto you,</HI> and I bring to you a
+<HI>Gospell of peace. Arise therefore thou that sleepest, if Christ shall giue thee life,</HI> let not <HI>Adams</HI> ap∣ple, <HI>Achans</HI> wedge, <HI>Esaus</HI> broth, <HI>Babylons</HI> cuppe, <HI>Iudas</HI> soppe, betray thee; the <HI>snares</HI> of Sathan, <HI>fetters</HI> of the flesh,
+<HI>chambers</HI> of death, <HI>workes</HI> of darknesse, <HI>chaines</HI> of hell, enthrall thee; arise by Christ, to Christ, with
+<PB N="24" REF="15"/>Christ, as if yee had embraced this Gospell of Christ, seeing this Gospell is a preached Gospell. My second passage.</P>
+<P><HI>Preaching</HI> is the ordinary meanes to worke beleeuing. It is the <HI>Trumpet</HI> of <HI>Esay,</HI> the <HI>Cymball</HI> of
+<HI>Dauid,</HI> the sound of <HI>Aarons bels</HI> in the <HI>Sanctuarie,</HI> the <HI>sauour</HI> of life vnto life vnto them that beleeue. It is a
+<HI>speech</HI> to men to <HI>edi∣fication, exhortation,</HI><NOTE PLACE="marg">1 Cor 14.3.</NOTE> <HI>comfort,</HI> 1 <HI>Cor.</HI> 14.3. Preaching is the <HI>cesterne</HI> to conuay life and beleefe to the soule, the <HI>knife</HI> to diuide the <HI>Scripture,</HI> the <HI>key</HI> of the Kingdome of heauen,<NOTE PLACE="marg">Ier 23.29. Rom. 1.16. Ier. 23.29. Esay
+55.11. Eph<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>s. 6.17. Heb. 4.12.</NOTE> a <HI>fire, Ier.</HI> 23.29. a
+<HI>power, Rom.</HI> 1.16. a <HI>ham∣mer, Ier.</HI> 23.29. a <HI>shower, Esay</HI> 55.11. a <HI>sword,</HI> euen the sword of the <HI>spirit, Ephes.</HI> 6.17. A <HI>sword</HI> sharper then a two-edged sword,
+<HI>Heb.</HI> 4.12. The <HI>Proclamation</HI> which the Lord hath vsed by the mouth of all his <HI>holy Prophets</HI> since the world beganne, whereby God hath euer sele∣cted a <HI>vocation</HI> of men, to deale betwixt <HI>God and man,</HI> whose <HI>preaching</HI> in their <HI>ministerie</HI> is aboue all other <HI>Ora∣torie,</HI> as the <HI>Schooles</HI> obserue,<NOTE PLACE="marg">Aquin. All<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>rt.</NOTE> <HI>Dicere infra, Docere circa, Predicare supra:</HI> Wee speake of things <HI>beneath</HI> vs, our teaching is of those things <HI>about</HI> vs, but preaching is of things <HI>aboue</HI> vs. In the <HI>Primitiue world</HI> the first borne was the <HI>Priest</HI> and
+<HI>Preacher</HI> to the familie. Before the <HI>Floud, Enoch</HI> a Preacher of <HI>Righteousnesse, Iude</HI> 14. At the <HI>Floud, Noah</HI> a Preacher of <HI>Righteousnesse,</HI> 2 <HI>Pet.</HI> 2.5. Before the Law,
+<HI>Melchisedecke</HI> a <HI>King</HI> and <HI>Priest, Gen.</HI> 14.18. In the Law, <HI>Salomon</HI> a <HI>King,</HI> a <HI>Preacher, Ec∣cles.</HI> 1.1. The Lord neuer intended his word should be laid vp only as the
+<HI>Tables</HI> of <HI>Moses,</HI> or the <HI>sword</HI> of
+<HI>God∣liah,</HI> or the Kings <HI>Treasurie</HI> in the <HI>Temple,</HI> but ordained an <HI>Eccl<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>siasticall Hierarchie</HI> for his <HI>Church</HI> by a <HI>Tribe</HI> of his <HI>chusing,</HI> to breake the bread of life to his <HI>chosen. Aaron</HI> so honored with the <HI>Miter, Censor, Altar, Crowne, royall roabes,</HI><NOTE PLACE="marg">Deut 33.10.</NOTE> and
+<HI>miraculous rod,</HI> he and his Tribe were inioyned by God to teach
+<HI>Iacob</HI> his iudgements, and <HI>Israel</HI> his Lawes, <HI>Deut.</HI>
+33.10. The very forme of our
+<PB N="25" REF="15"/>preaching was practised by the
+<HI>Leuites</HI> vnder the Law, <HI>Nehemiah</HI> 8. verse 2. The
+<HI>meeting</HI> of the Congregation, verse 3. <HI>Place</HI> in the street neere the water gate, 4. <HI>Esra</HI> the <HI>Priest</HI> stood in a
+<HI>Pulpit</HI> made of wood, 6. His <HI>Praier</HI> before Sermon, the Prophets <HI>Amen,</HI> 5. His <HI>opening the booke,</HI> 8. His reading the
+<HI>Text,</HI> opening the <HI>meaning,</HI> giuing the <HI>sense,</HI> causing them to vnderstand. Thus <HI>preaching</HI> vnder the <HI>Law.</HI> Vnder the <HI>Gospell</HI> it was the ministerie of
+<HI>reconciliation,</HI> the <HI>promulgation</HI> of the <HI>glad tidings</HI> of the Gospell, and the imploying of the <HI>Talent</HI> God bestoweth,
+<HI>Talentum quod creditum, non quod inuen∣tum,</HI> saith
+<HI>Lirinensis;</HI> A <HI>Talent</HI> receiued, not deuised:<NOTE PLACE="marg">Lirinens.</NOTE> Then by <HI>preaching hearing,</HI> by
+<HI>hearing faith</HI> obtained. Neuer was there so large a
+<HI>Commission</HI> granted, as the <HI>Commission</HI> of preaching,
+<HI>Goe into all Nations Matt.</HI> 28.19. And as large was the execution, for they preached in <HI>euery City, Acts</HI> 15.21. in <HI>euery Church, Acts</HI> 19.23. in <HI>euery place, Mark,</HI> 16.20. at <HI>euery time,</HI> in season, out of season, 2 <HI>Tim.</HI> 4.2. to <HI>euery creature</HI> vnder heauen, <HI>Mark.</HI> 16.15. The Gospell was thus generally prea∣ched, and to the <HI>end of the world</HI> must be preached. From which word preached, as out of a <HI>fountaine,</HI> ariseth this streame of Doctrine: <HI>The preaching of the Gospell is both the especiall ordinance, and great blessing of God.</HI> The rea∣son, because it is a <HI>light</HI> to them that sit in <HI>darknesse,</HI> and a <HI>light</HI> that God hath appointed to bee carried before his people.
+<HI>A light indeede,</HI> to them that sate in <HI>dark∣nesse,</HI> where the <HI>Prince</HI> of <HI>darknesse,</HI> and <HI>power</HI> of
+<HI>dark¦nesse,</HI> and <HI>workes</HI> of <HI>darknesse,</HI> and
+<HI>shadow</HI> of <HI>death,</HI> did ouerwhelme them. There neuer was so great <HI>miserie</HI> in <HI>Israel,</HI> as when no <HI>Prophet</HI> to teach them. Three espe∣ciall remarkable wants, all harbingers of woe to
+<HI>Israel:</HI> No <HI>Smith</HI> in <HI>Israel,</HI> 1 <HI>Sam.</HI>
+13.19. No <HI>King</HI> in <HI>Israel, Iudges</HI> 18.1. No <HI>Priest</HI> in <HI>Israel,</HI> 2 <HI>Chron.</HI> 15.3. the <HI>last</HI> of all the
+<HI>rest</HI> most <HI>miserable.</HI> As <HI>dolefull,</HI> as
+<HI>fearfull,</HI> is <HI>Dauids</HI> complaint of that time, <HI>Wee see no tokens, there
+<PB N="26" REF="16"/>is no Prophet more, no man of God in the Land, no man that vnderstandeth any more,</HI> no <HI>teaching,</HI> no
+<HI>Law,</HI> no <HI>peace,</HI> no <HI>God</HI> among them, because no
+<HI>Priest</HI> among them. <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>:<NOTE PLACE="marg">H<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>mer. Ili<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> l. <GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>.</NOTE> All things <HI>ouerthwart, declining, crooked,</HI> nay
+<HI>cursed.</HI> The <HI>word</HI> therefore is a <HI>light</HI> vnto our
+<HI>feet,</HI> and a <HI>lampe</HI> to our <HI>paths,</HI> and the
+<HI>preaching</HI> of this <HI>word</HI> so necessary, that as without
+<HI>hearing</HI> no <HI>beleeuing,</HI><NOTE PLACE="marg">Rom 10.14.</NOTE> so no <HI>hearing</HI> without <HI>preaching, Rom.</HI> 10 14. And where no
+<HI>preaching,</HI> the people perish, <HI>Pro.</HI> 29.18. I denie not that
+<HI>reading</HI> is a <HI>blessed</HI> exercise,<NOTE PLACE="marg">Reu.
+1.3.</NOTE> and blessed is he that readeth, <HI>Reuel.</HI> 1.3. A great part of <HI>S. Austins</HI> conuersion is imputed to his reading of a place of <HI>Scripture:</HI> but sure I am, that the <HI>Promise</HI> is annexed to <HI>preaching;</HI> and <HI>S. Austin</HI> confes∣seth,<NOTE PLACE="marg">A<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>stin C<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>f<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>s</NOTE> that by <HI>S. Ambrose</HI> preaching he was especially con∣uerted. So in his confession to God may be collected: <HI>Ad cum Deus per te ducebar nescius, vt ad te per cum sciens ducerer.</HI><NOTE PLACE="marg">Austin.</NOTE> It was <HI>preaching</HI> rather then <HI>baptizing,</HI> wherein our <HI>Sauiour</HI> was exercised,
+<HI>Iohn</HI> 4.2. <HI>Fecit mira, dixit multa,</HI> saith <HI>Bernard;</HI> hee wrought <HI>miracles,</HI> hee spake <HI>Oracles.</HI><NOTE PLACE="marg"><HI>Bern.</HI></NOTE> But as if hee had onely come to the world to
+<HI>preach,</HI> he proclaimes himselfe, <HI>Luk.</HI> 4.18.19. <HI>The spirit of the Lord is vpon mee,</HI><NOTE PLACE="marg">Luk. 4.18.</NOTE>
+<HI>and hath anointed mee to preach, to preach the Gospell to the poore, to preach deliuerance to the captiues, to preach the acceptable yeere of the Lord.</HI> In the <HI>Primitiue Church</HI> they traueld, &amp; thirsted, &amp; hungered, &amp; laboured, &amp; sweat, and bled, and died, and compassed sea and land, for the obtaining of this <HI>Iewell;</HI> and in that <HI>Infancie</HI> of the <HI>Church,</HI> hauing found <HI>preaching,</HI> though as the <HI>Wise men</HI> Christ in the cratch, they adored it. The
+<HI>Ecclesiasticall Storie</HI> is plentifull herein, not to bring forth in this Sunshine the <HI>sacred Lampes</HI> burning in those golden candlestickes, <HI>Polycarpus, Ignatius,</HI> and <HI>Clemens,</HI> and those many Disciples of the Disciples of the Lord. <HI>Iustin Martyr</HI> records in his time holy mee∣tings, reading, preaching, an houre euery Sabaoth.
+<PB N="27" REF="16"/><HI>Tertullian</HI> testifieth,<NOTE PLACE="marg">Tertull.</NOTE> that all the meetings of <HI>Christians</HI> were celebrated with holy Sermons. The <HI>Councell of Mentz</HI> ordained that euery day of the Lord the word of the Lord should be preached, &amp; at the length great was the multitude of the Preachers, the <HI>Gospell</HI> deliuered euery where by <HI>preaching,</HI> as by the only means to bring
+<HI>saluation.</HI> And sure if any part of the <HI>Gospell</HI> might haue beene deliuered sufficiently without <HI>preaching,</HI>
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, this <HI>Gospell,</HI> the <HI>Gospell</HI> of the
+<HI>resurrection</HI> might; for after our <HI>Sauiour</HI> had shewed himselfe aliue by infal∣lible proofes,<NOTE PLACE="marg">Act. 1.3.</NOTE> as
+<HI>Luke</HI> speaketh, <HI>Acts</HI> 1.3. such as <HI>Aristotle</HI> calleth <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, prouing his <HI>resurrection</HI> to all the
+<HI>senses;</HI> by the <HI>sight,</HI> hee shewed, and they saw his
+<HI>wounds;</HI> by <HI>hearing,</HI> he <HI>spake,</HI> they <HI>heard,</HI> Peace be vnto you; by <HI>tasting,</HI> they ministred, and he tasted
+<HI>broi∣led fish;</HI> by the <HI>touch, Thomas</HI> doubted, and the Lord constrained him to <HI>touch</HI> his <HI>wounds;</HI> by the
+<HI>smell,</HI> the Lord <HI>breathed</HI> on them, and they receiued the holy Ghost. <HI>Nature</HI> seekes but to sense, the fiue senses fiue porches of <HI>Natures Palace.</HI> In euery sense the
+<HI>Resurre∣ction</HI> of Christ proclaimed, that <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>,
+<HI>this Gospell must be preached.</HI> When no <HI>circumstance</HI> of
+<HI>time,</HI> or <HI>place,</HI> or <HI>person,</HI> vnmanifested,
+<HI>appearing</HI> the day of his resurrection early in the <HI>morning,</HI> late at <HI>night,</HI> both times of day; to the <HI>Disciples abroad</HI> and in the <HI>house,</HI> both places; to <HI>Souldiers</HI> and
+<HI>Apostles,</HI> both conditions; <HI>Iewes</HI> and <HI>Gentiles,</HI> both religions; <HI>men</HI> and <HI>women,</HI> both sexes; <HI>liuing</HI> and <HI>dead,</HI> both estates; when <HI>friends, fo<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>, Disciples, strangers, Angels, Deuils,</HI> bare witnesse, and <HI>graues</HI> opened their <HI>mouthes</HI> to proclaime this <HI>point,</HI> yet
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, after the <HI>horrour</HI> of the <HI>Earth-quake, rolling</HI> the stone, <HI>seeing</HI> the clothes, <HI>hearing</HI> the Angell, <HI>witnesse</HI> of the women, <HI>satisfying Thomas,</HI> eating, speaking, walking, breathing on them, breaking bread with them,
+<HI>bodily</HI> presence 40. dayes among them, hauing beene seene to more then 500. at once, 11. <HI>Disciples</HI> being
+<PB N="28" REF="17"/>witnesses of this, <HI>another</HI> must be added to be witnesse to preach the resurrection,<NOTE PLACE="marg">Act. 1.22.</NOTE> not <HI>caeterorum tantum, sed re∣surrectionis testem,</HI><NOTE PLACE="marg"><HI>Chrysostom.</HI></NOTE> saith <HI>Chrysostome.</HI> So necessarie is preaching the <HI>Gospell,</HI> no <HI>Gospell</HI> without preaching.</P>
+<P>Let vs then embrace the <HI>preaching</HI> of the Gospell with
+<HI>gladnes,</HI><NOTE PLACE="marg"><HI>Ʋse.</HI></NOTE> as that which is able to <HI>saue our soules at the great day,</HI> the kingdome of
+<HI>God,</HI> by the preaching of the <HI>Gos∣pell</HI> is among vs, let him that hath an eare heare what the Spirit saith,<NOTE PLACE="marg">Hos.
+8.12.</NOTE> <HI>Were the things of the Law honourable?</HI> Hos. 8.12. How much more should the gracious word brought vnto vs, by the <HI>preaching</HI> of the <HI>Gospell:</HI> Was the second person of the Trinitie called the
+<HI>Word,</HI> and that Word made flesh; and the third person the <HI>holy Ghost</HI> came downe in <HI>tongues of fire,</HI> and those
+<HI>tongues</HI> on∣ly giuen to preach <HI>that word,</HI> how then should our harts burne within vs, to <HI>enflame vs</HI> to the desire of these
+<HI>spiri∣tuall things?</HI> It is much that <HI>Enoch</HI> and
+<HI>Elias</HI> both <HI>Prea∣chers,</HI> of all other were taken vp to
+<HI>heauen,</HI> that <HI>Lot</HI> and <HI>Noah</HI> both Preachers, of all other were saued from the <HI>double</HI> deluge of <HI>fire</HI> and
+<HI>water,</HI> that <HI>Moses</HI> &amp; <HI>Elias</HI> both Preachers of all sorts of men vnder the Law, were chose to be with Christ in his
+<HI>transmigration,</HI> that kings haue beene Preachers
+<HI>Melehisedech</HI> a King Priest, <HI>Dauid</HI> a King Prophet,
+<HI>Salomon</HI> a King Preacher. But that which is aboue all, is that Christ Iesus that came into <HI>the world</HI> to saue sinners, that came to enrich it with his <HI>grace,</HI> to confirme it by his <HI>example,</HI> to redeeme it with his <HI>bloud,</HI> came to instruct it with his
+<HI>doctrine,</HI> and to preach this <HI>Gospell.</HI> For his sake, wee therefore as <HI>Pil∣grimes,</HI> and <HI>strangers,</HI> beseech you that yee receiue not the word of God <HI>this grace of God in vaine:</HI> By the ten∣der <HI>mercie of God wee beseech you,</HI> though yee deny the dignitie of <HI>preaching,</HI> yet acknowlege the <HI>power</HI> that hath called you to this inestimable light. Saint <HI>Peter</HI> tells vs of
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>,<NOTE PLACE="marg">1 Pet. 2.13.</NOTE> subiection of the people to the Pa∣stor; and Saint <HI>Paul</HI> of <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, the authoritie of the
+<PB N="29" REF="17"/><HI>Pastor</HI> ouer the people, I presse neither, but I call for the acknowledgment of the power <HI>of preaching: Paul</HI> warns frequently that they dispise not <HI>Timothy,</HI> obey them o∣uer you, they are worthy of <HI>double honor that are ouer you</HI> haue them in <HI>singular loue,</HI> and esteeme them <HI>highly</HI> that are oure you in the Lord, by <HI>authoritie</HI> this may bee <HI>ex∣acted,</HI> but better by <HI>charitie</HI> to bee expected. <HI>Miserable</HI> men!
+<HI>wormes</HI> and no <HI>men,</HI> what are wee? <HI>clods</HI> of
+<HI>earth,</HI> clothed with <HI>infirmitie,</HI> and <HI>mortalitie</HI> as ye are, <HI>peeces</HI> of <HI>clay</HI> hewen out of the <HI>same pit</HI> as yee are, wee are but <HI>fragments</HI> of men, tinkling <HI>cimballs,</HI> broken <HI>cesternes,</HI> cor∣ruption equally <HI>acquainted</HI> with
+<HI>vs</HI> as <HI>you:</HI> yet wee are the <HI>Embassadors</HI> of Christ, his strength is in our <HI>weakenesse,</HI> and he that hath said <HI>dispise not prophesie,</HI> hath enioyned not to
+<HI>dispise Timothy.</HI> Beloued, it yee <HI>desire</HI> saluation, dispise not <HI>Preachers,</HI> nor <HI>preaching,</HI> I neede not vrge this in this <HI>City,</HI> where the Lord hath as many <HI>acres</HI> of good Christians, as in any such quantitie of earth in <HI>Christendome,</HI> yet if as in <HI>Iob,</HI> so in this <HI>assembly</HI> now the sonnes of <HI>God</HI> are come to present themselues before the <HI>Lord</HI> there be a <HI>Sathan</HI> here, so heere, any sonne of <HI>per∣dition</HI> that is a scorner of <HI>Preachers,</HI> into whose <HI>loathsome</HI> body <HI>Rabshekah</HI> is stolne from <HI>hell,</HI> filling his
+<HI>mouth</HI> with <HI>blasphemie,</HI> against <HI>Gods ministerie.</HI> Let him know that <HI>Ieroboam</HI> a kings hand was
+<HI>withered,</HI> when hee onely would lay hold on a <HI>Prophet:</HI> that 2. Captaines,<NOTE PLACE="marg">1 King. 13.4.</NOTE> 2. fifties fired from heauen when they onely would <HI>apprehend</HI> a <HI>Prophet:</HI> 42.
+<HI>children</HI> torne in peeces,<NOTE PLACE="marg">2 King. 1.10.</NOTE> by wilde beares, who only as children mocked a <HI>Prophet:</HI><NOTE PLACE="marg">2 King. 2.24.</NOTE> 250. deuoured by fire, <HI>Corah</HI> and all his complices, the men, houses, goods, all deuoured by the earth,<NOTE PLACE="marg">Numb. 16.35.</NOTE> who onely rebelled againsta
+<HI>Prophet:</HI> Nay <HI>Miriam</HI> a holy women, stroken with a loathsome leprosie onely for a murmure against a <HI>Prophet.</HI> Neither King, nor <HI>Priest,</HI> neither <HI>Iudge,</HI> nor
+<HI>Militarie</HI> man, neither <HI>Captaine,</HI> not <HI>Souldier,</HI> neither <HI>man,</HI> not <HI>woman,</HI> neither <HI>women,</HI> nor
+<HI>children,</HI> haue esca∣ped
+<PB N="30" REF="18"/><HI>vengeance</HI> fot wronging
+<HI>Prophets:</HI> and as if all Gods <HI>creatures</HI> were ready nor onely to <HI>assist</HI> them, but <HI>rel<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>eue</HI> them, euen the most sauage creatures. Crooping Ra∣uens fed <HI>Elias</HI> a <HI>Prophet,</HI> raging <HI>Lyons</HI> preserued <HI>Damelia Prophet:</HI><NOTE PLACE="marg">Chr<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>s<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>st.</NOTE> <HI>Aues pascunt ferae parcunt, homines seuint,</HI> faith <HI>Chrysostome.</HI> Beloued, I onely cast this, dart, at the <HI>despe∣rate</HI> Atheist, who contemnes preaching, and is onely <HI>wittie</HI> in this kinde of <HI>wickednesse.</HI> Let it bee your <HI>care,</HI> yee <HI>watchfull</HI> Senators of this great
+<HI>Citty</HI> to giue all en∣couragement to this holy exercise, when it was
+<HI>threatned</HI> by some <HI>popish Courtiers,</HI> in the siry raigne of Queene <HI>Mary</HI> that the Court should be <HI>remooued</HI> from the
+<HI>City,</HI> which would cause the <HI>Cities pouertie,</HI> it was nobly and <HI>resolutely</HI> answered by the <HI>Lord-maior,</HI> they feared not, vnlesse they could also remooue the <HI>currant</HI> of the Thames. Beloued, so long as the <HI>currant</HI> of the <HI>Gospell</HI> shall engirt your <HI>Citie,</HI> well are ye, and happy shall yee be. Giue all Christian <HI>encouragement</HI> that the sound of preaching may be heard in your streetes; it were a bles∣sed suite that in your
+<HI>plantation</HI> of IRELAND that <HI>Land of</HI> IRE, where Gods wrath hath abounded for the want of the <HI>Gospell,</HI> yee endeauoured by those
+<HI>reuerend</HI> Byshops that his sacred Maiestie placeth there toset∣tle faithfull, painefull <HI>Preachers,</HI> in your new Citties: The
+<HI>Londiner</HI> may <HI>plant,</HI> the <HI>Courtier</HI> may <HI>water,</HI> the <HI>Preacher</HI> onely by Gods assistance must <HI>bring soorth</HI> the encrease.<NOTE PLACE="marg">Plat.</NOTE> There were sometimes no <HI>Physitians</HI> in <HI>Athens,</HI> one wondered at it, and questioned it, but receiued this <HI>answere,</HI> because no reward for Phisitians: <HI>Yee haue Preachers as plentifully as any Citie</HI> of the world, you may <HI>blesse God for this: They haue in some places among you, as bountifull rewards as men of any vocation in the world, they may blosse God for this: Lawyers may watch ouer and deuour your states; Phisitians watch ouer and destroy your healths: Only preaching is able to saue your soules. All ha<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>e neede of this: Many worthy consecrate their sonnes to this; some
+<PB N="31" REF="18"/>good soules I hope take comfort in this. Beloued, if there bee any consolution in Christ Iesus, if any comfort of loue, if any fellowshippe of the Spirit, if any bowells and mercies open your hands, and at length bring foorth fruits of such plentisull prea∣ching.</HI> Sit ye <HI>idle</HI> in the market, <HI>idle</HI> in the vineyard, <HI>idle</HI> in the Temple? The trumpe of <HI>an Archangell will terrisie you, the song of mercy shall be silenced, the voice of the Turtle shall cease: Athens</HI> was <HI>Mater studiorum, nouerca virtutū: Shall London abound in preaching, and abound in sinning, what is this, but to kill the Prophets, and build their Sepul∣chres</HI> It was
+<HI>Diues</HI> charitie, to send out from the dead, to preach to his brethren; But now it is our Sauiours mercy he is <HI>risen</HI> from the
+<HI>dead,</HI> and is come to preach the resurrection, and the life, and you partake those things, which the <HI>Angells</HI> desire to looke into, and are neuer satisfied with looking therein, 1 <HI>Pet.</HI> 1.2. where∣fore
+<HI>I beseech you, Blessed</HI> and Beloued, by the care yee haue of your owne soules, by your hope of saluation, by all the mercies of God, by all the merits of Christ Ie∣sus, by his agony and bloudy sweate, by his
+<HI>crosse</HI> and <HI>passion,</HI> by his pretious death and
+<HI>buriall,</HI> by his glorious <HI>resurrection,</HI> &amp;
+<HI>ascension,</HI> let not your <HI>preaching</HI> of <HI>life,</HI> be the sauour of death. Let at length <HI>preaching,</HI> purge your streets of <HI>vnlawfull-gaine, clense</HI> your <HI>shoppes</HI> of <HI>deceit, melt</HI> your <HI>salse ballances, quench</HI> your <HI>lust, coole</HI> your <HI>lusts, abate</HI> your <HI>pride, asswage</HI> your <HI>malice, confound</HI> your couetous <HI>vicious deuises;</HI> that you may be restored to <HI>righteousnes,</HI> and <HI>holinesse,</HI> to the
+<HI>Image</HI> of him that hath called you: I should not end this
+<HI>point</HI> till you beginne the <HI>practise,</HI> but the
+<HI>starre</HI> leades mee, I must follow further, for this Gospell
+<HI>goeth further,</HI> this <HI>Gospell</HI> shall <HI>be preached through the whole world.</HI> My third part.</P>
+<P>There was light in <HI>Goshen,</HI> when darkenesse in all
+<HI>E∣gypt:</HI><NOTE PLACE="marg">3</NOTE> that was strange, but there was darkenesse in the <HI>Temple,</HI> when all the earth was full of
+<HI>glory.</HI><NOTE PLACE="marg">Esay 6.3.4.</NOTE> <HI>Glory</HI> in the earth, in the whole earth, the whole earth full of <HI>glory,</HI>
+<PB N="32" REF="19"/>and the <HI>Temple</HI> full of
+<HI>smoake,</HI> it is more strange then that in <HI>Sodome,</HI> a iust man was found, when <HI>in Ierusalem</HI> there was not one <HI>good man. Darknesse</HI> in the <HI>Temple,</HI> when light in all the
+<HI>world?</HI> If the <HI>eye</HI> be darke how great is that
+<HI>darknesse?</HI><NOTE PLACE="marg">Origen. in Esa. <HI>6.</HI></NOTE>
+<HI>Origen</HI> tells vs, this was a manifestation of the <HI>preaching</HI> of the Gospell, to the <HI>Gentiles,</HI> and a blinding of the eyes of the
+<HI>Iewes.</HI> But our Sauiour was sent rather to the <HI>Iewes</HI> then
+<HI>Gentiles,</HI> I am not sent but to the lost sheepe of the house of
+<HI>Israell,</HI> go not into the <HI>Gentiles,</HI> but to the lost sheepe of the <HI>house</HI> of <HI>Israell,</HI> here is that light as in the <HI>Temple,</HI> and darknesse ouer all the earth, and cruell
+<HI>habitation?</HI> How shall this <HI>Gospell</HI> bee preached throughout the world, when the <HI>Gentiles</HI> the greatest part of the world were denied the <HI>Gospell?</HI> Saint <HI>Hierome</HI> answereth that the Lord would not partake the Gospell to the Gentiles,<NOTE PLACE="marg">Hierom.</NOTE> before it had beene offered the Iewes; It was
+<HI>Paul</HI> and <HI>Barnabas</HI> speech, <HI>Act.</HI> 13.46. It was necessarie that the word of God, should be first <HI>spo∣ken to you,</HI> but seeing yee put it from you, loe wee turne to the
+<HI>Gentiles:</HI> Heere the <HI>Temple</HI> was full of <HI>smoake,</HI> and all the world full of glorie. The <HI>Iewes</HI> indeede had a light and whether this <HI>light</HI> were the seate of the <HI>Church,</HI> or scepter of the <HI>Kingdome,</HI> or <HI>Law</HI> of <HI>Moses</HI> proper it was to the Iewes. It was but <HI>lucerna</HI> a lampe, and at length extinguished: But when the light was conueied to the <HI>Gentiles,</HI> it was <HI>Lucifer</HI> the day starre sprung in their hearts,<NOTE PLACE="marg">2 <HI>Pet.</HI> 1.19.</NOTE> Saint <HI>Peter</HI> so distinguisheth, 2 <HI>Pet.</HI> 1.19. the Law was <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> a law shining in a darke place, the Gospell <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> the day starre in the dawning of the day, well might our Sauiour be called the light of the <HI>Gentiles,</HI><NOTE PLACE="marg">Ch<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>s st m</NOTE> for he appeared by a star to the <HI>Gentiles: Quare per stellam, quare magis per stellam,</HI> saith <HI>Chrysostome,</HI> as the mother of
+<HI>Sisera</HI> answereth her selfe so doth he, the <HI>star</HI> was as fit a signe for the <HI>Magi</HI> as the <HI>lambe</HI> for the
+<HI>Shepheards,</HI> the <HI>lambe</HI> was <HI>borne, Shepheards</HI> are first told, of the <HI>lambe</HI> among the <HI>Iewes:</HI> the light of
+<PB N="33" REF="19"/><HI>Israell</HI> appeared, men in the
+<HI>starres</HI> are directed by this star, Christ Iesus is the bright morning <HI>star, Reu.</HI> 22.16. hee must be the light of the
+<HI>Gentiles, Lucerna Moses, Lu∣cifer Christus, Iohannes vox, Christus verlū: Moses</HI> was e∣nough for <HI>Ierusalem,</HI> the Church of the
+<HI>Iewes</HI> the <HI>day∣star</HI> must be the light of the <HI>Gentiles, Iohn Baptist</HI> the voice enough for the <HI>wildernesse,</HI><NOTE PLACE="marg">Chrysost.</NOTE> <HI>Christ</HI> the Word prea∣ched through the <HI>world. Ante resurrectionem, ne abteritis post resurrectionem, ite predicate,</HI> before the resurrection, this <HI>commandement</HI> go not into the way of the <HI>Gentiles,</HI> after, <HI>go teach all nations:</HI> This text is then the <HI>prophesie</HI> of the generall preaching of the Gospell after the resurre∣ction. Our Sauiour being driuen out of the
+<HI>Temple,</HI> presently healed a man blinde from his birth:<NOTE PLACE="marg">Theoph. Nazianz. Bede. Aquin.</NOTE> the <HI>Greeke</HI> Fathers, and of the latine, <HI>Bede, Aquinas,</HI> and others, expound this of Christ being driuen from the Iewes, he healed the <HI>Gentiles</HI> blinde from their birth. Many <HI>col∣lections</HI> to this purpose the destroying
+<HI>Angell</HI> in the <HI>pesti∣lence</HI> in <HI>Dauids</HI> time, sheathed his sword, not ouer the house of a Iewe, but ouer the house of
+<HI>Araumah</HI> a Iebu∣site, a Gentile: The Arke was brought home, not to
+<HI>Dauids</HI> house, but to the house of <HI>Obed Edom,</HI> a
+<HI>Gittite,</HI> a Gentile: Before, <HI>Abrahams</HI> buriall place, was purcha∣sed of a stranger, a <HI>Gentile;</HI> the place to build the
+<HI>Tem∣ple</HI> bought of a <HI>stranger</HI> a <HI>Gentile,</HI> the field on which the <HI>Iewes</HI> bestowed <HI>Iudas</HI> 30. peeces, was bought to bury strangers <HI>Gentiles, Iob</HI> from <HI>Hus, Ruth</HI> from <HI>Moab, Ra∣hab</HI> from <HI>Iericho, Salomons</HI> wife from <HI>Egipt,</HI> the famous Queene from <HI>Sheba,</HI> first fruites of the <HI>Gentiles;</HI> the Wisemen that came to Christ, the <HI>Centurion</HI> the honou∣rable Souldier, <HI>Zacheus</HI> the great Vsurer, <HI>Stephen</HI> the first Martyr, <HI>Cornelius</HI> the Captaine, <HI>Simon</HI> the Tanner, Queene of
+<HI>Candaces</HI> Eunuch, were all Gentiles. I deny not but some parts of the Gospell were knowne, to the heathen before they were <HI>preached,</HI> that Christ should be borne, the <HI>Sibills foretold</HI> it, that hee should bee the
+<PB N="34" REF="20"/><HI>Redeemer, Tully de diuinatione:</HI> Of his miracle, <HI>Tacitus</HI> is not silent in his 5. booke: Of the Wise-mens starre, <HI>Pliny</HI> in his 2. booke: Of the <HI>Innocents, Macrobius</HI> in his <HI>Sa∣turnals:</HI> that Christ was the word, <HI>Plato</HI> in
+<HI>Timaeo:</HI> that by this word all things were made, <HI>Amitius</HI> the
+<HI>Platonist</HI> ac∣knowledgeth: that Christ suffered,
+<HI>Dionisius</HI> the Atheist: But this was not <HI>enough,</HI> our Sauiour that would haue all men saued, and to come to the knowledge of the
+<HI>truth,</HI> would <HI>haue all the ends of the world to heare of the saluation of our God.</HI> He sent the Apostles to all nations:
+<HI>Peter</HI> into <HI>Antiochia, Iohn</HI> into <HI>Asia, Iames</HI> to
+<HI>Syria, An∣drew</HI> to <HI>Scithia, Phillip</HI> into <HI>Gallia, Thomas</HI> into <HI>Parthia, Bartholomew</HI> into <HI>Armenia, Mathew</HI> in
+<HI>Ethiopia,</HI> and <HI>Simon Zelotes</HI> into <HI>Mesopotamia,</HI> and vnto this Land, <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, either Saint <HI>Paul</HI> as
+<HI>Theodoret</HI> affirmes, or Saint <HI>Peter</HI> as <HI>Baronius,</HI> or
+<HI>Ioseph</HI> of <HI>Arimathea</HI> as most deliuer: So that it is not only as the <HI>Psalmist</HI> sang, Praise the Lord ye house of
+<HI>Leui,</HI> praise yee house of <HI>Aaron,</HI> praise the Lord yee house of <HI>Israell,</HI> but praise the Lord all yee <HI>Nations,</HI> praise him all yee <HI>Gentiles,</HI> all they that feare the Lord praise the Lord in all places of his <HI>Do∣minion,</HI> praise the Lord,<NOTE PLACE="marg">Psal.
+117.1.</NOTE> for the sound of the Gospell <HI>is gone out</HI> into all the earth, and the preaching thereof vn∣to the ends of the world, from
+<HI>which light of the Gentiles,</HI> we gather this light of
+<HI>Doctrine,</HI><NOTE PLACE="marg">Doct.</NOTE> That all the world shall see the <HI>saluation</HI> of our God; the <HI>Reason,</HI> because hee will haue all inexcusable, send to al, come to all, preach to all, in all places of his <HI>Dominions: It was his Law in Deut.</HI><NOTE PLACE="marg">Deut. 10.</NOTE> 10. <HI>that no Citty should be destroyed before he offered Peace vn∣to it, and though hee alwaies haue his iudgement ready, his bow bent, his arrowes prepared, his sword sheathed, his cuppe mingled, his weapons burnished,</HI> yet before his storme of
+<HI>iudgement,</HI> he sends a showre of <HI>mercy, warning</HI> before
+<HI>woe:</HI> Euen <HI>Niniueh,</HI> and <HI>Tyrus,</HI> and <HI>Babylon,</HI> and <HI>So∣dome</HI> had warning; before hee will iudge the <HI>world</HI> with righteousnesse, he will shew them the light of his
+<HI>counte∣nance,</HI>
+<PB N="35" REF="20"/>his way shall bee knowne vpon earth, his sauing health among all <HI>nations:</HI> But is this fulfilled, <HI>it was Da∣uids prophesie, their sound is gone into all Lands,</HI><NOTE PLACE="marg">Psal. 19.5.</NOTE> Psalm. 19.5. <HI>Esayes proclamation, Hearken ô yee Iles, heare yee people that dwell from farre.</HI><NOTE PLACE="marg">Esay. 49.1. Math. 28.20.</NOTE> Esay 49.1. <HI>Christs iniunction, Go teach all nations,</HI> Math. 28.20. <HI>Remission of sinnes shall be preached to all nations,</HI><NOTE PLACE="marg">Luk. 24.47. Mark. 16.20.</NOTE> Luk. 24.47 <HI>they preached eue∣ry where,</HI> Mark. 16.20
+<HI>It is true, Quoad ad vitam crea∣uit, ad veniamre dimere voluit. I will poure my Spirit</HI> (saith God) <HI>vpon all flesh,</HI> and againe,
+<HI>all flesh shall see the salua∣tion of God,</HI> and all the ends of the <HI>world</HI> haue seene the <HI>saluation</HI> of our God.
+<HI>Chrysostome, Euthimius, Theophi∣lact, Euscbius, Anselme</HI> affirme this generall publicati∣on, and <HI>Chrysostome</HI> vpon
+<HI>Math,</HI> thinketh it was <HI>accom∣plished before Ierusalem</HI> was demolished. But <HI>Origen,</HI> and <HI>Ierome,</HI> and <HI>Ambrose,</HI> and <HI>Austin.</HI> and <HI>Gregory,</HI> and <HI>Bede,</HI> and the
+<HI>Authour</HI> of the imperfect worke vpon <HI>Mathew,</HI> and most of the
+<HI>Moderne,</HI> thinke that this Gospell was not then, or is now so generally <HI>knowne,</HI> because this is the last signe of the last dayes: <HI>Cyrill, Damascene,</HI><NOTE PLACE="marg">Cyrill Damascen. Theodoret. Austin in hunc locum.</NOTE> <HI>Theodo∣ret,</HI> expound those places, <HI>non adhuc esse vniuersalitatem praedicationis, sed esse implendā hanc vaticinationē successione temporis: Austin</HI> to this purpose, <HI>verba Matthei non ad∣huc completa, sed esse complenda, Aquinas,</HI> to the same purpose, <HI>Vera sunt Mathei verba,</HI><NOTE PLACE="marg">Reuel.</NOTE> <HI>non respectu generalis praedicationis, sed propter certitudinem diuinae praeordinatio∣nis.</HI> It is Saint
+<HI>Ambrose</HI> obseruation, that the <HI>Elders</HI> spake to the
+<HI>Lambe, Redimisti nos, ex omni tribu, lingua, populo, natione, non dixit omnem tribum, omnem populum, omnemlinguam,</HI> herein <HI>incomplete generis distributio,</HI> as in this <HI>go teach all nations,</HI> that is some of all. But this <HI>au∣swere</HI> is not full: The best <HI>answere</HI> of the former <HI>Authors</HI> is <HI>Thomas, vtitur praeterito pro futuro,</HI> or this <HI>Euangelis fa∣ma in omnibus gentibus praedicatur, at Ecclesia in omnibus Gentibus non adhuc aedificatur:</HI><NOTE PLACE="marg">Aust. ad Hesich.</NOTE> And <HI>Zanchius</HI> concludeth all, <HI>Certum est Euangelium ad omnes gentes pertinere, non
+<PB N="36" REF="21"/>adhuc ad omnes pernenire;</HI> for in the time of Saint <HI>Austin</HI> there were as he witnesseth some Nations
+<HI>quos nec acce∣perant, ne{que} andiuerant.</HI> For the Gospell in the primitiue Church was <HI>Orbis ludibrium, &amp; opprobrium.</HI> And long after in the time of <HI>Prudentius,</HI><NOTE PLACE="marg">Prudent.</NOTE> <HI>Nunc dogmanobis Christi∣anum nascitur post euocatos demum inde consules.</HI> It was a Prophesie, euery age fulfilleth a <HI>peece</HI> of it, the neerer the <HI>world</HI> to the <HI>consummation,</HI> the more generall should be the Gospells <HI>publication.</HI><NOTE PLACE="marg">Minut. Fel.</NOTE> <HI>Ingratinos,</HI> saith <HI>Min: Faelix,</HI> we are vnthankfull, the <HI>Gospell</HI> groweth more ripe in our time,<NOTE PLACE="marg">Copern.</NOTE> some think the <HI>sun</HI> euery yeer descendeth so much neerer the earth, certainely the
+<HI>Gospell</HI> in euery age, shi∣neth more plentifully in the world. The Gospell shall be preached through the <HI>world,</HI> blessed are they that haue <HI>a hand</HI> to helpe such a worke. That it is by
+<HI>Scrip∣ture</HI> said to haue beene <HI>preached</HI> to all nations, that speech is to be referred, either to <HI>Prophecie,</HI> or to be vn∣derstood by the <HI>Synecdoche,</HI> or <HI>Hyperbole.</HI> Certaine it is, that yet it is not so <HI>preached,</HI> &amp; as <HI>certain</HI> that this Gospel shall be preached. <HI>Lyra</HI> vpon the words of Christ go teach all <HI>nations,</HI><NOTE PLACE="marg">Lyra.</NOTE> <HI>Hic diuulgatio Dominicae resurrectionis,</HI> behold by this Commislion a
+<HI>diuulgation</HI> of Christs <HI>re∣surrection,</HI> and of all the parts of the <HI>Gospell,</HI> that euer haue beene published, none more generally then this. The <HI>Scribes</HI> asked a signe, Christ giues them no signe, but of the Prophet <HI>Ionas:</HI><NOTE PLACE="marg">Math.
+12.39.</NOTE> the <HI>Pharises</HI> they asked a signe, Christ answers, no signe, but the signe of the Prophet <HI>Ionas:</HI><NOTE PLACE="marg">Mark. 8.11.</NOTE> At the same time <HI>Saduces</HI> came, and haue the same <HI>answere,</HI><NOTE PLACE="marg">Math. 16.4.</NOTE> no signe, but of the Prophet <HI>Ionas: Iewes, Scribes, Pharises, Saduces,</HI> no signe, but of the resurre∣ction. Aboue all other
+<HI>duties,</HI><NOTE PLACE="marg">Act. 1.8.</NOTE> he required his Apostles should in <HI>Hierusalem, Iudea, Samaria,</HI> and vnto the vt∣termost parts of the earth bee witnesses to him: of all o∣ther points, witnesses of his resurrection. Therefore <HI>Peter</HI> first,<NOTE PLACE="marg">Act. 1.22. Act. 2.32.</NOTE> in his first Sermon in
+<HI>Ierusalem</HI> witnesseth that God hath raised vp <HI>Iesus: Peter</HI> and <HI>Iohn</HI> preach this
+<PB N="37" REF="21"/>to the <HI>Sadduces,</HI> The resurrection of
+<HI>Iesus, Acts</HI> 4.2. <HI>Paul</HI> and <HI>Silas</HI> testifie this to the deuout <HI>Greekes,</HI> Christ that hath suffered is risen,
+<HI>Acts</HI> 17.3. And of all other Apostles, <HI>Paul</HI> as if he had beene the Apostle of the <HI>re∣surrection,</HI> is most plentifull. No
+<HI>Prophet,</HI> no <HI>Apoctle</HI> euer more abundant in any point, then he in the <HI>resur∣rection.</HI> To the <HI>Romans,</HI> Christ rose againe for our <HI>righ∣teousnesse, Rom.</HI> 4.25. To the <HI>Corinthians,</HI> Christ died and rose againe, 2 <HI>Cor.</HI> 5.15. To the
+<HI>Thessalonians,</HI> Christ died and rose againe, 1
+<HI>Thess.</HI> 4.14. To the <HI>Philippians,</HI> The power of Christs
+<HI>resurrection, Phil.</HI> 3.10. To <HI>Timo∣thie,</HI> The resurrection of Christ who abolished death, 2 <HI>Tim.</HI> 1. In a word, he preached no other <HI>Doctrine</HI> to the <HI>Grecians</HI> of <HI>Thessalonica,</HI> to the <HI>Stoicks</HI> at <HI>Athens,</HI> to the <HI>Scribes</HI> and
+<HI>Pharises</HI> in <HI>Ierusalem,</HI> to <HI>Festus</HI> and
+<HI>Agrippa</HI> at <HI>Caesarea:</HI> In euery <HI>Court</HI> where he was questi∣oned, he crieth out, <HI>I stand for the resurrection of the dead,</HI> as if ready to preach through the world that this <HI>Gospell</HI> is to be preached to all Nations.</P>
+<P>The vse of which point,<NOTE PLACE="marg">Vse.</NOTE> of the generall preaching of the <HI>resurrection</HI> of Christ through the world, should stirre vs vp to a thankfull acknowledgement of the plentifull enioying of this mercy. It is <HI>the manifold grace of God,</HI> 1
+<HI>Pet.</HI> 4.10. <HI>The exceeding grace of God, Rom.</HI> 5.15.<NOTE PLACE="marg">1 Pet. 4.10. Rom. 5.15. 1 Tim 1.14. Psal. 130.7.</NOTE> <HI>The superabundant grace of God,</HI> 1 <HI>Tim.</HI> 1.14. <HI>The plente∣ous Redemption of the Lord, Psal.</HI> 130.7. That wee that <HI>sate in darknesse, and in the shadow of death,</HI> haue seene this great light: that wee haue euen from the <HI>beginning</HI> of the <HI>faith</HI> receiued this <HI>faith.</HI> I know our <HI>Aduersaries</HI> doe claime the honour of <HI>conuerting</HI> our <HI>Nation:</HI> Were it so, we might complaine that the <HI>Euill man</HI> hath sowne <HI>Tares.</HI> But as the
+<HI>field</HI> was sowne with <HI>seed</HI> by the <HI>hus∣bandman</HI> before the <HI>Aduersarie</HI> sowed <HI>Tares,</HI> so wee had
+<HI>Religion</HI> before they knew <HI>Superstition.</HI> They attribute much to <HI>Austine</HI> their <HI>Monke,</HI> who was as farre from the steps as time of blessed <HI>S. Austine.</HI> For which <HI>Monk,</HI> it
+<PB N="38" REF="22"/>is vpon record, that neither his <HI>pride</HI> could stoope to such a <HI>labour,</HI><NOTE PLACE="marg">Gildes. B<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>de.
+<HI>Gen. 22.14.</HI> I<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> B<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>nger in Wal<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>s <HI>one and twenty hun∣dred Monkes, 1. Archbishop, and 7. <GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>eac<GAP DESC="illegible" RESP="pdcc" EXTENT="3 letters" DISP="•••"/>d <GAP DESC="illegible" RESP="pdcc" EXTENT="4 letters" DISP="••••"/>ops in tho<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>e parts of</HI> <GAP DESC="illegible" RESP="pdcc" EXTENT="1 span" DISP="〈…〉"/> Saxon
+<HI>Chron of</HI> Peterborough Au<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>in <HI>the blacke bloudy proud an<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> l<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ng Monke in his spleene to</HI> <GAP DESC="illegible" RESP="pdcc" EXTENT="1 word" DISP="〈◊〉"/>, <HI>d<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ew infinite bloud, and d<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>stroyed more</HI> b<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>d<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>s <HI>then euer Po∣perie saued</HI> soules.</NOTE> nor his
+<HI>learning</HI> deserued any such <HI>honour. Gildas</HI> and
+<HI>Bede,</HI> and our owne Chronicles tell vs, that the ancient and noble
+<HI>Britaines</HI> first receiued the faith among vs, as if <HI>Dominus i<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> monte,</HI> the Lord would bee worshipped first in the mountaine. Then
+<HI>Britaine</HI> was the <HI>fleece</HI> with the <HI>deaw,</HI> and all the surrounding Coun∣tries as <HI>Gedeons</HI> fleece <HI>drie;</HI> though now this, as <HI>Gedeons</HI> fleece full of <HI>deaw,</HI> and the mountainous parts as <HI>Gede∣ons</HI> floore now <HI>drie,</HI> by the
+<HI>desolation</HI> of the <HI>Church</HI> there, and by the
+<HI>negligence,</HI> or <HI>ignorance,</HI> or <HI>indulgence,</HI> or all, of those that should ouersee it. But for that <HI>Mounte∣banke Austine</HI> the <HI>Monke,</HI> hee <HI>supplanted Religion</HI> there, neuer <HI>planted</HI> it here. <HI>Beda</HI> mentioneth his
+<HI>prodigious</HI> insufferable pride, which made the reuerend <HI>British Bi∣shops</HI> refuse him. If he were our <HI>Apostle,</HI> or
+<HI>Euangelist,</HI> as <HI>Hierome</HI> said to <HI>Iouinian, Si Apostolus,</HI> If he were our <HI>Apo∣stle,</HI> where did he preach? If our <HI>Euangelist,</HI> what did he write? As <HI>Varus</HI> spake of
+<HI>Ʋalerius,</HI> He entred the Land <HI>poore,</HI> and left our Church
+<HI>poore;</HI> hee caused the death of many <HI>bodies,</HI> and it is doubt he neuer gained <HI>soules.</HI> It hath beene our <HI>Aduersaries</HI> generall claime, as that madde man in <HI>Athenaeus,</HI> who claimed all the ships came into the <HI>harbour;</HI> or as the <HI>Deuill</HI> on the
+<HI>Pinnacle,</HI> All the Kingdomes of the earth: so they claime to bee the only <HI>conuerters</HI> of <HI>Nations,</HI> and they the generall
+<HI>Preachers</HI> of the <HI>Gospell.</HI> Whereas they neuer yet
+<HI>prea∣ched</HI> wheresoeuer they came but vpon one especiall Text; and in all parts of the world where they haue beene, they haue preached that so
+<HI>powerfully,</HI> that their <HI>hearers</HI> haue <HI>wept,</HI> and
+<HI>bled,</HI> and <HI>died</HI> for learning that Doctrine. Their Text is,
+<HI>Matth.</HI> 10.34. <HI>I came not to send peace, but a sword.</HI> Looke but vpon the estate of <HI>India,</HI> which as <HI>Vesputius</HI> testifieth was conuerted by <HI>S. Thomas,</HI> where yee may finde more cursed <HI>Prodigies</HI> then euer the <HI>Sunne</HI> beheld in any
+<HI>Mappe of miserie:</HI>
+<PB N="39" REF="22"/>where the <HI>Romish Apostles</HI> did exceed <HI>Cain,</HI> or if possibly <HI>Iudas;</HI> where they
+<HI>rauished,</HI> and then <HI>murthered Queens,</HI> tore <HI>infants</HI> in <HI>peeces,</HI> cast men to <HI>mastiues,</HI> cut children in
+<HI>collops</HI> to feed <HI>dogges:</HI> Happy was his inuention most
+<HI>bloudy. Men</HI> neuer did the like, <HI>Deuils</HI> could doe no more,<NOTE PLACE="marg">Vessus.</NOTE> <HI>Religion</HI> was there (as
+<HI>Vesputius</HI> iustifieth) long before the Gold-hungry, bloud-thirsty
+<HI>Portugall</HI> or <HI>Pope,</HI> was heard of; Churches erected, Bishops esta∣blished, whole Countries baptized. <HI>Orosius</HI> and
+<HI>Lum∣mius,</HI> and <HI>Iunius,</HI> and <HI>Baronius,</HI> tell vs, that
+<HI>S. Thomas</HI> who conuerted the Countrey, lieth buried there, and that from his time they haue had <HI>Patriarkes,</HI> and <HI>Bi∣shops,</HI> and
+<HI>maried Priests,</HI> and <HI>Sacraments</HI> among them. The
+<HI>Romans</HI> descended from <HI>Edom,</HI> say the <HI>Iewes, Edom</HI> had a name of <HI>bloud,</HI> Mount <HI>Seyr</HI> was their
+<HI>possession,</HI> the <HI>Hill of bloud,</HI> and <HI>Acheldama</HI> their <HI>purchase,</HI> the <HI>Field of bloud:</HI> The name of
+<HI>bloud,</HI> and possession of <HI>bloud,</HI> is in the
+<HI>Romish Religion.</HI> Our <HI>English</HI> when once they grow
+<HI>Romish,</HI> against the <HI>Nature</HI> of our <HI>Nation,</HI> become
+<HI>bloudie,</HI> which I impute to the<NOTE N="*" PLACE="marg">The Vine∣yards &amp; some parts of the English Col∣ledge in <HI>Rome</HI> are seated in bloudy <HI>Neroes</HI> ruines.</NOTE> <HI>situation</HI> of the <HI>English Colledge</HI> in <HI>Rome,</HI> which is founded on the ruines of
+<HI>Ne∣roes</HI> house. But of all the stories of <HI>Christians</HI> or
+<HI>Hea∣thens,</HI> of all the <HI>Tragedies</HI> plotted in <HI>hell,</HI> acted vnder <HI>heauen,</HI> neuer any so <HI>horrid,</HI> as the <HI>bloudy Baptisme</HI> of <HI>India</HI> by the vmbragious <HI>Iesuites.</HI> They haue long inten∣ded the second part of that <HI>Tragedie</HI> to be acted here. God grant their <HI>rods</HI> and <HI>scourges</HI> prouided in 88. be not growing <HI>Serpents</HI> and <HI>Scorpions</HI> to bring on Gods bitter
+<HI>seueritie</HI> to plague our base <HI>securitie.</HI> The
+<HI>Gospell</HI> is not further gone into all the world, then their
+<HI>crueltie</HI> is knowne. <HI>Nulla posterit as taceat, sed nulla probet.</HI> Beloued,<NOTE PLACE="marg">Seneca.</NOTE> wee enioy the
+<HI>Gospell</HI> in a more gracious manner then any part of the world: wee enioyed it with the <HI>soonest,</HI> yea and before many parts of the world. When <HI>Brith∣wald</HI> the <HI>Monke,</HI> before the <HI>Conquest,</HI> was carefull about succession of the <HI>Crowne,</HI> hee had a
+<HI>vision,</HI> and heard a
+<PB N="40" REF="23"/><HI>voice,</HI> That the Kingdome of
+<HI>England</HI> was Gods owne Kingdome, and for it God himselfe would prouide. <HI>Boniface</HI> writing to <HI>Edward</HI> the first, giues testimonie, <HI>Anglicanam Nationem non esse subalternam,</HI> that this was one of the principall Nations of <HI>Christendome.</HI> And in the dayes of <HI>Henry</HI> the seuenth, the <HI>Spaniard</HI> challenging the chiefe place in a <HI>Prouinciall</HI> aboue the <HI>English, Iulius</HI> the second sentenced it for <HI>England</HI> before <HI>Spaine.</HI> I speake not this as if the <HI>Popes</HI> fauour could doe vs ho∣nour. For both that
+<HI>Testimonie,</HI> and the Title <HI>Defensor Fidei,</HI> we are no more beholden to the <HI>Pope,</HI> then to his elder brother <HI>Caiaphas</HI> the
+<HI>High Priest</HI> for his <HI>Expedit.</HI> God hath not dealt so with other <HI>Nations:</HI> we can fetch our <HI>Testimonies</HI> from better
+<HI>Authors.</HI> About the 400. yeere,<NOTE PLACE="marg">Chrysos<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>homil. quod Christus Deus. Hilar. de Syno∣dis. Athanas. Apo∣log. secund.</NOTE>
+<HI>Chrysostome</HI> witnesseth, <HI>Insulae Britannicae in ipso Oceano positae, senserunt virtutem Dei.</HI> Before this, in the 360.
+<HI>Hilary</HI> writes, <HI>Prouinciarum Britanicarum Episco∣pis.</HI> Yet before this, in the 300. <HI>Athanasius, Episcopi Bri∣tanniarum sese ad Concilium contulerunt,</HI> speaking of the Councell of <HI>Sardis.</HI> Yet a Century before this, in the 200. yeere <HI>Tertussian</HI> witnessed,
+<HI>Britannorum inaccessa Romanis loca subduntur Christo.</HI> Yet in the very first Cen∣tury, in the very beginning of that Century,
+<HI>Nicephorus</HI> records it,<NOTE PLACE="marg">Nicephorus.</NOTE> <HI>Simon Zelotes doctrinam Euangely ad Insulas Britannicas profert.</HI> More then all this, who could sooner haue this doctrine of the <HI>resurrection,</HI> then we? Who could teach it surer then <HI>Ioseph of Arimathea,</HI> whom the most affirme to <HI>preach,</HI> and <HI>liue,</HI> and <HI>die</HI> with vs? God hath not done so with all <HI>Nations.</HI> Shall it be said of vs, that is obserued of the first borne in the Old Testament, <HI>Priores peiores,</HI> the first <HI>borne,</HI> worst <HI>bred?</HI> Had wee the
+<HI>Gospell</HI> sooner then others, and haue brought forth lesse
+<HI>fruit</HI> then others? In <HI>Iurie</HI> was God knowne, his name was great in <HI>Israel:</HI> At <HI>Salem</HI> in his Tabernacle, and his dwelling in <HI>Zion.</HI> But the <HI>holy Citie</HI> became a
+<HI>harlot,</HI> a <HI>cage,</HI> a <HI>cane,</HI> a <HI>denne,</HI> a
+<HI>dungeon of desolation,</HI> because she
+<PB N="41" REF="23"/>embraced not those things belonging to her
+<HI>peace.</HI> Be∣loued, our <HI>Sauiours</HI> words be thunderbolts,
+<HI>Luk.</HI> 13.3. twice repeated,<NOTE PLACE="marg">Luk 13.3.</NOTE>
+<HI>Except yee repent, yee shall all likewise pe∣rish:</HI> Let them not be as <HI>bruta fulmina,</HI> as lightnings fal∣ling on beasts, not comming to obseruation.<NOTE PLACE="marg">Pli<GAP DESC="illegible" RESP="pdcc" EXTENT="3 letters" DISP="•••"/>.</NOTE> When <HI>Xauerius</HI> came to preach to them of <HI>laponia,</HI> and the people were strangely affected, accusing God to be nei∣ther <HI>mercifull</HI> nor <HI>iust,</HI> if none could bee saued without this <HI>Gospell,</HI> expostulating why had so many regions not knowne it, how miserable their <HI>parents, friends, neighbours</HI> were, who were dead without this <HI>Gospell,</HI> the poore <HI>Indians</HI> with wounded <HI>hearts,</HI> and <HI>streaming eyes,</HI> were answered, that the more carefully they should re∣ceiue this
+<HI>light,</HI> because it was denied to others, though offered to them. God was the <HI>Answer,</HI> though a <HI>Iesu∣ite</HI> the <HI>Author.</HI> Beloued, the <HI>Gospell</HI> that bee preached through the whole world, but God hath not dealt so with all <HI>Nations</HI> as with vs. Our Land is
+<HI>Paradise,</HI> here is the tree of <HI>knowledge:</HI> that tree of alltrees was <HI>Adams</HI> curse. If our knowledge <HI>swell,</HI> and our conscience <HI>pine,</HI> if wee <HI>conceiue</HI> in the <HI>eare,</HI> and be <HI>barren</HI> in the <HI>heart,</HI> if wee grow <HI>rash</HI> in
+<HI>censuring, peremptorie</HI> in <HI>talking, fasti∣dious</HI> in
+<HI>hearing, hard-hearted</HI> in <HI>obeying, hypocriticall</HI> in
+<HI>professing,</HI> let vs not deceiue our selues, our <HI>faith</HI> is a vaine <HI>presuming,</HI> our <HI>holinesse hypocrisie,</HI> our
+<HI>zeale furie.</HI> and better were it not to haue knowne the way of
+<HI>truth.</HI> But I hope <HI>better things</HI> of you all, and therefore I cast <HI>Anko<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/></HI> for my first part, and make more haste with that that followeth. The time is pretious, and my ointment is very pretious.
+<HI>Wheresoeuer this Gospell, &amp;c.</HI> I now be∣ginne with the vniuersall <HI>promulgation</HI> of this ointment. <HI>This that this woman hath done, &amp;c.</HI> First of the Act, This.</P>
+<P><HI>This.</HI>] And what was this?<NOTE PLACE="marg">2. Part.</NOTE> They that take <HI>this woman</HI> to be <HI>Mary Magdalen,</HI> obserue that she neuer came to Christ, but fell at his feet. In the house of the <HI>Le<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>per,
+<PB N="42" REF="24"/>Luk.</HI> 7.38. When she besought him for
+<HI>Lazarus, Iohn</HI> 11.31 When she heard him preach, <HI>Luk.</HI> 10.34. After his resurrection, <HI>Matth.</HI> 28 9 When she anointed him,
+<HI>Iohn</HI> 12.3. A thing most commendable. But this is not the
+<HI>This</HI> that is so <HI>commended.</HI> There is one <HI>strange cir∣cumstance</HI> in this <HI>act</HI> of her <HI>anointing,</HI> neue done to any but our <HI>Sauiour,</HI> and neuer to our <HI>Sauiour</HI> but by this
+<HI>woman,</HI> She wiped his <HI>feet</HI> with the <HI>haire</HI> of her
+<HI>head,</HI> the greatest <HI>humilitie</HI> that might be: The more
+<HI>humble,</HI> the more <HI>happy.</HI><NOTE PLACE="marg">Hierome</NOTE>
+<HI>Nunquid decrat isti mulier<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> sudarium, v<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>l lin∣teolum aliquod,</HI> saith <HI>S. Hierome:</HI> Was her <HI>cintment</HI> so pretious, and she so poore, that shee could not bring a <HI>Napkin,</HI> or <HI>cloth,</HI> or <HI>handkerchiefe? Nihil dignius capillis, nihil proprium magis:</HI> What more dainty? What more worthy? Shee wiped her <HI>Sauiours</HI> feet with the haire of her head. If it were our <HI>Sauiours</HI> promise to the iust,
+<HI>The haires of your head are numbred,</HI> and, <HI>Not so much as a haire of your head shall perish;</HI> then happy of all the <HI>Iust</HI> was
+<HI>Mary,</HI> happy the <HI>haires of her head,</HI> which wiping her teares from the feet of our <HI>Sauiour,</HI> wiped away the faults of her owne
+<HI>soule.</HI> This was honourable, but this is not the <HI>This</HI> that is so commended. The <HI>ointment</HI> was choice, and her choice of the ointment is <HI>commended.</HI> It was <HI>Spikenard. India</HI> is not honoured for <HI>Gold, Babylon</HI> for <HI>Corne, Tyrus</HI> for <HI>Purple, Libanus</HI> for <HI>Cedars, Arabia</HI> for <HI>Spices, Persia</HI> for
+<HI>Oiles,</HI> more then this <HI>oint∣ment</HI> aboue all <HI>ointments</HI> is honoured. Euery <HI>Euangelist</HI> hath a seuerall attribute to honour this ointment: <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>Mark.</HI> 14 3. very sumptuous
+<HI>ointment,</HI> so <HI>Plutarch</HI> vseth the word <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>; <HI>S. Iohn</HI> <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, very honourable oile,
+<HI>Iohn</HI> 12.3. so <HI>Athenaeus</HI> vseth the word
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>; our <HI>Euangelist</HI> <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, ointment of greater honour, and dearer price, <HI>Matth.</HI> 26.7. so <HI>Suidas</HI> vseth the word <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>. Nay <HI>Iudas</HI> gi∣ueth the
+<HI>ointment</HI> praise enough, though he condemne the <HI>act,</HI> though he murmur out, <HI>To what purpose is this
+<PB N="43" REF="24"/>waste?</HI> which was a strange question, that the sonne of <HI>perdition</HI> should aske <HI>Quorsum perditio haec?</HI> when neuer any thing was lost by our <HI>Sauiour,</HI> but this
+<HI>sonne of perdi∣tion,</HI> whose damned <HI>murthering murmur</HI> this was, <HI>Quor∣sum perditio? Peraitio tua exte Iuda, Iudas,</HI> thou sonne of <HI>perdition,</HI> thou art thy owne <HI>perdition.</HI> But <HI>Iudas</HI> (I say) did praise this <HI>ointment,</HI> nay praise it more then any other, esteemed it farre more worth then hee esteemed his
+<HI>Master,</HI> for he sold his <HI>Master</HI> for 30. <HI>peeces,</HI> in the 15. verse of this chapter, and val<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ed this ointment at 300. <HI>pence, Iohn</HI> 12.5. The ointment was <HI>Spik<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>nard, pretious,</HI> very
+<HI>pretious,</HI> yet it is not the <HI>ointment</HI> that is so praised. This is not the <HI>This:</HI> What then was this <HI>This?</HI> Sure though not the <HI>ointment,</HI> yet the <HI>anointing</HI> might be so
+<HI>commended.</HI> It was indeed much that shee <HI>bought,</HI> and
+<HI>brought,</HI> and <HI>vsed</HI> the <HI>ointment,</HI> imployed her ende∣uour, and her <HI>earnest labour,</HI> in the <HI>anointing</HI> of Christ. We neuer reade that our <HI>Sauiour</HI> had any <HI>gifts</HI> giuen him, but <HI>Gold,</HI> and <HI>Spices,</HI> and <HI>Ointments:</HI> The Wise men offered <HI>Gold,</HI> as to a <HI>King;</HI> and <HI>Spices</HI> for
+<HI>Incense,</HI> as to a <HI>God;</HI> and this woman <HI>ointments</HI> twice, as to a <HI>Man: Royaltie</HI> is noted in the <HI>Gold, Diuinitie</HI> by the <HI>Incense, Mortalitie</HI> by the <HI>Ointment.</HI> So Christ applieth it in the 12. verse, <HI>In that she powred this ointment on my body, shee did it for my buriall.</HI> Neuer was he otherwise anointed: He was anointed (saith <HI>Damascene</HI>) spiritually.<NOTE PLACE="marg">Damase.</NOTE> <HI>Corpus diuinit ate sua vngens vt Deus, vnctus vt homo, quandoqui∣dem &amp; hoc &amp; illud est.</HI> Otherwise corporally he was not anointed, he needed not, hee vsed no other ointment, yet fit it was this woman should so anoint him, though not fit to anoint him as <HI>Aaron</HI> the Priest was anointed, <HI>Leuit.</HI> 3. or
+<HI>Dauid</HI> the King, 1. <HI>Sam.</HI> 10. or <HI>Elisha</HI> the Prophet,
+1 <HI>Kings</HI> 19. for wee haue receiued anointing from him, saith <HI>S. Iohn,</HI> 1 <HI>Iohn</HI> 2.27. yet I say fit it was, for it was a Prophecie, that Christ should be so anoin∣ted, <HI>Psal.</HI> 23 5. anointed so at the <HI>Table,</HI><NOTE PLACE="marg">Psal. 23.5.</NOTE> Thou prepa∣rest
+<PB N="44" REF="25"/>a <HI>Table</HI> before mee, saith the
+<HI>Psalmist,</HI> thou anoin∣test my head with <HI>oile.</HI> This is
+<HI>somewhat,</HI> yet this is not the <HI>This</HI> that is so commended:
+<HI>somewhat</HI> it is, yet, what it is wee know not. It was our
+<HI>Sauiours</HI> speech, When thou <HI>fastest,</HI><NOTE PLACE="marg"><HI>Matt.</HI> 6.17. <HI>Lyra.</HI></NOTE> anoint thy <HI>head, Matth.</HI> 6.17. <HI>Palestinis mos erat in Festis caput vngendi,</HI> saith <HI>Lyra;</HI> In <HI>Palestine</HI> they vsed in their
+<HI>Feasts</HI> to anoint their <HI>heads.</HI> But our <HI>Sauiour</HI> altereth that custome, When thou <HI>fastest,</HI> anoint thy
+<HI>head.</HI> In this act the command of our <HI>Sauiour,</HI> and the custome of the <HI>Countrey,</HI> though contrary one to the other, are fulfilled. Christ at the feast is <HI>anointed,</HI> this was the
+<HI>custome</HI> of the <HI>Countrey; Mary</HI> fasteth and
+<HI>anointeth</HI> her <HI>head,</HI> her <HI>head</HI> was <HI>Christ,</HI> here is the com∣mand of <HI>Christ:</HI> this is the <HI>This,</HI> She anointed her <HI>head Christ, in the 7. verse she anointed the
+<HI>head</HI> of her <HI>head Christ.</HI> Not the <HI><GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ile,</HI> though
+<HI>pretious;</HI> nor the <HI>endeuour,</HI> though <HI>laborious;</HI> nor the <HI>action,</HI> though <HI>religious;</HI> but the ma<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ner of the
+<HI>action</HI> made the <HI>ointment</HI> odoriferous. God (say the
+<HI>Canonists</HI>) loueth <HI>Aduerbes</HI> better then <HI>Adiectiues: Non quàm bonum, sed quàm bene;</HI> Not the <HI>matter,</HI> but the <HI>manner</HI> receiues the <HI>commendation.</HI> It is <HI>Origens</HI> note,<NOTE PLACE="marg">Luk. 7.37.</NOTE> that the <HI>ointment</HI> of the sinfull woman in <HI>Luke</HI> hath no <HI>commendation:</HI> A woman that was a <HI>sinner</HI> in the <HI>City,</HI> brought an <HI>Alablaster box</HI> of ointment, shee brought <HI>ointment,</HI> but <HI>Mary</HI> very pretious <HI>ointment;</HI> she anointed his <HI>feet,</HI> but <HI>Mary</HI> anointeth his <HI>head: Mary</HI> hath chosen the better part.<NOTE PLACE="marg">Chrisolog.</NOTE> <HI>At quaenam haec huius capitis vnctio?</HI> saith <HI>Chrisologus:</HI> What meant this anointing of his <HI>head?</HI> For it may seeme <HI>rash,</HI> and <HI>rude,</HI> that a <HI>wo∣man</HI> how good soeuer, should suddenly when our <HI>Saui∣ur</HI> sate at
+<HI>meat,</HI> powre <HI>ointment,</HI> how pretious soeuer, vpon his
+<HI>head,</HI> and <HI>face:</HI> Either there is some <HI>mysterie</HI> in it, or it had neuer beene so commended. Some tell vs that herein was
+<HI>Agnitio Diuinitatis,</HI> o<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>hers <HI>Contemplatio Resurrectionis,</HI> to which the Text giueth <HI>warrant,</HI> others <HI>Confessio Maiestatis &amp; Gloriae Christi. Origen</HI> on this place,
+<PB N="45" REF="25"/><HI>Opus bonum quod fecimus propter Deum,</HI><NOTE PLACE="marg">Origen.</NOTE> <HI>&amp; secundum De∣um, &amp; ad gloriam Dei, est vnguentum super caput Christi effusum.</HI> And
+<HI>Chrysostome</HI> applieth it so;<NOTE PLACE="marg">Chrys st.</NOTE> <HI>Caput Christi vngas, si omnia in Christi gloriam referas. S. Bernard</HI> the same words; <HI>Gloria quae ex bonis actionibus proficiscitur,</HI><NOTE PLACE="marg">Bern.</NOTE> <HI>ad Deum referenda. Contrition</HI> by <HI>repentance</HI> doth wash Christs <HI>feet, Deuotion</HI> by <HI>faith</HI> anointeth his <HI>head, Almes</HI> doe anoint his <HI>feet, Praier</HI> powres the ointment on his <HI>head, Workes of mercy</HI> may wash his <HI>feet,</HI> but yeelding him due <HI>glory</HI> doth anoint his <HI>head:</HI> This is the <HI>This</HI> receiueth this
+<HI>reward,</HI> Shee gaue <HI>glory</HI> to God by this <HI>action;</HI> by this <HI>vnction,</HI> her light did shine before <HI>men,</HI> and she did
+<HI>glorifie</HI> her Father which is in heauen. And now her sweet sauouring <HI>ointment</HI> yeelds vs this assured sa∣cred Doctrine:
+<HI>Good workes be not accepted by God,</HI><NOTE PLACE="marg">Doct.</NOTE>
+<HI>vn∣lesse such as are directed to the glory of God.</HI> The reason, Where the end is <HI>wanting,</HI> the action is <HI>halting,</HI> and God will receiue no <HI>lame</HI> or <HI>blinde</HI> sacrifice. If I seeke to please men, saith <HI>Paul,</HI> I should not bee the seruant of Christ, <HI>Gal.</HI> 1 10. If wee receiue the witnesse of <HI>men,</HI> if wee seeke <HI>glory,</HI> by any good worke among <HI>men,</HI> wee anoint our selues, not <HI>Christ,</HI> not his <HI>head,</HI> not his
+<HI>feet,</HI> but our <HI>selues.</HI> In such a case, <HI>Fumus flammam suffocat,</HI><NOTE PLACE="marg">Seneca.</NOTE> saith <HI>Seneca,</HI> the
+<HI>smoake</HI> choaketh the <HI>fire,</HI> and the froth of
+<HI>ostentation</HI> riseth no sooner, but falleth to the <HI>depth:</HI> There is the <HI>worme</HI> in the <HI>gourd, rust</HI> in the <HI>gold,</HI> a <HI>fire</HI> commeth out of the <HI>bramble</HI> to deuoure the <HI>Cedar. Tully</HI> cals <HI>Demosthenes, Teniculum Demosthenem,</HI> because it pleased him going in the street to heare euen women and water-bearers whisper, <HI>Hic est ille Demosthenes.</HI> A wise man will not, a good man cannot entertaine thoughts of <HI>vaine-glory,</HI> which doe strangle all worthy holy actions. In such a case, the worke (though neuer so seemingly <HI>good</HI>) is but a fooles wonder, and the <HI>Au∣thor</HI> but a wise mans foole. <HI>Vaine-glory</HI> cannot swell so <HI>high,</HI> but <HI>vengeance</HI> will sit <HI>aboue</HI> it; nor lift vp it selfe so
+<PB N="46" REF="26"/>lofty</HI> but God will euer <HI>ouer-looke it.</HI> Our Sauiour nei∣ther <HI>desired,</HI> nor <HI>accepted</HI> the glory of the <HI>world,</HI> looking with no other eye thereon, then
+<HI>Phisitians</HI> on the <HI>diseases</HI> of their <HI>Patients,</HI> his <HI>profession</HI> was I seeke not my owne <HI>glory,</HI> Ioh.
+8.50. They that thinke, that they possesse <HI>all things haue nothing,</HI> 2 Cor. 6.10. They that are proud of <HI>knowledge</HI> know nothing, 1 Tim. 6.3. He that thinketh himselfe to be <HI>something,</HI> is nothing, Gal. 6.3. S. <HI>Paul</HI> in <HI>nothing</HI> beyond the chiefe Apostles, confesseth him∣selfe <HI>nothing,</HI> 2 <HI>Cor.</HI> 12.11. Our blessed Sauiour conclu∣deth this <HI>point,</HI> if I honour my selfe my honour is <HI>no¦thing,</HI> Ioh. 8.54. and therefore our aime of our actions, should be as <HI>this of Mary,</HI> to the honour of our
+<HI>Master,</HI> that all things may bee done to the glory of God the
+<HI>Father.</HI></P>
+<P>The Vse whereof,<NOTE PLACE="marg">Ʋse.</NOTE> as it should euer bee <HI>welcome,</HI> so e∣specially most
+<HI>holesome</HI> now to purge all <HI>Pharisaicall</HI> lea∣uen of
+<HI>hypocrisie</HI> and <HI>vaine-glory,</HI> in the blessed
+<HI>occasion</HI> of our <HI>meeting</HI> which is as the <HI>anncinting</HI> of Christ, and I doubt not <HI>entended</HI> to the glory of our <HI>gratious God,</HI> yet seeing <HI>Sathan</HI> is euer busiest in the best
+<HI>actions,</HI> let euery man stand in <HI>feare,</HI> that hee deceiue not his owne <HI>soule:</HI> The temptations of <HI>vaine-glory</HI> of all other are most full of <HI>danger,</HI> most full of <HI>doubt,</HI> hardest to be <HI>knowne,</HI> not as the <HI>insinuations</HI> of other vices,
+<HI>open</HI> and <HI>plaine,</HI> but <HI>priuy</HI> and <HI>craftie,</HI> creeping vpon a man, with a <HI>Spanish</HI> low complement, <HI>binding</HI> the eyes with a <HI>cobwebbe</HI> vaile of <HI>vanitie,</HI> and then with a
+<HI>false</HI> key of <HI>selfe-loue</HI> opening the heart to draw in that Spirit which turneth <HI>Angells</HI> into <HI>Deuills.</HI> Beloued, your
+<HI>alabaster</HI> box is <HI>faire,</HI> see your <HI>ointment</HI> be
+<HI>sweete,</HI><NOTE PLACE="marg">Hierem.</NOTE> <HI>In hoc genere Marmoris vnguenta ser∣uantur illibata,</HI> saith <HI>Ierome;</HI> farre be it that in an <HI>alabaster</HI> box there should be poison, or in the
+<HI>censor</HI> of your <HI>in∣cense,</HI> an vnsauory persume, yee haue annointed the <HI>feet</HI> of <HI>Christ,</HI> and I hope great is your
+<HI>reward</HI> in heauen; yet the sinner did so much, <HI>Faemina peccatrix in ciuirate,</HI> shall
+<PB N="47" REF="26"/>I say? the sinfull Citie hath done no more, then that <HI>in∣famous</HI> sinner in the <HI>Citie,</HI> I will not, I must not, I <HI>hope</HI> I may say the <HI>holy</HI> Citie, the Cittie of
+<HI>God</HI> hath annointed the <HI>head</HI> and <HI>feete</HI> of her Sauiour to the glory of <HI>God,</HI> this worke that yee haue done <HI>is</HI>
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, a good worke, these little ones are the Lords
+<HI>feet,</HI> let not the <HI>best</HI> heere, despise one of these
+<HI>little ones,</HI> for I say vnto you, <HI>that in heauen the Angells doe alwaies behold the face of the Father which is in heauen:</HI> Let other places bee honoured for o∣ther <HI>blessings</HI> in them, <HI>Venice</HI> for
+<HI>riches, Bononia</HI> for <HI>fruits, Naples</HI> for <HI>nobilitie, Millane</HI> for <HI>beauty, Rauenna</HI> for <HI>anti¦quity, Florence</HI> for
+<HI>pollicie,</HI> but of all Christian <HI>Cities,</HI> This of yours, for this <HI>Nurserie</HI> of your <HI>Insants</HI> and <HI>Orphans</HI> hath
+<HI>excelied.</HI> I denie not but besides this, many other <HI>Porches</HI> of <HI>Bethesdas</HI> poole, are blessed by you, when I come to the
+<HI>memoriall</HI> which is as the <HI>Mart,</HI> ye shall haue the
+<HI>Catalogue;</HI> But this is the <HI>best</HI> and <HI>most</HI> blest of all your good workes. It was a lamentable crie in <HI>Ierusalem, Parvuli panem petunt, &amp; nemo est qui frangit illis,</HI> The children crie for
+<HI>bread,</HI> and there is none to giue it them, the <HI>children,</HI> the
+<HI>younglings, sucklings, babes,</HI><NOTE PLACE="marg">Lament. 4.</NOTE> and latter <HI>births,</HI> they that could neither <HI>stir</HI> to
+<HI>get</HI> it, nor <HI>labour</HI> to <HI>gaine</HI> it. <HI>Parvuli panem petunt,</HI> the weake sicke, <HI>infant in∣nocent tenderlings,</HI> not able to continue fasting, nor to suc∣cour themselues by <HI>feeding,</HI> in
+<HI>Ierusalem</HI> they perished, nothing in the <HI>Lamentation</HI> more
+<HI>lamentable:</HI> But here they are nourished, blessed be the Lord, our <HI>Ierusalems</HI> brests be not drie, <HI>dearth</HI> hath not threatned <HI>death, plen∣tie, bountie, mercie,</HI> had fed these poore
+<HI>children,</HI> Gods <HI>promise, grace,</HI> and <HI>glory,</HI> will reward it. I will not presse you, that are so gratiously
+<HI>forward,</HI> nor tell you that <HI>somewhat</HI> is wanting yet, that
+<HI>Ierusalem</HI> was plagued, for not <HI>building</HI> of her decayed
+<HI>Temple,</HI> which was the glo∣ry of her <HI>Cittie,</HI> nor encite by any arguments <HI>further</HI> then <HI>Haggai</HI> inciteth you, <HI>Hagg.</HI>
+1.9. I will not tell you that <HI>Christendome</HI> hath not a more glorious
+<HI>foundation</HI>
+<PB N="48" REF="27"/>then you haue to worke vpon, for you are sure to builde vpon <HI>faith</HI><NOTE PLACE="marg">Pauls Church.</NOTE>: All that I moue is this, that this <HI>vncleane, leprous, idolatrous</HI> place may be clensed, no time so fit as the <HI>Passouer,</HI> the first time that Christ came into the <HI>Temple,</HI> Christ draue the <HI>buyers</HI> and
+<HI>sellers</HI> out of the Temple, and <HI>Rupertus</HI> tells vs it was at the <HI>Pass<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>uer.</HI> It is questioned, why <HI>Mary Magdalen,</HI> in
+<HI>Luke,</HI> came to Christ being such a <HI>sinner,</HI><NOTE PLACE="marg">Pupertus lib. <HI>5.</HI> in Iohan.</NOTE> with a box of oin<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ment, and answered <HI>vnguenta attulit quis nouit quod peccata ante Deū fatt<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>la, ideo adducit vnguenta oderifera,</HI> Beloued yee had neede, to present
+<HI>your selues to God,</HI> the many <HI>sinkes</HI> of <HI>sinnes</HI> in this <HI>Cittie,</HI> they onely bring the <HI>plague</HI> Gods
+<HI>an∣ger</HI> and your <HI>danger,</HI> come not without your
+<HI>ointments,</HI> kisse the <HI>sonne,</HI> least he be angry, and yee <HI>perish</HI> from the <HI>right-way, offer</HI> sweete
+<HI>ointments,</HI> and in a <HI>sweete</HI> place, sanctifie <HI>your selues,</HI> and your <HI>ointments,</HI> and <HI>place,</HI> yee
+<HI>present</HI> it in; A woman perfumed a <HI>Lepers</HI> house once, and the house hath <HI>smelt</HI> of the sauour euer since, at length
+<HI>persume</HI> this place, and doe this and <HI>whatsoeuer you doe, to the glory of God:</HI> This is the <HI>this</HI> that receiueth the commendation, for this act, the <HI>Author</HI> a woman is <HI>honoured:</HI> which is my next part: This that this <HI>woman</HI> hath done.</P>
+<P>This woman,<NOTE PLACE="marg">A s<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>n.</NOTE> <HI>Euae à Diabolo mutuarit peccatum, Eue</HI> the first woman, tooke vp sinne from
+<HI>Sathan</HI> vpon her bare word, <HI>Adam</HI> by consenting
+<HI>v<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>aduisedly</HI> subscribed to the bond, <HI>vsura creuit posteritati</HI> saith <HI>Austen,</HI> but the burthen of the
+<HI>interest,</HI> euer since lay heauy on their <HI>po∣steritie:</HI> the woman was first in the <HI>transgr<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ssion,</HI> but no wonder, for if <HI>Lucifer</HI> an <HI>Angell,</HI> first <HI>fell</HI> in heauen, it is not <HI>strange</HI> that a <HI>woman</HI> fell in <HI>earth,</HI> in
+<HI>Paradise</HI> was the <HI>quarrell,</HI> euer since was the
+<HI>battle,</HI> the <HI>Serpent</HI> lost the <HI>field,</HI> though the won an lost the <HI>garden,</HI> God gaue the wo∣man the <HI>honour</HI> and the
+<HI>victorie</HI> in the day of battle: <HI>Se∣men mulieris,</HI> the
+<HI>seede</HI> of the <HI>woman</HI> shall breake the <HI>Ser∣pents</HI> head, all the <HI>quarrell</HI> since is for the broken head.
+<PB N="49" REF="27"/><HI>Draw</HI> thy <HI>sword,</HI> and slay mee,<NOTE PLACE="marg">Iudg 9.54.</NOTE> saith <HI>Abimelech</HI> to his Armour-bearer, when a <HI>woman</HI> had wounded him, that they say not, A woman slew him, <HI>Iudg.</HI> 9.54. <HI>Sathan</HI> was as
+<HI>Abimelech</HI> wounded by a <HI>woman.</HI> In all the <HI>Scrip∣ture</HI> yee haue scarce any <HI>example</HI> of any <HI>woman</HI> that wounded a man, but still she aimed at the <HI>head.</HI> When <HI>Iael</HI> slew
+<HI>Sisera,</HI> shee nailed his <HI>head</HI> to the ground,<NOTE PLACE="marg">Iudg. 4.21.</NOTE> <HI>Iudg.</HI> 4 21. When <HI>Sheba</HI> rebelled, and <HI>Ioab</HI> besieged him, a woman crieth to the
+<HI>Captaine,</HI> The <HI>head</HI> of <HI>Sheba</HI> shall be cast ouer to thee, 2 <HI>Sam.</HI> 20.21.<NOTE PLACE="marg">2 Sam. 20.21. Iudg.
+13.8.</NOTE> When <HI>Iudith</HI> slew <HI>Holofernes,</HI> she smote away his <HI>head</HI> from him, <HI>Iudg.</HI> 13.8. When the woman slew
+<HI>Abimelech,</HI> she cast a peece of a <HI>milstone</HI> on his
+<HI>head, Iudg</HI> 9.53.<NOTE PLACE="marg">Iudg 9.53.</NOTE> I am neither
+<HI>friend</HI> nor <HI>stranger</HI> to strange <HI>Allegories.</HI> These be <HI>semblances</HI> of the womans <HI>breaking</HI> the Serpents
+<HI>head.</HI> But the <HI>wo∣man</HI> in my Text is anointing her <HI>Sauiours head,</HI> a worke that no <HI>woman</HI> did but <HI>she,</HI> and therefore
+<HI>she</HI> to bee ho∣noured among <HI>women.</HI> Yet who this
+<HI>woman</HI> was, wee may sooner <HI>question,</HI> then <HI>know. Nec siue ex curiositate, siue ex praesumptione, disquirere cupiamus,</HI> saith <HI>Kemnitius:</HI> and his counsell is good,<NOTE PLACE="marg">Kemnitius hanu. Euang. in bunc locum.</NOTE>
+<HI>presumption</HI> and <HI>curiositie</HI> in questions are to be auoided; yet the <HI>Truth</HI> is so to bee embraced, as that
+<HI>negligently</HI> to refuse <HI>knowledge,</HI> is a dull
+<HI>superstition.</HI> The wise should neither bee <HI>Scepticks,</HI> nor <HI>Guosticks: Curiositie</HI> is dangerous, <HI>Ignorance</HI> is odious. <HI>Oculos habemus Talparum, non Aquilarum:</HI> It is true, and it is our <HI>miserie;</HI> yet to haue no <HI>eyes,</HI> or hauing, to stop our
+<HI>eyes,</HI> is base blindfolded <HI>Idolatrie. Maries</HI> face is not as
+<HI>Moyses</HI> face, it hath no <HI>vaile,</HI> wee may looke vp∣on it, and aske, <HI>Magdalen,</HI> art thou <HI>Lazarus</HI> sister, or shall wee looke for another? <HI>Ʋnlgatissima opinio,</HI><NOTE PLACE="marg">Kemnitius.</NOTE> saith <HI>Kemnitius, ipsam fuisse peccatricem illam:</HI> It was the most commonly knowne opinion, that this
+<HI>woman</HI> was the sinner in <HI>Lukes</HI> Gospell. And howsoeuer some thinke that the thrice anointing of Christ was performed by three
+<HI>women,</HI><NOTE PLACE="marg">Roffens. de tribus Magdalenis.</NOTE> which
+<HI>Roffensis</HI> (the Beau-clarke of his time)
+<PB N="50" REF="28"/>confuteth in three bookes, yet the generall streame of all <HI>antiquitie,</HI> and the opinion of the <HI>Church,</HI> (as <HI>Roffensis</HI> by impregnable <HI>arguments</HI> proueth) is this,
+<HI>vnicam esse Magdalenam, candem{que} bis vnxisse Christum.</HI> It is a <HI>con∣fused</HI> and <HI>perplexed</HI> question, I confesse,
+<HI>&amp; plus subtili∣tatis quàm vtilitatis habens,</HI> as
+<HI>Erasmus</HI> spake: and how∣soeue it be none of those
+<HI>Cobwebs,</HI> wherein some Mon∣kish flies haue beene <HI>caught</HI> by their <HI>cunning,</HI> yet may it seeme as <HI>intorteled</HI> and
+<HI>intangled</HI> a question, as any in the <HI>Harmony</HI> of the Gospell. Only I wonder that they that are so <HI>opposite</HI> in the deniall of it, take not <HI>Archidamus</HI> counsell, to bring more
+<HI>strength,</HI> and lesse <HI>sting</HI> in their argunents; this were more <HI>courage,</HI> and lesse <HI>rage. Faber St<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>pulensis</HI> cals it a <HI>lie:</HI><NOTE PLACE="marg">Faber <GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>ay.</NOTE>
+<HI>Roffensis</HI> answereth, <HI>Simendacium, profecto solenne mendacium &amp; celebre, imo nihil celebrius;</HI> for in the <HI>Greeke Church</HI> many beleeued (as <HI>Origen</HI> con∣fesseth in his 33. <HI>Homilie</HI> on
+<HI>Matthew</HI>) that the woman that anointed our <HI>Sauiours feet</HI> in
+<HI>Luke,</HI><NOTE PLACE="marg">Orige<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>.</NOTE> is the same that anointed his
+<HI>head</HI> here: and howsoeuer <HI>Origen</HI> himselfe may seeme
+<HI>doubting</HI> herein, yet in his first Homilie on the <HI>Canticles</HI> he is resolute for it, and so are many other of the <HI>Greeke Church. Theophiles, Seuerianus, Eusebius, Ammonius, Gregory Nazianzene,</HI> and
+<HI>Chrysostome,</HI> whom though they vouch as the chiefest of the
+<HI>Westerne Church</HI> against,<NOTE PLACE="marg">Chrysostome.</NOTE> yet <HI>acknowledgeth</HI> it in his Homilie on the treason of
+<HI>Iudas.</HI> All the foure <HI>Latine Fathers</HI> af∣firme this;
+<HI>Hierome</HI> in his Proeme vpon <HI>Osea, Ambrose</HI> in his
+<HI>Comment</HI> vpon <HI>Luke, Gregory</HI> in his <HI>Morals,</HI> and <HI>S Austine</HI> reconciling the <HI>Euangelists,</HI> thus; <HI>Ego quidem nihil aliud intelligendum arbitror, nisi quod non aliam fuisse muliere in quae peccatrix tum accessit ad pedes Iesu, sed can∣dem Mariam bis hoc fecisse. Beda</HI> and <HI>Leo,</HI> and many others, all the
+<HI>Schoolemen,</HI> especially <HI>Albertus</HI> and <HI>Aqui∣nas,</HI> most confident in it. <HI>Albertus</HI> vpon the 7. of <HI>Luke,</HI> hauing repeated the <HI>opposite Authors,</HI> concludeth, <HI>Et sic procerto Deus fecit duo luminariamagna, duas Marias, ma∣trem
+<PB N="51" REF="28"/>scilicet Domini, &amp; sororem Lazari, quam &amp; pecca∣tricem fuisse constat. Aquinas</HI> on the 12. of
+<HI>Iohn</HI> reciteth and confuteth the contrary arguments, and therein and in other places concludeth this woman to be that <HI>Mary the sinner,</HI> that
+<HI>anointed</HI> his <HI>feet</HI> in <HI>Luke</HI> as a <HI>Sinner,</HI> and now <HI>anointeth</HI> his <HI>head</HI> as a <HI>Saint.</HI> To these I might adde <HI>a cloud of witnesses,</HI> which if they were not thought
+<HI>clou∣die,</HI> might cleare the <HI>point.</HI> But I know this
+<HI>time</HI> and <HI>place</HI> is vnfit for <HI>Paradox.</HI> To affirme
+<HI>rashly,</HI> were <HI>per∣emptorie;</HI> to denie <HI>resolutely,</HI> were <HI>follie.</HI> This is a <HI>wanton Age,</HI> and we rather bring the
+<HI>eares</HI> of <HI>curiositie,</HI> then the <HI>hearts</HI> of
+<HI>obedience:</HI> With the <HI>Athenians,</HI> wee aske for <HI>newes;</HI> but with the <HI>Bereans,</HI> we should search the <HI>Scrip∣tures.</HI> The most probable argument that is brought to confirme this <HI>doubt</HI> in
+<HI>question,</HI><NOTE PLACE="marg">Ioh. 11.2.</NOTE> is out of
+<HI>Iohn</HI> 11.2. where the act of <HI>anointing</HI> Christ, and the name of her <HI>person</HI> is mentioned. It was that <HI>Mary</HI> which anointed the <HI>Lord</HI> with <HI>ointment,</HI> and <HI>wiped</HI> his <HI>feet</HI> with her <HI>haires,</HI> whose brother <HI>Lazarus</HI> was sicke. Here is one <HI>anointing</HI> of <HI>Christ.</HI><NOTE PLACE="marg">Ioh.
+12.3.</NOTE> In <HI>Iohn</HI> 12.3. there is another mention of
+<HI>anointing,</HI> Then tooke <HI>Mary</HI> a pound of <HI>ointment,</HI> of
+<HI>Spikenard,</HI> very costly, and <HI>anointed</HI> the <HI>feet</HI> of
+<HI>Iesus,</HI> and wiped his <HI>feet</HI> with her <HI>haire. Faber</HI> and others answer, both these are one, the first related by
+<HI>anticipation,</HI> vsuall in the <HI>Gospell,</HI> when a thing is spoken of as <HI>done,</HI> before it be done. <HI>Roffensis</HI> answers,<NOTE PLACE="marg">Roffens. de tribus Magdalenis.</NOTE> that in all <HI>S. Iohns</HI> Gospell there is not one <HI>anticipation,</HI> howsoeuer in other <HI>Euan∣gelists</HI> some few, yet in <HI>Iohn</HI> none, nothing related by the tense of the <HI>time past,</HI> that was to bee <HI>future,</HI> at that time not <HI>finished. Iohn</HI> 12.4. he speaketh of <HI>Iudas, Iudas qui traditurus, non qui tradidit:</HI> Againe,
+<HI>Iohn</HI> 6.71. <HI>Iudas qui traditurus, non qui tradidit. Iohn</HI> 7.39.
+<HI>Hoc dixit de Spiritu quem essent accepturi, non quem accepissent:</HI> where∣as <HI>Iohn</HI> 11.2. he speakes of
+<HI>Mary</HI> in the <HI>Participle</HI> of the time past,
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, which <HI>Beza</HI> renders, <HI>Vnxit, extersit,</HI> she had <HI>anointed,</HI> she had <HI>wiped,</HI> as done
+<PB N="52" REF="29"/>already, and after in <HI>Iohn</HI> 12.2. mentions that other <HI>anointing.</HI><NOTE PLACE="marg">Ioh. 12.2.</NOTE> Arguments of probabilitie there may bee many: Shee that in <HI>Luke</HI> anointed <HI>Christ,</HI> was <HI>Mary Magdalen,</HI> so our last
+<HI>Interpreters</HI> in the contents of the seuenth chapter tell vs, the
+<HI>fire</HI> of her <HI>affection</HI> strangely <HI>inflamed</HI> her
+<HI>heart</HI> in her <HI>loue</HI> to her <HI>Lord.</HI> Christ giueth her this testimonie, <HI>She loued much;</HI> and whose loue to Christ was euer so <HI>registred</HI> as the loue of <HI>Lazarus</HI> sister? Is it <HI>probable,</HI> I say is it <HI>possible,</HI> that she that so
+<HI>loued</HI> the <HI>Lord</HI> in his <HI>life,</HI> should neither at his
+<HI>passion,</HI> nor after his <HI>passion,</HI> nor in his
+<HI>resurrection,</HI> afford any token in her <HI>weeping,</HI> hauing lost whom she <HI>loued,</HI> or by <HI>watching</HI> to finde whom she
+<HI>lost?</HI> In all the foure <HI>Euangelists,</HI> no word of <HI>Mary, Lazarus</HI> sister, at the <HI>passion,</HI> or after the
+<HI>passion,</HI> or in his <HI>resurrection,</HI> vnlesse it be by the name of <HI>Mary Magdalen. Lazarus</HI> sister was frequent in
+<HI>weeping,</HI> went to <HI>Lazarus</HI> graue <HI>weeping,</HI> came and fell downe before Christ, <HI>Iohn</HI> 11.33. <HI>weeping,</HI> and who more
+<HI>aboun∣ded</HI> in <HI>teares</HI> then <HI>Mary Magdalen?</HI> not only in the house of <HI>Simon,</HI> where she not only <HI>wet,</HI> but
+<HI>washt</HI> Christs feet with <HI>teares,</HI> but her <HI>teares</HI> at the <HI>Crosse,</HI> at <HI>graue,</HI> at <HI>gar∣den,</HI> her
+<HI>eyes</HI> seeming to be the <HI>Cymbals</HI> of her <HI>sorrow,</HI> all things inuiting her to the <HI>wofull exercise</HI> of <HI>weeping.</HI> Adde hereunto, that whensoeuer <HI>Mary, Lazarus</HI> sister, came to Christ, she fell at his <HI>feet:</HI> so did <HI>Mary Magda∣len. Lazarus</HI> sister vsually called Christ <HI>Master;</HI> The
+<HI>Master</HI> is come, saith <HI>Martha</HI> to <HI>Mary, Iohn</HI>
+11.28. <HI>Mary Magdalen</HI> comming to seeke her <HI>Sauiour</HI> at the
+<HI>Sepulchre,</HI> Christ calling her <HI>Mary,</HI> she answereth by the former word <HI>Master:</HI> both <HI>followed</HI> him, both
+<HI>frequently heard</HI> him, both <HI>anointed</HI> him in the house of
+<HI>Simon,</HI> as the <HI>Gospell</HI> testifieth both in the house of the same <HI>Simon,</HI> in the same <HI>place,</HI> at <HI>Bethany,</HI> as <HI>Ambrose</HI> collecteth, both brought boxes of <HI>Alablaster,</HI> both <HI>wiped</HI> with their <HI>haire,</HI> both <HI>actions</HI> commended; and therefore it is most <HI>pro∣bable,</HI> that both were
+<HI>performed</HI> by the same <HI>woman,</HI>
+<PB N="53" REF="29"/>otherwise it should seeme
+<HI>strange,</HI> that this <HI>Gospell,</HI> should make this
+<HI>mention</HI> of this act of this <HI>woman,</HI> with this
+<HI>so∣lemne</HI> memoriall, and wee should bee <HI>vncertaine</HI> who this woman is. I submit these collections to the <HI>Reue∣rend,</HI> and
+<HI>learned:</HI> The <HI>Cynicke</HI> will not be satisfied, the
+<HI>Scepticke</HI> cannot, and for the Curious querulous <HI>Pioner</HI> that onely brings his <HI>eares,</HI> not his <HI>heart,</HI> I desire neither to
+<HI>please,</HI> nor <HI>easily</HI> to <HI>displease</HI> him. All I say is <HI>this,</HI> there be blessed <HI>seruants</HI> of God of both
+<HI>opinions, opinion</HI> is no <HI>determination,</HI> it is no
+<HI>article</HI> of our <HI>faith, flesh</HI> and <HI>bloud</HI> is
+<HI>blinde</HI> in the best things: we see but in <HI>part,</HI> wee pro∣phesie but in <HI>part.</HI> Onely I <HI>wonder</HI> that this loud soun¦ding solemne Prophesie of this Gospell, and this work and this
+<HI>woman</HI> should be so stifled, and <HI>strangled,</HI> by the
+<HI>crooked</HI> lines of <HI>contrary</HI> Interpreters. This woman saith my Text, from whom as from the <HI>wombe</HI> of my Text we receiue this
+<HI>Doctrine,</HI><NOTE PLACE="marg">Doct.</NOTE> the Lord giueth much
+<HI>honour</HI> to the <HI>woman</HI> as to the <HI>weaker vessell,</HI> in that his <HI>spirit</HI> re∣cordeth the least holy duties performed by women: the Reason, is to manifest that as the woman was the occa∣sion of
+<HI>sinne</HI> and <HI>death,</HI> so by Christ shee is made toge∣ther
+<HI>coheire</HI> of the grace of life. Sure Gods Spirit hath some especiall end in it, to giue comfort and encourage∣ment to that weake sex, by taking an
+<HI>Inuentory</HI> of the <HI>particular</HI> acts in Scripture, performed by
+<HI>women,</HI> not onely the <HI>chamber</HI> prouided by the
+<HI>Sunamite</HI> for the <HI>Pro∣phet,</HI> 2 King. 4.10. but a <HI>nights lodging</HI> afforded <HI>Ioshuas</HI> spies,<NOTE PLACE="marg">2 King
+4.10.</NOTE> by the Inne-keeper <HI>Rahab,<NOTE PLACE="marg">Iosh.
+2.1.</NOTE> Iosh.</HI> 2.1. and a small measure of oyle and meale, by the widdow to <HI>Elias,</HI> 1 Kings 17.14. these are vpon record and loose not their reward, <HI>Magdalens</HI> box, <HI>Maries</HI> choice,<NOTE PLACE="marg">1 King. 17.14.</NOTE> <HI>Marthaes</HI> cheer∣full entertainment, the <HI>Sulamite, Sunamite, Caananite,</HI> the woman of <HI>Samariahs</HI> pitcher, the poore <HI>widdowes</HI> mite, are not forgotten, which is
+<HI>enough</HI> to put the <HI>life</HI> of religion into the <HI>hearts</HI> of women, to see euery little <HI>du∣tie</HI> of theirs so well accepted. And sure many of them,
+<PB N="54" REF="30"/>haue beene both <HI>partakers</HI> of great mercy, and instru∣ments of <HI>Gods glory,</HI> as in their owne
+<HI>lifes,</HI> which as <HI>lamps</HI> gaue light to their <HI>vnbeleeuing Husbands,</HI> so in gouerning their <HI>familie,</HI> and in instructing their <HI>children,</HI> so was <HI>Bathsheba</HI> a blessed mother to
+<HI>Salomon, Loys</HI> to <HI>Timothy, Maxima</HI> to <HI>Basill, Monica</HI> to <HI>Austin, Pulcheria</HI> to <HI>Theo∣dosius, Helena</HI> to
+<HI>Constantine:</HI> in the sex where sinne hath abounded, Grace hath superabounded: But none of all that <HI>sex,</HI> the blessed Virgin onely excep∣ted, hitherto euer receiued such an <HI>honour</HI> as this
+<HI>wo∣man;</HI> many <HI>daughters</HI> haue done vertuously, <HI>but thou ex∣cellest them all.</HI><NOTE PLACE="marg">Pro. 31.</NOTE> I deny not but
+<HI>Sathan</HI> that blasted <HI>Para∣dise,</HI> hath much blemished the
+<HI>honour</HI> of this sex, hee made choice of a <HI>woman,</HI> to bee the first <HI>engine,</HI> and in <HI>Paradise</HI> by this wheele he turned about the <HI>world,</HI> and since <HI>Dalila</HI> was the trappe for
+<HI>Sampson,</HI> the daughter of <HI>Pharaoh</HI> for <HI>Salomon, Iesabell</HI> for <HI>Ahab,</HI> almost all the <HI>he∣resies,</HI> though <HI>fathered</HI> by <HI>men,</HI> yet <HI>furthered</HI> by
+<HI>womens</HI> wit, <HI>Helena</HI> furthers <HI>Simon Magus</HI> stratagem,
+<HI>Phioume∣na</HI> her <HI>Apelles, Montanus</HI> hath his <HI>Prisca, Donatus</HI> his <HI>Lucilla, Priscillinus</HI> his <HI>Galla, Arius</HI> assisted by <HI>Constan∣tines</HI> sister, and <HI>Nicholas</HI> the <HI>Deacon</HI> hath a consort of such <HI>Companions;</HI> and of all Creatures that euer GOD <HI>created,</HI> there bee no such
+<HI>ensnaring</HI> attractiue <HI>loadstones</HI> and
+<HI>loadstarres</HI> to Superstition and <HI>Idolatry</HI> as women. Yet as
+<HI>Ieremy</HI> spake of the <HI>figges,</HI> the good <HI>figges</HI> were ve∣ry <HI>good,</HI><NOTE PLACE="marg">I<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>r. 24.3.</NOTE> and the <HI>euill</HI> were very <HI>euill, Ier.</HI> 24.3. So the good <HI>women</HI> are very
+<HI>good,</HI> and such were those holy <HI>wo∣men</HI> in old time, who
+<HI>trusted in God.</HI> And as the <HI>Deuill</HI> neuer found of such an
+<HI>engine</HI> as the <HI>woman,</HI> so neuer such an <HI>enemie</HI> aga<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>nst him as the <HI>woman: Piumsane, faith∣full</HI> and
+<HI>pittifull,</HI><NOTE PLACE="marg"><GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>u<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/>n.</NOTE> and sanctified is this sex, saith <HI>Austen,</HI> and the <HI>honour</HI> done by our Sauiour vnto them, hath much <HI>exalted the humble and meeke;</HI> for besides that the <HI>Ʋirgin</HI> concceiued him, and <HI>Elizabeth</HI> in the house
+<HI>pro∣phesied</HI> of him, euery <HI>passage</HI> of his life had some <HI>women</HI>
+<PB N="55" REF="30"/>to attend him. <HI>Hanna</HI> in the
+<HI>Temple</HI> reioyced to see him, and <HI>Magdalen</HI> at the
+<HI>table</HI> washt and annointed him, and <HI>Martha</HI> with a great feast entertained him, and <HI>Mary</HI> her <HI>Sister</HI> poured ointment on him, and <HI>Iohanna</HI> and <HI>Susanna</HI> and many women ministred of their <HI>substance</HI> to him: the <HI>Daughters</HI> of
+<HI>Ierusalem</HI> wept for him, sun∣dry <HI>women</HI> with infinite
+<HI>sorrow,</HI> attended him at the <HI>crosse</HI> when his
+<HI>Disciples</HI> fled from him, and <HI>women</HI> came to the
+<HI>graue,</HI> though <HI>Ioseph</HI> and <HI>Nichodemus</HI> had bestowed a <HI>hundred pound</HI> of Mirrh and <HI>Aloes,</HI> as well applied as
+<HI>Art</HI> or <HI>Deuotion</HI> could deuise, yet <HI>women</HI> came to
+<HI>embalme</HI> his body, and whom they found <HI>wanting</HI> to annoint, they sought weeping to lament. This honourable <HI>testimonie,</HI> of this holy <HI>woman,</HI> giueth full assurance of <HI>our Sauiours acceptance</HI> of the seruice of that <HI>sex,</HI> if they be sanctifi∣ed, seeing hee <HI>ioynes</HI> with this <HI>Gospell,</HI> this
+<HI>woman,</HI> and this <HI>worke.</HI></P>
+<P>The Vse whereof, should incite all <HI>Christian</HI> women to <HI>serue</HI> the Lord, that in the day of <HI>retribution,</HI><NOTE PLACE="marg">Ʋse.</NOTE> they may receiue reward from the Lord. S.
+<HI>Austen</HI> maketh this Vse; <HI>Quum foenum eruerit, slos deciderit,</HI><NOTE PLACE="marg">Austin.</NOTE> <HI>verbua<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> Do∣mini manebit,</HI> when the <HI>grasse</HI> and <HI>grace</HI> of
+<HI>beauty,</HI> and the <HI>flower</HI> of mortall <HI>frailty</HI> shall fall, the <HI>word</HI> of the Lord shall <HI>endure</HI> for euer.
+<HI>Christian Matrones</HI> be yee <HI>ambitious</HI> of the beauty of the
+<HI>daughter</HI> of <HI>Zyon,</HI> and re∣member yee that <HI>supercilious sailes</HI> of <HI>vanitie</HI> and <HI>vaine glory,</HI> as they are the
+<HI>vnfitting fashion</HI> of the Court so the <HI>worst infection</HI> of the <HI>Citie.</HI> Much ornament is no good <HI>signe,</HI> painting of the <HI>face</HI> argues an ill <HI>complexion</HI> of <HI>body,</HI> a worse
+<HI>mind: Truth</HI> hath a <HI>face</HI> both <HI>honest</HI> and
+<HI>comely,</HI> and <HI>lookes</HI> best in her wone <HI>colours.</HI> The Lord <HI>threatneth</HI> in <HI>Esay</HI> to ransacke <HI>the womens wardrope,</HI> and to take a∣way the <HI>tinkling ornaments, and their caules and round tires,</HI><NOTE PLACE="marg">Esay 3.</NOTE> <HI>and chaines, and bracelets, and musters, and bonnets, and headbands, and tablets, and earnings, and mantles, and wim∣ples, and Iewells, and hoods, and vailes, and crisping pinnes
+<PB N="56" REF="31"/>and threatneth,</HI><NOTE PLACE="marg">A<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>sten.</NOTE> <HI>lamentation and mourning, and desolation to those daintie Creatures that sate at ease in Sion: God</HI> is the same your <HI>sinnes</HI> the same, your <HI>warning</HI> the same. <HI>Nuptae Susannam, Anna vidus, virgines Mariam cogitent,</HI> saith
+<HI>Austen:</HI> I might remember you how hatefull the memorie of some women are, a <HI>Diblaim</HI> or <HI>Dido, Infaelix Dido, nulls bene nupta, marito:</HI> Such are the sexes <HI>curse,</HI> and the earths
+<HI>dregges</HI> of <HI>corruption.</HI> I might remember you, of our
+<HI>Debora,</HI> blessed <HI>Elizabeth</HI> a woman after Gods owne heart, the glory of the <HI>Christian,</HI> and enuie of the <HI>Infidell</HI> world, who was such a <HI>nursing</HI> mother to our <HI>Land</HI> and
+<HI>Church,</HI> that the cause of <HI>Religion,</HI> doth owe more to that one <HI>Queene,</HI> then to many <HI>Kings</HI> that were before her. But the time as well as the <HI>feast</HI> keeps <HI>Passouer,</HI> and I follow. All <HI>women</HI> must needs confesse that they can neuer
+<HI>honour</HI> him enough who hath <HI>hono∣red</HI> them so farre, as to make them the first <HI>witnesses</HI> of his
+<HI>resurrection,</HI><NOTE PLACE="marg">Hugo.</NOTE> and hath as
+<HI>Hugo</HI> obserueth <HI>principally</HI> deserued the loue of
+<HI>women</HI> in that hee vouchsafed to be borne of a <HI>woman,</HI> that when it was granted to no <HI>man,</HI> to be the <HI>father,</HI> it was performed to a <HI>woman,</HI> to bee the <HI>mother</HI> of Christ: wherefore ye <HI>Ladies,</HI> which like the <HI>lyllies</HI> of the
+<HI>field,</HI> toile not, nor <HI>spinne</HI> not, and yet <HI>Salo∣mon</HI> in all his royaltie not arraied as one of <HI>these.</HI> If euer yee had
+<HI>pitty</HI> on the <HI>fruite</HI> of your <HI>wombes,</HI> take
+<HI>pittie</HI> on your <HI>soules,</HI> pamper not your <HI>bodies</HI> to murther your <HI>soules.</HI> Cloath not <HI>Hagar</HI> with the colour of the <HI>Raine∣bow,</HI> and let <HI>Sara,</HI> the <HI>soule,</HI> the Kings daughter sterue. Flatter not your selue, <HI>worms</HI> made your
+<HI>cloathes, worms</HI> eate your <HI>bodies.</HI> Alas <HI>wantons,</HI> and
+<HI>wormes-meate,</HI> what be yee? what shall become of yee, if ye neglect the <HI>mes∣sage of saluation?</HI> No oyle for your lampes! no ointment for your heads; <HI>Holinesse</HI> should become the <HI>house</HI> of God for euer, if ye are <HI>his,</HI> ye are <HI>his houses,</HI> to dwell in, and nothing can better become yee then <HI>holinesse. Beau∣tie natures frailtie, affections fancie</HI> cannot better become
+<PB N="57" REF="31"/>yee. <HI>Apparell, nakednesse garment, follies garnish, Adams fig-leaues, and beasts leauings,</HI> cannot better become yee: <HI>Gold and siluer, the Wise-mans drosse, but the Miserables darling, the earths gifts, and mineralls garbage,</HI> cannot better become ye; <HI>Wit, vertues wanton, fooles wonder, vices friend, and the worlds fauorite,</HI> cannot better become ye. Embrace, annoint, kisse, loue, solace, onely in the <HI>con∣templation</HI> of your sauiour. No
+<HI>snake</HI> in this <HI>garden,</HI> no <HI>worme</HI> in that
+<HI>gourd,</HI> be ye amiable as <HI>Rahell,</HI> wise as <HI>Re∣becca,</HI> obedient as <HI>Sara,</HI> diligent as <HI>Martha,</HI> but withall religious as <HI>Mary</HI> who receiued this Testimonie, <HI>where∣soeuer.</HI> I am at length come to her <HI>memoriall:</HI> my third circumstance of the second part.</P>
+<P><HI>Saint Chrysostome</HI> makes mention,<NOTE PLACE="marg"><HI>In</HI> 1 <HI>Cor.</HI> 4. <HI>hom.</HI> 14.</NOTE> of the women of <HI>Corinth,</HI> who had a custome to set vp <HI>lights</HI> or
+<HI>tapers</HI> at the birth of euery childe, with <HI>proper names,</HI> and looke what name the <HI>taper</HI> bare which lasted longest in the
+<HI>burning,</HI> they transferred that name to the <HI>childe:</HI> our Lord hath put vp a <HI>burning lampe</HI> for a perpetuall <HI>monu∣ment</HI> of
+<HI>Mary,</HI> her <HI>name,</HI> and her <HI>ointment</HI> shall neuer haue an end, <HI>Quanto huius seminis benedictio satio parca, messis abundans Augusta vena, spatiosi maris, quantum pretium praetiosae meris.</HI> No <HI>Iustes,</HI> nor <HI>Olympiads,</HI> nor <HI>Iubiles,</HI> nor <HI>ages,</HI> nor <HI>Plato</HI> his longest yeare, nor the long liued mo∣tion of the ninth <HI>spheare,</HI> shall <HI>terminate,</HI> or
+<HI>antiquate,</HI> this memoriall. In this <HI>Gospell</HI> I should looke
+<HI>for a monu∣ment</HI> vpon Christs <HI>sepulcher:</HI><NOTE PLACE="marg">Esay</NOTE> It was <HI>Esaies</HI> Prophesie <HI>gloriosum erit eius sepulchrū; Alexander</HI> may haue <HI>Europe</HI> and
+<HI>Asia,</HI> and all the world represented on his <HI>Tombe, Cyrus</HI> on his, <HI>Hic Persarū Domitor, Themistocles</HI> on his, <HI>En memoranda facta Themistocles,</HI> yet neither <HI>Alexander</HI> against
+<HI>Barbarians, Themistocles</HI> against the <HI>Persians, E∣milius</HI> against the <HI>Macedonians, Marcellus</HI> against the <HI>Scithians,</HI> or <HI>Scipio</HI> against the <HI>Carthaginians</HI> had euer the like victory in the <HI>field,</HI> as Christ had in the <HI>graue,</HI> nor doth this <HI>victorie</HI> want a memory <HI>euer vpon</HI> the mo∣nument
+<PB N="58" REF="32"/>of his <HI>Sepulchre.</HI> For as
+<HI>Alphonsus</HI> had this, <HI>Al∣phonsus iacet hic,</HI> so Christs Sepulcher this <HI>inscription, Luk</HI> 24.6. <HI>Surrexit Christus, nonest hic.</HI> That memori∣all is by an Angell, but Christs
+<HI>memoriall</HI> is by <HI>Christ</HI> himselfe: A more ample
+<HI>memoriall</HI> then euer Christ gaue <HI>any,</HI> neither <HI>Peter</HI> first called, nor <HI>Iohn</HI> best belo∣ued, nor <HI>Iames</HI> his neere kinsman, none of these pillars as <HI>Paul</HI> calleth them had such a
+<HI>Pillar</HI> erected as <HI>Maries</HI> memoriall, Christ buildeth a memoriall out of <HI>Maries</HI> box, because she poured her <HI>oyle</HI> on his body, and this is a memoriall, not of him, but of her:
+<HI>Erasmus</HI> obserueth that <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> is a solemne
+<HI>monument,</HI> an honourable <HI>memoriall: Chrysostome</HI> on
+<HI>Mathew</HI> wonders at the e∣ternitie of this memoriall, <HI>nec insignis persona, nec multi∣tudine testium celebrata, nec in Templo, nec in Theatro, sed in domo, &amp; in domo leprosi confecta,</HI> No noble
+<HI>personage,</HI> not done in the <HI>Temple</HI> or <HI>Theatre,</HI> or before a <HI>multitude</HI> of witnesses, but in a <HI>priuate</HI> house, in the house of a <HI>Leper,</HI> when the Disciples were onely present, and yet saith <HI>Chrysostome,</HI> the famous deedes of Kings and Em∣perours is silenced, they which built <HI>cities,</HI> erected wals, fought battles, attained <HI>Trophies,</HI> subdued <HI>nations,</HI> though they erected <HI>statues,</HI> and made <HI>ordinances,</HI> for celebrating
+<HI>their memorialls,</HI> yet their <HI>memoriall</HI> is perish∣ed with them, when as this act of this woman, is recor∣ded, and this is the woman whose praise is in the Gos∣pell. A <HI>priuate woman,</HI> in a
+<HI>priuate</HI> manner, in the <HI>priuate</HI> house of a <HI>Leper</HI> to poure out a <HI>small</HI> box of <HI>ointment</HI> on Christs head. Say her <HI>loue</HI> was great, and her act was <HI>good,</HI> and her oyntment were <HI>pretious,</HI> notwithstanding that of <HI>Claudian,</HI> in greater acts hath beene true, <HI>Minuit presentia famam quanto magis illam minuit notitia:</HI> Fame is an <HI>infection,</HI> acts <HI>reported</HI> are either
+<HI>portentious,</HI> beyond truth, and by bignesse they <HI>breake,</HI> or else so <HI>cankered</HI> with the <HI>rust</HI> of <HI>vntruth,</HI> as being <HI>lessened</HI> they <HI>liue</HI> not. It is true many haue
+<HI>sought honour</HI> by building, wherein
+<PB N="59" REF="32"/>they haue thought to leaue perpetuall
+<HI>monuments,</HI> and what are all these, but <HI>M<GAP DESC="illegible" RESP="pdcc" EXTENT="3 letters" DISP="•••"/>mons ryots,</HI> and
+<HI>times ruines,</HI> making the <HI>earth</HI> to groane vnder the
+<HI>burthen</HI> it bear∣eth. Where is <HI>Neroes</HI> house of gold, or
+<HI>Dioclesians</HI> hot bathes, or <HI>Anthonies</HI> water workes, or
+<HI>Augustus</HI> forum, or <HI>Cornelius</HI> Theatre, or the
+<HI>Amphitheatre</HI> of <HI>Statilius,</HI> or <HI>Dianas</HI> Temple, or the
+<HI>Mansolian</HI> Tombe, or <HI>Octanias</HI> gate, or <HI>Liuias</HI> gally, or <HI>Apolloes</HI> Church, or <HI>Iupiters</HI> Ca∣pitoll? It is a very poore monument, how immense, how sound that lime, and stone, and wood, and timber, and dust, and ashes, must pile for a <HI>memoriall</HI> to <HI>posteritie,</HI> when time, and storme, and winde, and weather, and moath, and rust, and ruine doe corrupt it. There was a monument bestowed on a Viceroy of <HI>Spaine, Propter nos &amp; nostram salutem, descendit ad inferos:</HI> and many such great ones, to the shame of their
+<HI>posteritie</HI> deserue no better <HI>memorie.</HI> When as
+<HI>Maries</HI> ointment smels sweete ouer all the world, whose memoriall yeelds this <HI>Doctrine, The good workes of Gods Saints, shall bee had in euerlasting remembrance.</HI> The reason,<NOTE PLACE="marg">Doct.</NOTE> because they shall bee <HI>exemplary</HI> to <HI>posteritie,</HI> and incitements to <HI>Gods glo∣ry.</HI> In <HI>Nehemiah</HI> 3. there is a list of the <HI>Benefactours</HI> that built the <HI>wall</HI> of
+<HI>Ierusalem,</HI><NOTE PLACE="marg">Neh. 3.</NOTE> not onely their
+<HI>families</HI> and their <HI>Tribes,</HI> but their <HI>trades,</HI> the
+<HI>Marchants,</HI> and the <HI>Goldsmiths</HI> are twise named, the whole
+<HI>trade</HI> and <HI>com∣pany</HI> are named, and one, in the 8. verse, and
+<HI>Apothe earies</HI> sonne is named, and after seuerall men, and euery mans <HI>seuerall worke.</HI> The <HI>righteous</HI> saith <HI>Dauid</HI> shall be had in euerlasting <HI>remembrance, Psal.</HI> 112.6
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, blessed and long liued saith
+<HI>Chrysostome.</HI> Blessings are on the <HI>head</HI> of the Iust, the <HI>memory</HI> of the iust is <HI>blessed,</HI> Pro. 10.7. the remembrance of <HI>Iosias</HI> as the compositi∣on of a <HI>perfume,</HI> Eccles. 49.1. The heathen thought for euer to be remembred, for their famous inuentions, <HI>Cad∣mus</HI> for letters, <HI>Pithagoras</HI> for numbers,
+<HI>Sidonius</HI> for mea∣sures, <HI>Aesculapius</HI> for medicines,
+<HI>Lycurgus</HI> for Lawes,
+<PB N="60" REF="33"/><HI>Arte</HI> for arts, <HI>Hercules</HI> for games, but how few take no∣tice of this <HI>fame,</HI> when that the godly
+<HI>neglected</HI> on earth are registred in <HI>heauen,</HI> and emblasond by Gods <HI>sentence</HI> and sanction. <HI>Non sic impij, non sic,</HI> the vngodly are not so, they <HI>perish,</HI> and
+<HI>stinke,</HI> and <HI>rot,</HI> the countenance of the Lord is against them, to roote out their <HI>remembrance from the earth,</HI> Psal. 34.15.
+<HI>vt puluis platearum, lutum pa∣tearum, lanugo plantarum, vt limus, fumus, festuca, patea, spuma,</HI> as chaffe of the sloore, dust of the streete, mosse of the trees, drosse of the <HI>siluer,</HI> foame of the <HI>sea,</HI> froath, smoake, vapours, meteors, and most
+<HI>momentany</HI> things, whereas the godly are euer <HI>honoured,</HI> their
+<HI>gratious acti∣ons honoured,</HI> their <HI>glorious</HI> examples imitated. It were honour <HI>enough</HI> for good men, if they were onely
+<HI>admi∣red,</HI> for Gods <HI>blessing</HI> and <HI>bountie</HI> vpon them in this life, that they are, as <HI>signets</HI> on his <HI>finger, starres</HI> in his <HI>hand, apples</HI> of his eye, that they shall
+<HI>slourish</HI> as the <HI>Bay-tree,</HI> the <HI>Oliue,</HI> the
+<HI>Myrh,</HI> the <HI>Palme,</HI> the <HI>Cedar</HI> of <HI>Lebanus;</HI> that their names bee in <HI>heauen,</HI> Luk. 10.20. their <HI>mem∣bers</HI> in his booke, Psalm. 139.19. their meate commeth from his hand, Psalm. 145.15. their bones <HI>kept</HI> by him Psal. 34.21. Their <HI>haires</HI> numbred by him, Math. 10.30. Their <HI>teares</HI> reserued with him,
+<HI>Psal.</HI> 50.7. But that no good <HI>worke,</HI> shall passe vnrewarded by him, not a lit∣tle <HI>meate</HI> to his <HI>Prophet,</HI> or a
+<HI>nights-lodging</HI> to a spie, or a little ointment, or a cuppe of cold water, or a <HI>mite</HI> misse a <HI>reward,</HI> or <HI>monument;</HI> for wee had not heard of the <HI>poores</HI> treasury in the <HI>Temple,</HI> had not the poore <HI>widdow</HI> cast in her mite into the
+<HI>treasurie,</HI> which mite is treasured vp, and hath a
+<HI>mention,</HI> as is this worke of this woman in this Gospell.</P>
+<P>The vse whereof should <HI>confound,</HI><NOTE PLACE="marg">Vse.</NOTE> at least <HI>confute</HI> the miserable
+<HI>mucke-wormes</HI> and penurious <HI>money-mongers,</HI> who neuer did any good, <HI>arrestable</HI> to God, <HI>auaileable</HI> to their soule,
+<HI>profitable</HI> to their neighbour, that came <HI>na∣ked</HI> into the world, and will goe <HI>naked</HI> out of the world,
+<PB N="61" REF="33"/>whose only <HI>godlinesse</HI> is
+<HI>gaine,</HI> who doe <HI>base homage</HI> to that which should be the
+<HI>basest drudge,</HI> who are so farre from being <HI>guiltie</HI> of doing good, that for small <HI>aduan∣tage</HI> they will be content to lose all <HI>friends,</HI> to pine their <HI>bodies,</HI> and damne their
+<HI>soules.</HI> Is it possible (had not <HI>Sathan</HI> possessed these <HI>seruile slaues</HI>) that a humane soule should liue in a body so base, which makes a <HI>liuelesse</HI> peece of earth his God? <HI>Cultor Mammonae, seruus pecu∣niae, sectator auaritiae; pro pecunia Hypocrita, in pecunia Apostolus, ex pecunia Idololatra;</HI> who like a true <HI>Chy∣mist,</HI> turnes euery thing into
+<HI>siluer,</HI> both what he should <HI>eat,</HI> and what he should
+<HI>weare;</HI> and that hee <HI>keepes,</HI> is to <HI>looke vpon,</HI> not to
+<HI>vse,</HI> which he <HI>feares</HI> to keepe, and <HI>abhorres</HI> to lose, who as hee <HI>liues</HI> without <HI>loue,</HI> so <HI>dies</HI> without <HI>teares,</HI> without <HI>pitie,</HI> saue that they say it was
+<HI>pitie</HI> he died no sooner. What shall become of these that
+<HI>protect</HI> what they <HI>worship,</HI> and <HI>want</HI> what they
+<HI>abound</HI> in? They shall <HI>perish,</HI> their <HI>memoriall</HI> shall <HI>perish,</HI> and well were it, if as their <HI>bodies</HI> perish, so their <HI>soules</HI> might so <HI>perish</HI> as to be no more. But how truly should it possesse your <HI>soules</HI> with
+<HI>ioy,</HI> blessed and beloued, who haue <HI>fed,</HI> and
+<HI>cloathed,</HI> and <HI>cured,</HI> and <HI>visited,</HI> the
+<HI>weake</HI> sicke mem∣bers of <HI>Christ Iesus?</HI> Your almes is come vp before <HI>God,</HI> and as the <HI>smoake</HI> of the
+<HI>Incense,</HI> from the <HI>Censor</HI> of the <HI>Angell,</HI> or the
+<HI>Golden Altar,</HI> before the <HI>Throne.</HI> Yee faithfull
+<HI>Deputies</HI> of your <HI>Master,</HI> blessed are yee, great is your
+<HI>reward</HI> in heauen, you that are the trustie <HI>Trea∣surers</HI> of the poore and <HI>needie,</HI> and all yee the approued <HI>Gouernours</HI> of the <HI>Hospitals</HI> of this Citie, ye are the <HI>exe∣cutors</HI> of Christs <HI>Legacie,</HI> which was only this, <HI>The poore yee shall haue alwayes with you:</HI> for when hee <HI>bequeathed</HI> his <HI>Church</HI> to his <HI>Disciples,</HI> and his <HI>garments</HI> to his <HI>Soul∣diers,</HI> his <HI>mother</HI> to <HI>Iohn,</HI> and his <HI>body</HI> to
+<HI>Ioseph,</HI> but the <HI>poore</HI> he commended to his <HI>Church,</HI> and you are some of his <HI>executors,</HI> and haue the <HI>poore alwayes with you.</HI> It is the speech of <HI>Bonauerture, Hoc piarum mentium est, vt
+<PB N="62" REF="34"/>nihil sibi tribuant:</HI> It is the propertie of holy mindes, that they attribute nothing to themselues, but onely to the
+<HI>grace of God.</HI> I would not blast you with an infectious breath of
+<HI>flatterie,</HI> or with this <HI>pretious balme</HI> breake your
+<HI>heads;</HI> nor would I be sparing to giue your <HI>memo∣riall</HI> what God hath allowed you, seeing you are so <HI>free</HI> in paying those
+<HI>Legacies</HI> that Christ hath <HI>appointed</HI> you. It is no small
+<HI>honour</HI> to be one of the <HI>Masters</HI> of an <HI>Hospi∣tall: Stephen</HI> <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>Stephen</HI> the first
+<HI>Martyr,</HI> and first <HI>Deacon,</HI> was no other then
+<HI>Treasurer</HI> for the <HI>poore: Paul</HI> was <HI>Collector</HI> for the <HI>poore,</HI> and <HI>Christ</HI> himselfe <HI>Ouerseer</HI> for the <HI>poore;</HI> for our <HI>Sauiour</HI> euer comming into the
+<HI>Temple,</HI> cast his eye to see what was cast into the
+<HI>Treasurie</HI> for the <HI>poore.</HI> It should be no small
+<HI>ioy</HI> to your <HI>soules,</HI> to consider that God vouchsafeth the name of <HI>righteousnesse</HI> to Almes-deeds:<NOTE N="*" PLACE="marg"><GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> Iustus. Misericors. Hier.</NOTE>
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>Psal.</HI> 112.9. <HI>Hee hath dispersed and giuen to the poore, his righteousnesse endureth for euer.</HI> So <HI>S. Paul</HI> re∣hearseth it, 2 <HI>Cor</HI> 9.9. where the <HI>fruit</HI> of
+<HI>righteousnesse</HI> is esteemed <HI>righteousnesse,</HI> and is assured of an eternall <HI>me∣moriall.</HI> You, and your
+<HI>Almes-deeds,</HI> and your <HI>Almes∣men,</HI> and your
+<HI>Almes-houses,</HI> shall be had in euerlasting <HI>remembrance.</HI> He that hath left this <HI>woman</HI> for this <HI>worke</HI> this
+<HI>memoriall,</HI> I doubt not but his gratious presence is with vs, his blessed <HI>eyes</HI> ouer vs, his sacred <HI>eares</HI> open vnto vs, this <HI>morning</HI> to heare this <HI>memoriall</HI> of your bounty and mercy, and to receiue this account of the <HI>Talents</HI> that this yeere he hath trusted you with.</P>
+<LIST>
+<ITEM>CHildren kept at this present at charges in Christs Hospitall, in the house, diuers places in the Citie, and with sundry nurses in the Country—736</ITEM>
+<ITEM>Children put forth Apprentises, discharged and dead this yeare out of Christs Hospitall.—59</ITEM>
+<ITEM>There hath bin cured this yeare past in S<SUP>t</SUP>
+<HI>Bartholmewes</HI>
+<PB N="63" REF="34"/>Hospitall, of Souldiers &amp; other diseased people.—512</ITEM>
+<ITEM>There is in the said Hospitall vnder cure at this pre∣sent.—235</ITEM>
+<ITEM>There hath beene cured this yeare past in S<SUP>t</SUP>
+<HI>Thomas</HI> Hospitall, of Souldiers &amp; other diseased people.—826</ITEM>
+<ITEM>There is in the said Hospitall vnder cure at this pre∣sent—236</ITEM>
+</LIST>
+<DIV2 TYPE="part">
+<HEAD>A report for Bridewell.</HEAD>
+<P>THere hath been brought to the Hospitall of Bride∣well within the space of one yeare last past, of wan∣dring souldiers and other vagrant people, which haue beene passed thence into their natiue Countries by pas∣ports (according to the Law in that case prouided) to the number of
+1810. of whom many haue beene char∣geable to the said Hospitall in their dyet, for the time of their being in the same, some more, some lesse, as they might thence be conueniently remoued, besides other helps there ministred vnto many of them, as cause required: <HI>viz.</HI> in hose, shooes, shirts, bands, money, and such like, which cannot be auoided by reason of their misery, nor they thence passed without charge to the said Hospitall, in respect they are to be examined, and considered of, to what Countrey to bee transported. Also there is in the said Hospitall maintained and kept in Arts and occupations, and other seruile workes and labours, at the charges of the said Hospitall, of men, wo∣men, and children, to the number of 100 persons, wher∣of 60 and vpwards are poore boyes taken out of diuers Parishes and streets of this Citie, and now bound Ap∣prentises in the said Hospitall to be made freemen of this Citty at the end of their seuerall Termes.</P>
+<P>I haue but one word more, my last part, but one word,
+<HI>Wheresoeuer,</HI> of which but a word. <HI>Wheresoeuer,</HI>
+<PB N="64" REF="35"/>the place vnlimited, <HI>infinite,</HI>
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, wheresoeuer. <HI>Salomons</HI> fame neuer went further, the circuit of the <HI>Sunne</HI> is not greater, <GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/> is
+<GAP DESC="foreign" DISP="〈 in non-Latin alphabet 〉"/>, <HI>vbicunque, vbique.</HI> The <HI>Church</HI> was as
+<HI>Noahs</HI> Arke, <HI>Abrahams</HI> progenie, <HI>Iobs</HI> familie,
+<HI>Nebuchadnezors</HI> furnace, <HI>Eliahs</HI> complaint, but now
+<HI>God</HI> is knowne vpon all the <HI>earth,</HI> his sauing
+<HI>health</HI> among all <HI>Nations.</HI> The <HI>Apostles</HI> were
+<HI>latent,</HI> which the doore <HI>shut,</HI> the <HI>Christians silent,</HI> their liues <HI>couped,</HI> the <HI>Antebunni, hymni,</HI> and priuate <HI>Liturgie</HI> were <HI>solitarie;</HI> now God, euen our <HI>owne God,</HI> hath <HI>blessed</HI> vs, and all the <HI>ends</HI> of the
+<HI>world</HI> shall feare him. This <HI>Gospell,</HI> this
+<HI>wo∣man,</HI> this <HI>worke,</HI> this <HI>memoriall,</HI> shall be wheresoeuer: A <HI>blessed worke,</HI> that is so <HI>emblazoned. Indi, Scitha, Thraces, Sauromatae,</HI><NOTE PLACE="marg">Roffensis de¦tribus Magdal.</NOTE> <HI>quique Mauritaniam, quique Orthigias Insulas habitant, quod in domicilio pauperis factum est à muliere, magna voce praedicant,</HI> saith <HI>Chrysostome: Et vix pro Chri∣stiano habeatur, qui non tenuerit nomen eius,</HI> saith <HI>Gregory.</HI> A holy
+<HI>worke</HI> it was that was so <HI>honoured,</HI> and it so
+<HI>conti∣nued,</HI> so <HI>repeated,</HI> saith <HI>Roffensis, Singulis annis per totum Christianitatis orbem in celeberrimo Paschae Festo per tot Sacerdotum bursas, per tot Pontificum linguas, per tot prae∣dicantium tubas, hunc de Maria hymnum pronunciars.</HI> Wheresoeuer this
+<HI>Gospell</HI> is preached: That not onely already <HI>Peter</HI> at
+<HI>Antioch,</HI> and <HI>Iohn</HI> in all <HI>Asia, Iames</HI> in
+<HI>Ierusalem,</HI> and <HI>Paul</HI> at <HI>Rome, Philip</HI> at
+<HI>Caesarea,</HI> and <HI>Marke</HI> at <HI>Alexandria,</HI> haue long since <HI>honoured</HI> this happy <HI>worke</HI> of <HI>Mary:</HI> That
+<HI>Timothy</HI> at <HI>Ephesus,</HI> and <HI>Titus</HI> at <HI>Crete, Polycarpus</HI> at <HI>Smyrna, Paulinus</HI> at <HI>Nola, Primasius</HI> at
+<HI>Vtica, Eucherius</HI> at <HI>Lyons, Chrysostome</HI> at
+<HI>Constantinople, Cyprian</HI> at <HI>Carthage, Ambrose</HI> at
+<HI>Myllaine, Austine</HI> at <HI>Hyppo:</HI> The <HI>glorious company</HI> of the <HI>Apostles,</HI> the <HI>goodly fellowship</HI> of the
+<HI>Preachers,</HI> the <HI>noble armie</HI> of <HI>Martyrs,</HI> the <HI>holy Church</HI> throughout all the world wheresoeuer, doth <HI>knowledge</HI> this memory of the <HI>ointment</HI> of <HI>Mary,</HI> and that the
+<HI>memoriall</HI> thereof doth attend the <HI>Gospell.</HI> Whence issueth this last <HI>conclusion,</HI> Where the <HI>Gospell</HI>
+<PB N="65" REF="35"/>of Christs <HI>Passion</HI> and
+<HI>Resurrection</HI> is preached,<NOTE PLACE="marg">Doct.</NOTE> there the
+<HI>necessitie of good workes</HI> should be <HI>vrged:</HI> The
+<HI>Reason,</HI> be∣cause they be the <HI>manifest signes</HI> of our
+<HI>faith,</HI> and <HI>beleefe</HI> of the <HI>Gospell</HI> of Christ.
+<HI>Faith</HI> is shewed by <HI>workes,</HI> the <HI>tree</HI> by the
+<HI>fruit,</HI> the <HI>streame</HI> by the <HI>fountaine,</HI> the
+<HI>light</HI> by the <HI>Sunne.</HI> Our <HI>Sauiour</HI> is he that hath done to vs great things, whereof wee may reioyce, and holy is his <HI>Name.</HI> We must performe some seruice for him to glorifie his <HI>Name.</HI> He hath beene made <HI>poore,</HI> to make vs <HI>rich,</HI> holy is his <HI>Name.</HI> They that be <HI>rich,</HI> should for his sake suc∣cour the
+<HI>poore,</HI> to glorifie his <HI>Name.</HI> Our <HI>Sauiour</HI> did euer some good worke at the <HI>Passeouer,</HI> which was the greatest
+<HI>Feast</HI> of the whole yeere, and the greatest worke of our
+<HI>Redemption</HI> hee performed at this <HI>Feast</HI> of the
+<HI>Passeouer, Holy</HI> is his <HI>Name.</HI> The <HI>act,</HI> the
+<HI>feast,</HI> the <HI>time,</HI> the <HI>meeting,</HI> the <HI>glad tidings,</HI> the <HI>Gospell</HI> of this <HI>Passeouer,</HI> this
+<HI>Gospell</HI> at the <HI>Passeouer,</HI> should bring forth some
+<HI>fruit</HI> to glorifie his name.</P>
+<P>To <HI>conclude</HI> therefore this last <HI>point,</HI><NOTE PLACE="marg">Ʋse.</NOTE> the <HI>vse</HI> hereof is to stirre vp all of vs to imitate their first practise, who first heard this doctrine of Christs <HI>Passion</HI> and <HI>Resurre∣ction, Acts</HI> 2.23.24.
+<HI>Peter</HI> preached to some <HI>deuout men</HI> of euery <HI>Nation</HI> vnder heauen, that <HI>Iesus</HI> whom they had <HI>crucified</HI> and
+<HI>slaine,</HI> God had raised him vp from the <HI>dead:</HI> This was this <HI>Gospell.</HI> Obserue from the 41. verse the fruit of this
+<HI>preaching,</HI> they gladly <HI>receiued</HI> this word, 3000. soules were added to the <HI>Church:</HI> in the 44. they <HI>beleeued,</HI> and sold their <HI>possessions,</HI> and <HI>goods,</HI> and
+<HI>parted</HI> them to euery man that had need. Here was the <HI>fruit</HI> of their <HI>faith,</HI><NOTE PLACE="marg">Doct.</NOTE> the <HI>true vse</HI> of the <HI>Doctrine</HI> of Christs <HI>Death</HI> and <HI>Resurrection.</HI> Beloued, let the <HI>same minde</HI> be also in you. The <HI>Christian Primitiues</HI> were no <HI>Possessiues:</HI> the <HI>poore</HI> did not <HI>enuie</HI> the <HI>rich, non enim ita diuites,</HI> none were so rich, saith <HI>Chrysostome;</HI> the <HI>rich</HI> did not
+<HI>despise</HI> the <HI>poore,</HI> for none were so poore. They sold
+<HI>possessions</HI> to releeue the <HI>necessities</HI> and
+<HI>wants</HI> of the <HI>Saints:</HI> To
+<PB N="66" REF="36"/>doe good therefore, and to distribute, forget not; for with such <HI>sacrifices</HI> God is pleased.<NOTE PLACE="marg">Conclusion.</NOTE> And such <HI>sacrifices</HI> this day haue ye <HI>offered.</HI> Our Sauiour at the <HI>Passeouer</HI> saith
+<HI>Rupertus,</HI><NOTE PLACE="marg">R<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ert.</NOTE> fed the 5000. the
+<HI>number</HI> is great that yee haue <HI>fedde, cloathed, cured;</HI> LONDON is rep esented here like <HI>L<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>dia the purple seller,</HI> or as
+<HI>Dorcas</HI> full of <HI>goo<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/> wo<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>kes</HI> and <HI>almesdeeds,</HI> wh<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ch shee hath <HI>done.</HI> The<GAP DESC="illegible" RESP="pdcc" EXTENT="2 letters" DISP="••"/> <HI>poore men,</HI> and <HI>widdowes,</HI> and
+<HI>children</HI> shew the <HI>garments</HI> and <HI>coates,</HI> which
+<HI>Dorcas</HI> hath made.</P>
+<P><HI>Stant inopes vidu<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ij greges &amp; <GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>r<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>c<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ia morserant,</HI></P>
+<P><HI>Exunijs enera a su<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>s.</HI> Beh<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ld the <HI>beauty</HI> of this <HI>daughter</HI> of <HI>Syon,</HI> as an <HI>orch<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>rd</HI> of <HI>sweet fruits,</HI> or a <HI>garden</HI> of <HI>sweet flowers,</HI> as
+<HI>R<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ses</HI> or <HI>Ly<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>ies,</HI> as a <HI>bed</HI> of <HI>violets,</HI> so doe these poore <HI>Orphans,</HI> and <HI>I<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>f<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>nts,</HI> and
+<HI>indi∣gent</HI> soules appeare this <HI>day,</HI> in <GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>his <HI>place,</HI> before <HI>God,</HI> and <HI>men,</HI> and <HI>Angels.</HI> This <HI>Citty</HI> as <HI>Mary</HI> hath powred out her <HI>ointment</HI> on the <HI>body</HI> of our Sauiour, and <HI>annointed</HI> the feete in these his <HI>members:</HI> and for this, this whole land is filled with the odour of your ointment.
+<HI>Posteri∣tie</HI> wi<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>l honour your memory, the <HI>Christian</HI> world in the dayes of your <HI>Childrens</HI> children shall reioyce in your
+<HI>memoriall:</HI> Not <HI>fame</HI> onely, but <HI>God</HI> shall make you a <HI>monument,</HI> that shall neuer haue an <HI>end.</HI> I hope you haue also <HI>annointed</HI> Christs head at this <HI>solemne</HI> meeting, by celebrating the <HI>great feast</HI> of Christs <HI>resur∣rection,</HI> to the <HI>glory</HI> of God the <HI>Father,</HI> the same minde should be in <HI>vs,</HI> the same minde should be <HI>intended</HI> by vs: it was
+<HI>his end,</HI> it should be <HI>our end.</HI> To <HI>end</HI> all then, if this be <HI>our end,</HI> why should we doubt but the <HI>Angell</HI> wil des∣cend at this <HI>time</HI> into the poole of <HI>Bethesda,</HI> and some <HI>impotent</HI> man that neuer yet did <HI>good</HI> may bee healed? Some dry-<HI>withered</HI>-couetous hand may be cured. You haue duely
+<HI>obserued</HI> Christs rule in the <HI>feast;</HI> now you keepe the
+<HI>feast</HI> you haue called the <HI>poore,</HI> and the <HI>same,</HI> and the <HI>blinde.</HI> This feast is the time that the Iewes kept their feast of <HI>first fruits.</HI> The first fruits of <HI>Zacheus</HI>
+<PB N="67" REF="36"/>faith are found <HI>Luk.</HI> 19.8.
+<HI>Behold Lord the halfe of my goods I giue to the poore.</HI> If
+<HI>Zacheus</HI> be dead without issue, yet at <HI>least,</HI> let euery one doe some good, euery one carry home some <HI>spikenard</HI> to embalme their bo∣dies for the <HI>buriall,</HI> euery one bring forth some fruit of the <HI>resurrection;</HI> euery one adde somewhat to the ioy of the <HI>Angels</HI> in heauen. If all the <HI>Angels</HI> reioyce at the
+<HI>conversion</HI> of a sinner, ô what is the ioy at this
+<HI>feast</HI> in heauen, for the <HI>resurrection</HI> of our Sauiour!
+<HI>Euery tree</HI> and <HI>pl<GAP DESC="illegible" RESP="pdcc" EXTENT="1 letter" DISP="•"/>nt,</HI> and <HI>fruit,</HI> and
+<HI>flower,</HI> and <HI>herbe</HI> for the vse of man <HI>creepes</HI> out of the <HI>earth</HI> to celebrate the <HI>resurrection</HI> of Christ. Doth God cloth the <HI>grasse</HI> of the earth, the <HI>lillyes</HI> of the <HI>field,</HI> how much more <HI>careth</HI> he for you, ô yee of little <HI>faith?</HI> Let <HI>euery</HI> one at this <HI>feast</HI> of
+<HI>first fruits,</HI> bring <HI>forth some fruit worthy amendment of life.</HI> Euery one hath his <HI>talent,</HI> euery one shall beare his owne
+<HI>burthen,</HI> euery one shall stand before the <HI>Tribunall</HI> seat of God: euery tree that <HI>bringeth</HI> not forth good <HI>fruit</HI> shall be <HI>hewen</HI> downe, and <HI>euery mans</HI> blood shall be on his <HI>owne head,</HI> and <HI>tribulation,</HI> and <HI>anguish</HI> shall be on euery wicked soule: but <HI>glory,</HI> &amp; <HI>honour,</HI> and <HI>peace,</HI> and <HI>immortalitie</HI> to euery man that <HI>worketh good,</HI> and to the <HI>Israel</HI> of God, and all shall liue to the
+<HI>glory</HI> of God <HI>the father. Glory be to this God the Father, to Christ Iesus his Sonne our Sauiour, and to the Holy Ghost his Spirit our com∣forter, as it was in the beginning, so now let it be in this place, and in all congregations of the Saints, this day, and all the daies of our liues for euermore. Amen, Amen.</HI></P>
+<TRAILER>FINIS.</TRAILER>
+</DIV2>
+</DIV1>
+</BODY>
+</TEXT>
+</EEBO>
+</ETS>
+

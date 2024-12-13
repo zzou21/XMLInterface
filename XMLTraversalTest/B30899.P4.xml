@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?>
+<!DOCTYPE ETS SYSTEM "http://www.textcreationpartnership.org/docs/code/eebo2prf.xml.dtd">
+<ETS>
+
+<HEADER><FILEDESC><TITLESTMT><TITLE TYPE="245" I2="2">A true account of a most terrible storm of thunder and lightning, that happened at Cruise Morchard, four miles distant from Tiverton in Devonshire, on Monday, being the 18th of February last past, about one of the clock in the morning.</TITLE></TITLESTMT><EXTENT>Approx. 3KB of XML-encoded text transcribed from 2 1-bit group-IV TIFF page images.</EXTENT><PUBLICATIONSTMT><PUBPLACE>Ann Arbor, MI ; Oxford (UK) :</PUBPLACE><PUBLISHER>Text Creation Partnership,</PUBLISHER><DATE>2014-10 (EEBO-TCP Phase 2).</DATE><IDNO TYPE="DLPS">B30899</IDNO>
+
+
+<IDNO TYPE="oclc"> 80924720</IDNO>
+
+<IDNO TYPE="stc">Wing T2328A</IDNO>
+
+<IDNO TYPE="stc">ESTC R185530</IDNO>
+
+
+
+<IDNO TYPE="oclc">ocm 80924720</IDNO>
+
+
+<AVAILABILITY><P>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</P></AVAILABILITY></PUBLICATIONSTMT><SERIESSTMT><TITLE>Early English books online text creation partnership.</TITLE></SERIESSTMT><NOTESSTMT><NOTE>(EEBO-TCP ; phase 2, no. B30899)</NOTE><NOTE>Transcribed from: (Early English Books Online ; image set 192106)</NOTE><NOTE>Images scanned from microfilm: (Early English books; 1641-1700 ; 2899:59)</NOTE></NOTESSTMT><SOURCEDESC><BIBLFULL><TITLESTMT><TITLE TYPE="245" I2="2">A true account of a most terrible storm of thunder and lightning, that happened at Cruise Morchard, four miles distant from Tiverton in Devonshire, on Monday, being the 18th of February last past, about one of the clock in the morning.</TITLE></TITLESTMT><EXTENT>1 sheet (2 p.).   </EXTENT><PUBLICATIONSTMT>
+<PUBPLACE>London, :</PUBPLACE>
+<PUBLISHER>Printed for R. Baldwin in the Old-Baily.,</PUBLISHER>
+<DATE>1689.</DATE>
+</PUBLICATIONSTMT><NOTESSTMT><NOTE>Imprint from colophon.</NOTE><NOTE>"Licensed, April 6. 1689"--P. 2.</NOTE><NOTE>Reproduction of original in the Cambridge University Library.</NOTE></NOTESSTMT></BIBLFULL></SOURCEDESC></FILEDESC><ENCODINGDESC><PROJECTDESC><P>Header created with script mrcb2eeboutf.xsl on 2016-01-28.</P></PROJECTDESC><EDITORIALDECL N="4"><P>Manually keyed and coded text linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</P><P>Issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</P><P>Keying and markup guidelines available at TCP web site (http://www.textcreationpartnership.org/docs/)</P></EDITORIALDECL></ENCODINGDESC><PROFILEDESC><LANGUSAGE ID="eng"><LANGUAGE>eng</LANGUAGE></LANGUSAGE><TEXTCLASS><KEYWORDS><TERM TYPE="topical term">Thunderstorms --  England --  Devonshire --  Early works to 1800.</TERM><TERM TYPE="geographic name">Tiverton (England) --  History --  Early works to 1800.</TERM><TERM TYPE="geographic name">Devon (England) --  History --  Early works to 1800.</TERM><TERM TYPE="genre/form">Broadsides --  England --  17th century.</TERM></KEYWORDS></TEXTCLASS></PROFILEDESC><REVISIONDESC><CHANGE><DATE>2013-04 </DATE><RESPSTMT><RESP>SPi Global</RESP></RESPSTMT><ITEM>Keyed and coded from ProQuest page images </ITEM></CHANGE><CHANGE><DATE>2013-08 </DATE><RESPSTMT><RESP>Colm MacCrossan </RESP></RESPSTMT><ITEM>Sampled and proofread </ITEM></CHANGE><CHANGE><DATE>2013-08 </DATE><RESPSTMT><RESP>Colm MacCrossan</RESP></RESPSTMT><ITEM>Text and markup reviewed and edited </ITEM></CHANGE><CHANGE><DATE>2014-03 </DATE><RESPSTMT><RESP>pfs</RESP></RESPSTMT><ITEM>Batch review (QC) and XML conversion </ITEM></CHANGE></REVISIONDESC></HEADER>
+<EEBO>
+<IDG S="marc" R="OX" ID="B30899">
+<STC T="W">T2328A</STC>
+<STC T="C">R185530</STC>
+<BIBNO T="oclc" PRE="ocm">80924720</BIBNO>
+<VID>192106</VID></IDG>
+<TEXT LANG="eng">
+<BODY>
+<DIV1 TYPE="account">
+<PB REF="1" MS="y"/>
+<PB N="1" REF="1" MS="y"/>
+<HEAD>A TRUE ACCOUNT OF A most Terrible Storm of Thunder and Lightning, that happened at <HI>Cruise Morchard,</HI> four Miles distant from <HI>Ti∣verton</HI> in <HI>Devonshire,</HI> on <HI>Monday,</HI> being the 18th of <HI>February</HI> last past, about one of the Clock in the Morning.</HEAD>
+<P>THE Publisher not intending to delay the Reader from perusing the following Relation, with an Harangue of attributing it to be the effects of Natural Causes, or as a Judgment of an Angry Deity, for Crimes either General or Particu∣lar, leaves all to their own Censure, and only sets forth the true matter of Fact, which take as followeth.</P>
+<P>That on Monday, the 18th of <HI>February</HI> last past, about One of the Clock in the Morning, <HI>John Cruise</HI> Esq; whose House is very near adjacent to the said Parish Church, with his whole Family, as well as the whole adjacent Country, being much affrighted with the terribleness of the Thunder and Lightning, and the appearance of the whole Element being in a Flame; and hearing a strange noise of Flames, imagined it to be his own House; but endeavouring to find out the certainty thereof, quickly
+<PB N="2" REF="2"/> with astonishment discover'd that the Parish Church, and Tower thereof were all on Fire; and continu'd burning with that violence (till the whole were entirely consum'd) that 'tis difficult for Pen to express the same. The Bells in the Tower were so melted (excepting half of one) that the very substance of the Metal was turn'd into perfect Dross, and made useless to be remelted. Which Accident is the more admirable for the Season it hap∣pen'd in, when the least part of Thunder and Light∣ning is accounted Wonderful.</P>
+<P>I hope none will be difficult to give credit to what is here related, for that the said Gentleman hath written a particular thereof to two Members of this present Parliament, of the said Town adjacent; and an Esti∣mate of the Dammage, which is computed to be near Two Thousand Pound. Who likewise are desir'd to procure a Brief for a publick Collection of Charity towards the rebuilding of the said Parish Church, so dismally consum'd.</P>
+<P>There was also much more dammage done in the adjacent Country, by blowing up Trees by the Roots, the Roofs off some Houses, and Thatch off others; of which the particulars are not yet taken.</P>
+</DIV1>
+</BODY>
+<BACK>
+<DIV1 TYPE="license">
+<P><HI>Licensed,</HI></P>
+<CLOSER><DATE>April 6. 1689.</DATE></CLOSER>
+</DIV1>
+<DIV1 TYPE="colophon">
+<P><HI>LONDON,</HI> Printed for <HI>R. Baldwin</HI> in the <HI>Old-Baily.</HI> 1689.</P>
+<PB REF="2"/>
+</DIV1>
+</BACK>
+</TEXT>
+</EEBO>
+</ETS>
+
