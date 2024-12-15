@@ -18,17 +18,13 @@ class XMLContentExtraction:
             if elem.tag in self.XMLCustomizedTagsList:
                 allContent.append(elem.text)
         
-        print(allTags)
         filteredAllContent = [item for item in allContent if item is not None]
-        print("".join(filteredAllContent))
 
-        # TODO: update the code so that it will accomodate iteration through directory
-        newTestFilePath = self.outputName
-        with open(newTestFilePath, "w") as testFile:
+        with open(self.outputName, "w") as testFile:
             testFile.write("".join(filteredAllContent))
 
-if __name__ == "__main__":
-    XMLSourcePath = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
-    XMLCustomizedTagsList = ['TITLESTMT', 'TITLE', 'AUTHOR', 'EXTENT', 'PUBLICATIONSTMT']
-    XMLParsingTool = XMLContentExtraction(XMLSourcePath, XMLCustomizedTagsList)
-    XMLParsingTool.traverseXML()
+# if __name__ == "__main__":
+#     XMLSourcePath = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
+#     XMLCustomizedTagsList = ['TITLESTMT', 'TITLE', 'AUTHOR', 'EXTENT', 'PUBLICATIONSTMT']
+#     XMLParsingTool = XMLContentExtraction(XMLSourcePath, XMLCustomizedTagsList)
+#     XMLParsingTool.traverseXML()
