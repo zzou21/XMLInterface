@@ -6,7 +6,7 @@ class XMLContentExtraction:
         self.XMLCustomizedTagsList = XMLCustomizedTagsList
         self.outputName = outputName
 
-    def traverseXML(self):
+    def traverseAndOutputXML(self):
         tree = ET.parse(self.XMLSourcePath)
         root = tree.getroot()
         allTags = []
@@ -20,7 +20,7 @@ class XMLContentExtraction:
         
         filteredAllContent = [item for item in allContent if item is not None]
 
-        with open(self.outputName, "w") as testFile:
+        with open(self.outputName, "w", encoding = "utf-8") as testFile:
             testFile.write("".join(filteredAllContent))
 
 # if __name__ == "__main__":

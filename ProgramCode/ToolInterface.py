@@ -2,58 +2,59 @@ import os, tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog, messagebox
 from XMLContentExtractionObject import XMLContentExtraction
+from customizeXMLTags import XMLTagCustomization
 
 class XMLToolInterface:
     def __init__(self, XMLSourceDirectory):
         self.XMLSourceDirectory = XMLSourceDirectory
         self.interfaceResultLabel = None
         self.displayButtonsForXMLTagSelection = None
-        self.singleFileProcessCounter = 0
-        self.folderFileProcessCounter = 0
+        self.subFrameForScroll = None
 
     def selectionInterface(self):
         rootInterface = tk.Tk()
         rootInterface.title("XML-TXT Interface")
-        rootInterface.geometry("600x600")
+        rootInterface.geometry("1000x800")
 
         mainFrame = tk.Frame(rootInterface)
         mainFrame.grid(row = 0, column = 0, sticky = "nsew")
-        rootInterface.grid_rowconfigure(0, weight=1)
-        rootInterface.grid_columnconfigure(0, weight=1)
+        rootInterface.grid_rowconfigure(0, weight = 1)
+        rootInterface.grid_columnconfigure(0, weight = 1)
 
         canvas = tk.Canvas(mainFrame)
-        canvas.grid(row=0, column=0, sticky="nsew")
+        canvas.grid(row = 0, column = 0, sticky = "nsew")
         scrollBar = ttk.Scrollbar(mainFrame, orient = "vertical", command = canvas.yview)
-        scrollBar.grid(row=0, column=1, sticky="ns")
+        scrollBar.grid(row = 0, column = 1, sticky = "ns")
         canvas.configure(yscrollcommand = scrollBar.set)
         canvas.bind("<Configure>", lambda e: canvas.configure(scrollregion = canvas.bbox("all")))
 
-        subFrameForScroll = tk.Frame(canvas)
-        canvas.create_window((0, 0), window = subFrameForScroll, anchor = "nw")
-        mainFrame.grid_rowconfigure(0, weight=1)
-        mainFrame.grid_columnconfigure(0, weight=1)
+        self.subFrameForScroll = tk.Frame(canvas)
+        canvas.create_window((0, 0), window = self.subFrameForScroll, anchor = "nw")
+        mainFrame.grid_rowconfigure(0, weight = 1)
+        mainFrame.grid_columnconfigure(0, weight = 1)
 
-        #TODO: solve mouse wheel issue: only scrolls in the scroll bar column
         canvas.bind_all("<MouseWheel>", lambda e: canvas.yview_scroll(-int(e.delta / 60), "units"))
         
+        titleLabel = tk.Label(self.subFrameForScroll, text = "Customized XML-to-TXT Export Interface", font = ("Times New Roman", 20, "bold"), wraplength = 580)
+        titleLabel.grid(row = 0, column = 0, columnspan = 3, pady = 20)
 
-        titleLabel = tk.Label(subFrameForScroll, text = "Customized XML-to-TXT Export Interface", font = ("Times New Roman", 24, "bold"))
-        titleLabel.grid(row=0, column=0, columnspan=3, pady=20)
+        descriptionLabel = tk.Label(self.subFrameForScroll, text = "Instructions:\n\n1) Select one of the options by clicking on the coorresponding button below.\n\n2) After selecting a button, you will be prompted to select either a sinle XML file or a folder. This is the single XML or the folder of XML that you wish to convert to TXT.\n\n3) Then, the window will query you again to select a directory. This is the directory of which you wish to store the outputted single TXT file or folder of TXT files to.\n\n4) After each export, the window will not automatically close so that you can perform multiple exports in one runtime session. To end the session, click on the \"End Program\" button at the every end.\n\nScroll down or expand the window if you cannot see the buttons.", font = ("Times New Roman", 14), anchor = "w",justify = "left", wraplength = 580)
+        descriptionLabel.grid(row = 1, column = 0, columnspan = 3, pady = 15)
 
-        descriptionLabel = tk.Label(subFrameForScroll, text = "Instructions:\n\n1) Select one of the options by clicking on the coorresponding button below.\n\n2) After selecting a button, you will be prompted to select either a sinle XML file or a folder. This is the single XML or the folder of XML that you wish to convert to TXT.\n\n3) Then, the window will query you again to select a directory. This is the directory of which you wish to store the outputted single TXT file or folder of TXT files to.\n\n4) After each export, the window will not automatically close so that you can perform multiple exports in one runtime session. To end the session, click on the \"End Program\" button at the every end.", font = ("Times New Roman", 16), anchor = "w",justify = "left", wraplength = 580)
-        descriptionLabel.grid(row=1, column=0, columnspan=3, pady=15)
+        statusIndicatorLabel = tk.Label(self.subFrameForScroll, text = "Program status: \n")
+        statusIndicatorLabel.grid(row = 2, column = 0, padx = 5, pady = 1)
 
-        self.interfaceResultLabel = tk.Label(subFrameForScroll, text = "No file or folder selected yet.", font = ("Ariel", 13, "bold"), wraplength = 500)
-        self.interfaceResultLabel.grid(row=2, column=0, columnspan=3, pady=20)
+        self.interfaceResultLabel = tk.Label(self.subFrameForScroll, text = "No file or folder selected yet.", font = ("Ariel", 13), wraplength = 500)
+        self.interfaceResultLabel.grid(row = 3, column = 0, columnspan = 3, pady = 20)
 
-        fileButton = tk.Button(subFrameForScroll, text = "Process single XML file", command = self.processSingleFile, width = 15, height = 8)
-        fileButton.grid(row = 3, column = 0, padx = 10, pady = 10)
+        fileButton = tk.Button(self.subFrameForScroll, text = "Process single XML file", command = self.processSingleFile, width = 20, height = 3)
+        fileButton.grid(row = 4, column = 0, padx = 10, pady = 10)
 
-        directoryButton = tk.Button(subFrameForScroll, text = "Process directory\nthat contains XML files", command = self.processDirectory, width = 15, height = 8)
-        directoryButton.grid(row = 3, column = 1, padx = 10, pady = 10)
+        directoryButton = tk.Button(self.subFrameForScroll, text = "Process directory\nthat contains XML files", command = self.processDirectory, width = 20, height = 3)
+        directoryButton.grid(row = 4, column = 1, padx = 10, pady = 10)
 
-        exitButton = tk.Button(subFrameForScroll, text = "End Program", command = rootInterface.destroy, width = 15, height = 4)
-        exitButton.grid(row = 3, column = 2, padx = 10, pady = 10)
+        exitButton = tk.Button(self.subFrameForScroll, text = "End Program", command = rootInterface.destroy, width = 15, height = 3)
+        exitButton.grid(row = 4, column = 2, padx = 10, pady = 10)
         
         rootInterface.mainloop()
 
@@ -61,7 +62,7 @@ class XMLToolInterface:
         singleFilePath = filedialog.askopenfilename(title = "Select an XML File", filetypes = [("XML Files", "*.xml")])
         self.interfaceResultLabel.update()
 
-        if not singleFilePath:
+        if not singleFilePath or not singleFilePath.endswith(".xml"):
             self.interfaceResultLabel.config(text = "File selection canceled. Please try again.")
             self.interfaceResultLabel.update()
             return
@@ -76,13 +77,47 @@ class XMLToolInterface:
             self.interfaceResultLabel.update()
             return
         
-        self.singleFileProcessCounter += 1
-        outputSingleFileName = f"output-{self.singleFileProcessCounter}.txt"
+        singleFileCounterSuffix = 1
+        outputSingleFileName = f"output-{singleFileCounterSuffix}.txt"
 
         outputFilePath = f"{outputDirectory}/{outputSingleFileName}"
 
-        self.createSingleFileOutput(singleFilePath, outputFilePath)
+        while os.path.exists(outputFilePath):
+            outputSingleFileName = f"output-{singleFileCounterSuffix}.txt"
+            outputFilePath = f"{outputDirectory}/{outputSingleFileName}"
+            singleFileCounterSuffix += 1
         
+        XMLTagListMachine = XMLTagCustomization()
+        uniqueXMLList = XMLTagListMachine.traverseDisplaySingleFileInterface(singleFilePath)
+        windowWidth = 600
+        buttonsPerRow = windowWidth // 100
+
+        self.interfaceResultLabel.config(text = "Select all XML tags that you want to export: ")
+        self.interfaceResultLabel.update()
+        
+        allSelectedTagsToInclude = set()
+        allTagButtonsTrackerList = []
+        for count, oneTag in enumerate(uniqueXMLList):
+            row = count // buttonsPerRow
+            column = count % buttonsPerRow
+            tagButton = tk.Button(self.subFrameForScroll, text = oneTag, command = lambda w=oneTag: allSelectedTagsToInclude.add(w), width = 9, height = 2)
+            tagButton.grid(row = row + 5, column = column, padx = 5, pady = 5)
+            allTagButtonsTrackerList.append(tagButton)
+        endTagSelectionButton = tk.Button(self.subFrameForScroll, text = "Selected all\nXML Tags", command = lambda: createXMLExtractionMachine(singleFilePath, allSelectedTagsToInclude, outputFilePath), width = 20, height = 3)
+        endTagSelectionButton.grid(row = 4, column = 4, padx = 10, pady = 10)
+
+        def createXMLExtractionMachine(singleFilePath, allSelectedTagsToInclude, outputFilePath):
+            if not allSelectedTagsToInclude:
+                self.interfaceResultLabel.config(text="No tags selected. Please select at least one tag.")
+                self.interfaceResultLabel.update()
+                return
+        
+            for button in allTagButtonsTrackerList:
+                button.destroy()
+            allTagButtonsTrackerList.clear()
+            XMLExtractionMachine = XMLContentExtraction(singleFilePath, allSelectedTagsToInclude, outputFilePath)
+            self.createSingleFileOutput(XMLExtractionMachine)
+
     def processDirectory(self):
         sourceXMLDirectoryPath = filedialog.askdirectory(title = "Select a directory of XML files to convert to TXT")
         self.interfaceResultLabel.update()
@@ -112,18 +147,8 @@ class XMLToolInterface:
 
         self.createDirectoryOutput(sourceXMLDirectoryPath, newFolderPath)
 
-    def createSingleFileOutput(self, XMLPath, outputSingleFileName):
-        if not XMLPath:
-            self.interfaceResultLabel.config(text="No file selected. Please select an XML file.")
-            self.interfaceResultLabel.update()
-
-        '''
-        TODO: customize which tags to export
-        '''
-        testTags = ['TITLESTMT', 'TITLE', 'AUTHOR', 'EXTENT', 'PUBLICATIONSTMT']
-        XMLExtractionMachine = XMLContentExtraction(XMLPath, testTags, outputSingleFileName)
-
-        XMLExtractionMachine.traverseXML()
+    def createSingleFileOutput(self, XMLExtractionMachine):
+        XMLExtractionMachine.traverseAndOutputXML()
         self.interfaceResultLabel.config(text = "Single XML processing completed. Please select either 'Process single XML file' or 'Process folder' to perform another export or click 'End Program' to exit.")
         self.interfaceResultLabel.update()
     
@@ -137,11 +162,13 @@ class XMLToolInterface:
             if singleXMLFile.endswith(".xml"):
                 newFileName = "ToTXT" + os.path.splitext(singleXMLFile)[0] + ".txt"
                 XMLExtractionMachine = XMLContentExtraction(os.path.join(sourceXMLDirectoryPath, singleXMLFile), testTags, os.path.join(newFolderPath, newFileName))
-                XMLExtractionMachine.traverseXML()
+                XMLExtractionMachine.traverseAndOutputXML()
 
         self.interfaceResultLabel.config(text = "Folder of XMl files processing completed. Please select either 'Process single XML file' or 'Process folder' to perform another export or click 'End Program' to exit.")
         self.interfaceResultLabel.update()
 
+
+    #TODO update directory output so that we calll teh XML Content export object in the proceesDirectory function
 if __name__ == "__main__":
     XMLSourceDirectory = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
     XMLInterfaceToolMachine = XMLToolInterface(XMLSourceDirectory)
