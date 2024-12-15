@@ -7,6 +7,7 @@ class XMLToolInterface:
     def __init__(self, XMLSourceDirectory):
         self.XMLSourceDirectory = XMLSourceDirectory
         self.interfaceResultLabel = None
+        self.displayButtonsForXMLTagSelection = None
         self.singleFileProcessCounter = 0
         self.folderFileProcessCounter = 0
 
@@ -15,44 +16,44 @@ class XMLToolInterface:
         rootInterface.title("XML-TXT Interface")
         rootInterface.geometry("600x600")
 
-
-
-
-
         mainFrame = tk.Frame(rootInterface)
-        mainFrame.pack(fill = "both", expand = 1)
+        mainFrame.grid(row = 0, column = 0, sticky = "nsew")
+        rootInterface.grid_rowconfigure(0, weight=1)
+        rootInterface.grid_columnconfigure(0, weight=1)
 
         canvas = tk.Canvas(mainFrame)
-        canvas.pack(side = "left", fill = "both", expand = 1)
+        canvas.grid(row=0, column=0, sticky="nsew")
         scrollBar = ttk.Scrollbar(mainFrame, orient = "vertical", command = canvas.yview)
-        scrollBar.pack(side = "right", fill = "y")
+        scrollBar.grid(row=0, column=1, sticky="ns")
         canvas.configure(yscrollcommand = scrollBar.set)
         canvas.bind("<Configure>", lambda e: canvas.configure(scrollregion = canvas.bbox("all")))
 
-
         subFrameForScroll = tk.Frame(canvas)
         canvas.create_window((0, 0), window = subFrameForScroll, anchor = "nw")
+        mainFrame.grid_rowconfigure(0, weight=1)
+        mainFrame.grid_columnconfigure(0, weight=1)
 
+        #TODO: solve mouse wheel issue: only scrolls in the scroll bar column
         canvas.bind_all("<MouseWheel>", lambda e: canvas.yview_scroll(-int(e.delta / 60), "units"))
         
 
         titleLabel = tk.Label(subFrameForScroll, text = "Customized XML-to-TXT Export Interface", font = ("Times New Roman", 24, "bold"))
-        titleLabel.pack(pady = 20)
+        titleLabel.grid(row=0, column=0, columnspan=3, pady=20)
 
-        descriptionLabel = tk.Label(subFrameForScroll, text = "Instructions:\n\n1) Select one of the options by clicking on the coorresponding button below.\n\n2) After selecting a button, you will be prompted to select either a sinle XML file or a folder. This is the single XML or the folder of XML that you wish to convert to TXT.\n\n3) Then, the window will query you again to select a directory. This is the directory of which you wish to store the outputted single TXT file or folder of TXT files to.\n\n4) After each export, the window will not automatically close so that you can perform multiple exports in one runtime session. To end the session, click on the \"End Program\" button at the every end.", font = ("Times New Roman", 18), anchor = "w",justify = "left", wraplength = 580)
-        descriptionLabel.pack(pady = 15, fill = "x")
+        descriptionLabel = tk.Label(subFrameForScroll, text = "Instructions:\n\n1) Select one of the options by clicking on the coorresponding button below.\n\n2) After selecting a button, you will be prompted to select either a sinle XML file or a folder. This is the single XML or the folder of XML that you wish to convert to TXT.\n\n3) Then, the window will query you again to select a directory. This is the directory of which you wish to store the outputted single TXT file or folder of TXT files to.\n\n4) After each export, the window will not automatically close so that you can perform multiple exports in one runtime session. To end the session, click on the \"End Program\" button at the every end.", font = ("Times New Roman", 16), anchor = "w",justify = "left", wraplength = 580)
+        descriptionLabel.grid(row=1, column=0, columnspan=3, pady=15)
 
         self.interfaceResultLabel = tk.Label(subFrameForScroll, text = "No file or folder selected yet.", font = ("Ariel", 13, "bold"), wraplength = 500)
-        self.interfaceResultLabel.pack(pady = 20)
+        self.interfaceResultLabel.grid(row=2, column=0, columnspan=3, pady=20)
 
-        fileButton = tk.Button(subFrameForScroll, text = "Process single XML file", command = self.processSingleFile, width = 25, height = 8)
-        fileButton.pack(pady = 10)
+        fileButton = tk.Button(subFrameForScroll, text = "Process single XML file", command = self.processSingleFile, width = 15, height = 8)
+        fileButton.grid(row = 3, column = 0, padx = 10, pady = 10)
 
-        directoryButton = tk.Button(subFrameForScroll, text = "Process directory that contains XML files", command = self.processDirectory, width = 25, height = 8)
-        directoryButton.pack(pady = 10)
+        directoryButton = tk.Button(subFrameForScroll, text = "Process directory\nthat contains XML files", command = self.processDirectory, width = 15, height = 8)
+        directoryButton.grid(row = 3, column = 1, padx = 10, pady = 10)
 
         exitButton = tk.Button(subFrameForScroll, text = "End Program", command = rootInterface.destroy, width = 15, height = 4)
-        exitButton.pack(pady = 10)
+        exitButton.grid(row = 3, column = 2, padx = 10, pady = 10)
         
         rootInterface.mainloop()
 
