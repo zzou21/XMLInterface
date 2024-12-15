@@ -21,8 +21,8 @@ class XMLContentExtraction:
         print(allTags)
         filteredAllContent = [item for item in allContent if item is not None]
         print("".join(filteredAllContent))
-        # directory = "XMLInterface/supertestWeird"
-        # os.makedirs(directory)
+
+        # TODO: update the code so that it will accomodate iteration through directory
         newTestFilePath = self.outputName
         with open(newTestFilePath, "w") as testFile:
             testFile.write("".join(filteredAllContent))

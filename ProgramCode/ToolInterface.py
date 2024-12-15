@@ -32,7 +32,7 @@ class XMLToolInterface:
         singleFilePath = filedialog.askopenfilename(title = "Select an XML File", filetypes = [("XML Files", "*.xml")])
         self.interfaceResultLabel.update()
 
-        if not singleFilePath:  # User canceled the dialog
+        if not singleFilePath:
             self.interfaceResultLabel.config(text = "File selection canceled. Please try again.")
             self.interfaceResultLabel.update()
             return
@@ -55,12 +55,39 @@ class XMLToolInterface:
         self.createSingleFileOutput(singleFilePath, outputFilePath)
         
     def processDirectory(self):
-        pass
+        sourceXMLDirectoryPath = filedialog.askdirectory(title = "Select a directory of XML files to convert to TXT")
+        self.interfaceResultLabel.update()
+        if not sourceXMLDirectoryPath:
+            self.interfaceResultLabel.config(text = "Directory selection canceled. Please try again.")
+            self.interfaceResultLabel.update()
+            return
+        
+        self.interfaceResultLabel.config(text = "Please select a directory to store the output folder.")
+        self.interfaceResultLabel.update()
+        self.interfaceResultLabel.after(1000)
+
+        outputDirectory = filedialog.askdirectory(title = "Select an Output Directory")
+        if not outputDirectory:
+            self.interfaceResultLabel.config(text = "Output directory selection canceled. Please try again.")
+            self.interfaceResultLabel.update()
+            return
+        
+        outputTXTFolderName = "XMLTXTOutputFolder"
+        newFolderPath = os.path.join(outputDirectory, outputTXTFolderName)
+        repeatedFolderCounter = 1
+        
+        while os.path.exists(newFolderPath):
+            newFolderPath = os.path.join(outputDirectory, f"{outputTXTFolderName}-{repeatedFolderCounter}")
+            repeatedFolderCounter += 1
+        os.makedirs(newFolderPath)
+
+        self.createDirectoryOutput(sourceXMLDirectoryPath, newFolderPath)
+        
 
     def createSingleFileOutput(self, XMLPath, outputSingleFileName):
         if not XMLPath:
             self.interfaceResultLabel.config(text="No file selected. Please select an XML file.")
-            self.interfaceResultLabel.update()  # Ensure the message updates immediately
+            self.interfaceResultLabel.update()
 
         '''
         TODO: customize which tags to export
@@ -71,15 +98,27 @@ class XMLToolInterface:
         XMLExtractionMachine.traverseXML()
         self.interfaceResultLabel.config(text = "Single XML processing completed. Please select either 'Process single XML file' or 'Process folder' to perform another export or click 'End Program' to exit.")
         self.interfaceResultLabel.update()
+    
+    def createDirectoryOutput(self, sourceXMLDirectoryPath, outputTXTFolderName):
+        if not sourceXMLDirectoryPath:
+            self.interfaceResultLabel.config(text="No file selected. Please select an XML file.")
+            self.interfaceResultLabel.update()
 
+        testTags = ['TITLESTMT', 'TITLE', 'AUTHOR', 'EXTENT', 'PUBLICATIONSTMT']
+        XMLFilePathsList = []
+        for singleXMLFile in os.listdir(sourceXMLDirectoryPath):
+            if singleXMLFile.endswith(".xml"):
+                XMLFilePathsList.append(os.path.join(sourceXMLDirectoryPath, singleXMLFile))
+        
+        
+
+
+        
 
 if __name__ == "__main__":
     XMLSourceDirectory = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
     XMLInterfaceToolMachine = XMLToolInterface(XMLSourceDirectory)
     XMLInterfaceToolMachine.selectionInterface()
-
-
-
 
     '''
     TODO: create try except so that if a folder exists, ask user to create a new folder.
