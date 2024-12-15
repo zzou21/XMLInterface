@@ -9,19 +9,20 @@ class XMLContentExtraction:
     def traverseAndOutputXML(self):
         tree = ET.parse(self.XMLSourcePath)
         root = tree.getroot()
-        allTags = []
-        allContent = []
 
-        for elem in root.findall(".//"):
-            if elem.tag not in allTags:
-                allTags.append(elem.tag)
-            if elem.tag in self.XMLCustomizedTagsList:
-                allContent.append(elem.text)
-        
-        filteredAllContent = [item for item in allContent if item is not None]
+        allContent = self.extractContent(root)
 
         with open(self.outputName, "w", encoding = "utf-8") as testFile:
-            testFile.write("".join(filteredAllContent))
+            testFile.write("".join(allContent))
+    
+    def extractContent(self, element, level = 0):
+        extractedText = []
+        if element.tag in self.XMLCustomizedTagsList:
+            if element.text and element.text.strip():
+                extractedText.append("  " * level + element.text.strip())
+        for child in element:
+            extractedText.extend(self.extractContent(child, level + 1))
+        return extractedText
 
 # if __name__ == "__main__":
 #     XMLSourcePath = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
