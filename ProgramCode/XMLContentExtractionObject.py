@@ -1,5 +1,11 @@
 import xml.etree.ElementTree as ET, os, re
+'''
+Class objects contained in this file: "XMLContentExtraction"
+Purpose: an auxiliary function called on by the interface (in the file "ToolInterface.py") to generate the output TXT or folder of TXTs.
+Parameters: file path to one XML file, a list of XML tags that we are NOT exporting, file path of the output TXT product.
 
+NOTE: This class object does not handle a folder, only single XMLs, as the interface will break down a folder of XMLs and call on the functions inside "XMLContentExtraction" when iterating through each XML file.
+'''
 class XMLContentExtraction:
     def __init__ (self, XMLSourcePath, XMLCustomizedTagsList, outputName):
         self.XMLSourcePath = XMLSourcePath
@@ -27,19 +33,16 @@ class XMLContentExtraction:
     
     def writeToTXT(self):
         textToTXT = self.traverseAndOutputXML()
-        textToTXT = textToTXT.replace("To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to http://www.textcreationpartnership.org/ for more information.", "")
-        textToTXT = textToTXT.replace("Ann Arbor, MI ; Oxford (UK) : Text Creation Partnership,", "")
-        textToTXT = textToTXT.replace("Early English books online. ", "")
-
-        pattern = r"\b20\d{2}-\d{2} \(EEBO-TCP Phase (1|2)\)"
-        textToTXT = re.sub(pattern, "", textToTXT)
-
         with open(self.outputName, "w", encoding = "utf-8") as finalTXT:
             finalTXT.write(textToTXT)
 
+# Commented code chunk below is for testing purposes only:
+'''
 if __name__ == "__main__":
     XMLSourcePath = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
     XMLCustomizedTagsList = ["HEADER", "AVAILABILITY", "ENCODINGDESC", "EDITORIALDECL", "VID", "BIBNO", "IDNO", "SERIESSTMT", "NOTESSTMT", "NOTE", "PROJECTDESC", "LANGUSAGE", "LANGUAGE" ,"REVISIONDESC", "CHANGE" ,"RESPSTMT" ,"RESP", "IDG", "STC", "EXTENT", "TERM"]
     outputFile = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/testOutput2.txt"
     XMLParsingTool = XMLContentExtraction(XMLSourcePath, XMLCustomizedTagsList, outputFile)
     XMLParsingTool.writeToTXT()
+
+'''
