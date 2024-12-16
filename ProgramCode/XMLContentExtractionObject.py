@@ -37,12 +37,10 @@ class XMLContentExtraction:
             finalTXT.write(textToTXT)
 
 # Commented code chunk below is for testing purposes only:
-'''
-if __name__ == "__main__":
-    XMLSourcePath = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
-    XMLCustomizedTagsList = ["HEADER", "AVAILABILITY", "ENCODINGDESC", "EDITORIALDECL", "VID", "BIBNO", "IDNO", "SERIESSTMT", "NOTESSTMT", "NOTE", "PROJECTDESC", "LANGUSAGE", "LANGUAGE" ,"REVISIONDESC", "CHANGE" ,"RESPSTMT" ,"RESP", "IDG", "STC", "EXTENT", "TERM"]
-    outputFile = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/testOutput2.txt"
-    XMLParsingTool = XMLContentExtraction(XMLSourcePath, XMLCustomizedTagsList, outputFile)
-    XMLParsingTool.writeToTXT()
 
-'''
+# if __name__ == "__main__":
+#     XMLSourcePath = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
+#     XMLCustomizedTagsList = ["HEADER", "AVAILABILITY", "ENCODINGDESC", "EDITORIALDECL", "VID", "BIBNO", "IDNO", "SERIESSTMT", "NOTESSTMT", "NOTE", "PROJECTDESC", "LANGUSAGE", "LANGUAGE" ,"REVISIONDESC", "CHANGE" ,"RESPSTMT" ,"RESP", "IDG", "STC", "EXTENT", "TERM"]
+#     outputFile = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/testOutput2.txt"
+#     XMLParsingTool = XMLContentExtraction(XMLSourcePath, XMLCustomizedTagsList, outputFile)
+#     XMLParsingTool.writeToTXT()

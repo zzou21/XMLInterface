@@ -33,11 +33,10 @@ class XMLTagCustomization:
         return list(allTagsUnique)
 
 # Commented code below is for testing purposes only
-'''
-if __name__ == "__main__":
-    XMLFilePath = r"C:\Users\zz341\Desktop\XMLInterface\XMLTraversalTest\A10051.P4.xml"
-    XMLFilePath = os.path.normpath(XMLFilePath)
-    XMLFolderPath = ""
-    customizeXMLTagsMachine = XMLTagCustomization()
-    customizeXMLTagsMachine.traverseDisplaySingleFileInterface(XMLFilePath)
-'''
+
+# if __name__ == "__main__":
+#     XMLFilePath = r"C:\Users\zz341\Desktop\XMLInterface\XMLTraversalTest\A10051.P4.xml"
+#     XMLFilePath = os.path.normpath(XMLFilePath)
+#     XMLFolderPath = ""
+#     customizeXMLTagsMachine = XMLTagCustomization()
+#     customizeXMLTagsMachine.traverseDisplaySingleFileInterface(XMLFilePath)
