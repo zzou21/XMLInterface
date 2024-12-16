@@ -5,13 +5,12 @@ from XMLContentExtractionObject import XMLContentExtraction
 from customizeXMLTags import XMLTagCustomization
 
 class XMLToolInterface:
-    def __init__(self, XMLSourceDirectory):
-        self.XMLSourceDirectory = XMLSourceDirectory
+    def __init__(self):
         self.interfaceResultLabel = None
         self.displayButtonsForXMLTagSelection = None
         self.subFrameForScroll = None
         self.EEBOignoreTagsSet = None
-        self.EEBOMode = False
+        self.SingleFileEEBOMode = False
 
     def selectionInterface(self):
         rootInterface = tk.Tk()
@@ -108,7 +107,7 @@ class XMLToolInterface:
             tagButton = tk.Button(self.subFrameForScroll, text = oneTag, command = lambda tag=oneTag: addTagToSet(tag), width = 9, height = 2)
             tagButton.grid(row = row + 6, column = column, padx = 5, pady = 5)
             allTagButtonsTrackerList.append(tagButton)
-        endTagSelectionButton = tk.Button(self.subFrameForScroll, text = "Selected all\nXML Tags", command = lambda: createXMLExtractionMachine(singleFilePath, allSelectedTagsToInclude, outputFilePath), width = 20, height = 3)
+        endTagSelectionButton = tk.Button(self.subFrameForScroll, text = "Selected all\nXML Tags", command = lambda: createXMLExtractionMachineSingleFile(singleFilePath, allSelectedTagsToInclude, outputFilePath), width = 20, height = 3)
         endTagSelectionButton.grid(row = 4, column = 4, padx = 10, pady = 10)
         
         def EEBOSpecialShortCut():
@@ -117,7 +116,7 @@ class XMLToolInterface:
             self.EEBOignoreTagsSet = set(EEBOTagsToIgnore["EEBOXMLTagsToExclude"])
             self.interfaceResultLabel.config(text = f"XML tags to EXCLUDE in EEBO: {self.EEBOignoreTagsSet}. \n\nNow click \"Selected all XML Tags\" button to proceed.")
             self.interfaceResultLabel.update()
-            self.EEBOMode = True
+            self.SingleFileEEBOMode = True
 
         def addTagToSet(tag):
             allSelectedTagsToInclude.add(tag)
@@ -125,9 +124,8 @@ class XMLToolInterface:
             self.interfaceResultLabel.config(text = f"Selected XML tags: {allSelectedTagsToIncludeAsSortedList}")
             self.interfaceResultLabel.update()
 
-        def createXMLExtractionMachine(singleFilePath, allSelectedTagsToInclude, outputFilePath):
-            print("reached here")
-            if not allSelectedTagsToInclude and not self.EEBOMode:
+        def createXMLExtractionMachineSingleFile(singleFilePath, allSelectedTagsToInclude, outputFilePath):
+            if not allSelectedTagsToInclude and not self.SingleFileEEBOMode:
                 self.interfaceResultLabel.config(text = "No tags selected. Please select at least one tag.")
                 self.interfaceResultLabel.update()
                 return
@@ -136,17 +134,17 @@ class XMLToolInterface:
                 button.destroy()
             allTagButtonsTrackerList.clear()
 
-            if self.EEBOMode == True:
+            if self.SingleFileEEBOMode == True:
                 XMLTagListMachineEEBO = XMLTagCustomization()
                 allTagsInFile = XMLTagListMachineEEBO.traverseDisplaySingleFileInterface(singleFilePath)
                 updatedEEBOTagsThatHaveUsefulContent = [tag for tag in allTagsInFile if tag not in self.EEBOignoreTagsSet]
                 print(f"tags being used: {updatedEEBOTagsThatHaveUsefulContent}")
-                XMLExtractionMachine = XMLContentExtraction(singleFilePath, updatedEEBOTagsThatHaveUsefulContent, outputFilePath)
+                XMLExtractionMachine = XMLContentExtraction(singleFilePath, self.EEBOignoreTagsSet, outputFilePath)
                 self.createSingleFileOutput(XMLExtractionMachine)
             else:
                 XMLExtractionMachine = XMLContentExtraction(singleFilePath, allSelectedTagsToInclude, outputFilePath)
                 self.createSingleFileOutput(XMLExtractionMachine)
-
+            
     def processDirectory(self):
         sourceXMLDirectoryPath = filedialog.askdirectory(title = "Select a directory of XML files to convert to TXT")
         self.interfaceResultLabel.update()
@@ -173,32 +171,79 @@ class XMLToolInterface:
             newFolderPath = os.path.join(outputDirectory, f"{outputTXTFolderName}-{repeatedFolderCounter}")
             repeatedFolderCounter += 1
         os.makedirs(newFolderPath)
+        
+        XMLTagListMachine = XMLTagCustomization()
+        uniqueXMLList = XMLTagListMachine.traverseDisplayFolderInterface(sourceXMLDirectoryPath)
+        windowWidth = 600
+        buttonsPerRow = windowWidth // 100
 
-        self.createDirectoryOutput(sourceXMLDirectoryPath, newFolderPath)
-
-    def createSingleFileOutput(self, XMLExtractionMachine):
-        XMLExtractionMachine.traverseAndOutputXML()
-        self.interfaceResultLabel.config(text = f"Single XML processing completed.\nStored in: {XMLExtractionMachine.outputName}\n\nPlease select either 'Process single XML file' or 'Process folder' to perform another export or click 'End Program' to exit.")
+        self.interfaceResultLabel.config(text = "Select all XML tags that you want to export: ")
         self.interfaceResultLabel.update()
-    
-    def createDirectoryOutput(self, sourceXMLDirectoryPath, newFolderPath):
-        if not sourceXMLDirectoryPath:
-            self.interfaceResultLabel.config(text="No file selected. Please select an XML file.")
+        
+        EEBOSpecialButton = tk.Button(self.subFrameForScroll, text = "EEBO-TCP Shortcut", command = lambda: EEBOSpecialShortCut(), width = 18, height = 2)
+        EEBOSpecialButton.grid(row = 5, column = 2, padx = 7, pady = 7)
+
+        allSelectedTagsToInclude = set()
+        allTagButtonsTrackerList = []
+        for count, oneTag in enumerate(uniqueXMLList):
+            row = count // buttonsPerRow
+            column = count % buttonsPerRow
+            tagButton = tk.Button(self.subFrameForScroll, text = oneTag, command = lambda tag=oneTag: addTagToSet(tag), width = 9, height = 2)
+            tagButton.grid(row = row + 6, column = column, padx = 5, pady = 5)
+            allTagButtonsTrackerList.append(tagButton)
+        endTagSelectionButton = tk.Button(self.subFrameForScroll, text = "Selected all\nXML Tags", command = lambda: createXMLExtractionMachineFolder(sourceXMLDirectoryPath, allSelectedTagsToInclude, newFolderPath), width = 20, height = 3)
+        endTagSelectionButton.grid(row = 4, column = 4, padx = 10, pady = 10)
+        
+        def EEBOSpecialShortCut():
+            EEBOTagsJson = open("ProgramCode/EEBOTagsToExclude.json")
+            EEBOTagsToIgnore = json.load(EEBOTagsJson)
+            self.EEBOignoreTagsSet = set(EEBOTagsToIgnore["EEBOXMLTagsToExclude"])
+            self.interfaceResultLabel.config(text = f"XML tags to EXCLUDE in EEBO: {self.EEBOignoreTagsSet}. \n\nNow click \"Selected all XML Tags\" button to proceed.")
+            self.interfaceResultLabel.update()
+            self.SingleFileEEBOMode = True
+
+        def addTagToSet(tag):
+            allSelectedTagsToInclude.add(tag)
+            allSelectedTagsToIncludeAsSortedList = sorted(list(allSelectedTagsToInclude))
+            self.interfaceResultLabel.config(text = f"Selected XML tags: {allSelectedTagsToIncludeAsSortedList}")
             self.interfaceResultLabel.update()
 
-        testTags = ['TITLESTMT', 'TITLE', 'AUTHOR', 'EXTENT', 'PUBLICATIONSTMT']
+        def createXMLExtractionMachineFolder(sourceXMLDirectoryPath, allSelectedTagsToInclude, newFolderPath):
+            if not allSelectedTagsToInclude and not self.SingleFileEEBOMode:
+                self.interfaceResultLabel.config(text = "No tags selected. Please select at least one tag.")
+                self.interfaceResultLabel.update()
+                return
+            
+            for button in allTagButtonsTrackerList:
+                button.destroy()
+            allTagButtonsTrackerList.clear()
+
+            if self.SingleFileEEBOMode == True:
+                XMLTagListMachineEEBO = XMLTagCustomization()
+                allTagsInFile = XMLTagListMachineEEBO.traverseDisplayFolderInterface(sourceXMLDirectoryPath)
+                updatedEEBOTagsThatHaveUsefulContent = [tag for tag in allTagsInFile if tag not in self.EEBOignoreTagsSet]
+                print(f"tags being used: {updatedEEBOTagsThatHaveUsefulContent}")
+                self.createDirectoryOutput(sourceXMLDirectoryPath, newFolderPath)
+            else:
+                XMLExtractionMachine = XMLContentExtraction(sourceXMLDirectoryPath, allSelectedTagsToInclude, newFolderPath)
+                self.createDirectoryOutput(XMLExtractionMachine)
+
+    def createSingleFileOutput(self, XMLExtractionMachine):
+        XMLExtractionMachine.writeToTXT()
+        self.interfaceResultLabel.config(text = f"Single XML processing completed.\nStored in: {XMLExtractionMachine.outputName}\n\nPlease select either 'Process single XML file' or 'Process folder' to perform another export or click 'End Program' to exit.")
+        self.interfaceResultLabel.update()
+        self.SingleFileEEBOMode = False
+    
+    def createDirectoryOutput(self, sourceXMLDirectoryPath, newFolderPath):
         for singleXMLFile in os.listdir(sourceXMLDirectoryPath):
             if singleXMLFile.endswith(".xml"):
-                newFileName = "ToTXT" + os.path.splitext(singleXMLFile)[0] + ".txt"
-                XMLExtractionMachine = XMLContentExtraction(os.path.join(sourceXMLDirectoryPath, singleXMLFile), testTags, os.path.join(newFolderPath, newFileName))
-                XMLExtractionMachine.traverseAndOutputXML()
+                newFileName = "output-" + os.path.splitext(singleXMLFile)[0] + ".txt"
+                XMLExtractionMachine = XMLContentExtraction(os.path.join(sourceXMLDirectoryPath, singleXMLFile), self.EEBOignoreTagsSet, os.path.join(newFolderPath, newFileName))
+                XMLExtractionMachine.writeToTXT()
 
         self.interfaceResultLabel.config(text = "Folder of XMl files processing completed. Please select either 'Process single XML file' or 'Process folder' to perform another export or click 'End Program' to exit.")
         self.interfaceResultLabel.update()
 
-
-    #TODO update directory output so that we calll teh XML Content export object in the proceesDirectory function
 if __name__ == "__main__":
-    XMLSourceDirectory = "/Users/Jerry/Desktop/DH proj-reading/XMLInterface/XMLTraversalTest/A16864.P4.xml"
-    XMLInterfaceToolMachine = XMLToolInterface(XMLSourceDirectory)
+    XMLInterfaceToolMachine = XMLToolInterface()
     XMLInterfaceToolMachine.selectionInterface()

@@ -13,14 +13,23 @@ class XMLTagCustomization:
 
         tree = ET.parse(XMLFilePath)
         root = tree.getroot()
-        allTagsUnique = []
+        allTagsUnique = set()
         
         for elem in root.findall(".//"):
-            if elem.tag not in allTagsUnique:
-                allTagsUnique.append(elem.tag)
+            allTagsUnique.add(elem.tag)
         numberOfUniqueTags = len(allTagsUnique)
-        return allTagsUnique
-    
+        return list(allTagsUnique)
+
+    def traverseDisplayFolderInterface(self, XMLFolderPath):
+        allTagsUnique = set()
+        for oneXMLFile in os.listdir(XMLFolderPath):
+            if oneXMLFile.endswith(".xml"):
+                tree = ET.parse(os.path.join(XMLFolderPath, oneXMLFile))
+                root = tree.getroot()
+                for elem in root.findall(".//"):
+                    allTagsUnique.add(elem.tag)
+        return list(allTagsUnique)
+
 # if __name__ == "__main__":
 #     XMLFilePath = r"C:\Users\zz341\Desktop\XMLInterface\XMLTraversalTest\A10051.P4.xml"
 #     XMLFilePath = os.path.normpath(XMLFilePath)
