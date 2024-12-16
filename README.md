@@ -18,7 +18,7 @@ Inside "ProgramCode" folder, there are four files: *customizeXMLTags.py*, *EEBOT
 4) After selecting the needed functionality (process single XML or folder of XMLs), the user will be prompted twice to select file paths. The first prompt will ask the user to select which XML file (or folder) they wish to convert to TXT. The second prompt will ask the user in which directory on their local device they wish to store the converted TXT file (or folder).
 
 5) After the user has made a choice on both prompts, the GUI will display all XML tags in the XML file they have chosen. The user can simply click on the buttons that represent the XML tags that they wish to export before clicking the "Selected all" button to begin the conversion process. There is a shortcut for "EEBO-TCP shortcut", as this tool was designed with the Early English Books Online - Text Creation Partnership in mind.=
--- The EEBO-TCP shortcut automatically removes the metadata that the University of Michigan and TCP put into the files when converting early modern English prints and texts into XML formats. After the user clicks on the EEBO-TCP shortcut button, the GUI will display which XML tags will be automatically skipped during the conversion process.
+  - The EEBO-TCP shortcut automatically removes the metadata that the University of Michigan and TCP put into the files when converting early modern English prints and texts into XML formats. After the user clicks on the EEBO-TCP shortcut button, the GUI will display which XML tags will be automatically skipped during the conversion process.
 
 6) After clicking "Selected all" XML tags, the user can go to the output directory that they designated in Step 4 to find their files.
 
