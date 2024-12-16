@@ -13,6 +13,7 @@ Inside "ProgramCode" folder, there are four files:
 - *ToolInterface.py*: main execution file
 - *XMLContentExtractionObject.py*: auxiliary class object to recursively traverse an XML file to extract content from the XML tags designated by the user and turn the content into TXT files.
 
+**Steps**:
 1) When using the tool, only execute *ToolInterface.py*, as this file calls on the other three auxiliary files.
 
 2) After executing *ToolInterface.py*, a GUI will show up with more detailed instructions.
