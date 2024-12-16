@@ -7,7 +7,11 @@ Jerry Zou
 
 **Files and Instructions**:
 All code and data are stored in the folder "ProgramCode". When using this tool, make sure to download or clone the folder in its entirety.
-Inside "ProgramCode" folder, there are four files: *customizeXMLTags.py*, *EEBOTagsToExclude.json*, *ToolInterface.py*, *XMLContentExtractionObject.py*
+Inside "ProgramCode" folder, there are four files: 
+- *customizeXMLTags.py*: auxiliary class object to extract all XML tags from an XML file so that the user can select which ones they'd like to extract content from and which ones to ignore.
+- *EEBOTagsToExclude.json*: designed as a shortcut for EEBO-TCP usages; this JSON file contains XML tags found in EEBO-TCP XML files that contain metadata and not the actual content of early modern English texts. The XML tags in this JSON file are intended to be skipped during the XML-to-TXT conversion process.
+- *ToolInterface.py*: main execution file
+- *XMLContentExtractionObject.py*: auxiliary class object to recursively traverse an XML file to extract content from the XML tags designated by the user and turn the content into TXT files.
 
 1) When using the tool, only execute *ToolInterface.py*, as this file calls on the other three auxiliary files.
 
