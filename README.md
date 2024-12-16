@@ -24,6 +24,12 @@ Inside "ProgramCode" folder, there are four files: *customizeXMLTags.py*, *EEBOT
 
 7) The tool will not end after one conversion. If the user wishes to convert more files, they can continue doing so. The tool will stop executing if the user clicks on the "End Program" button, closes the GUI window, or pauses the *ToolInterface.py* file in its runtime.
 
+### Tasks going forward
+The current version of the tool is a functional prototype, but it definitely could have a lot more functionalities. Some functionalities that have been planned to include are:
+- Create a button that selects all XMLs
+- Allow the user to delete some of their selected XMLs before clicking the "Selected all" button, in case they've made a mistake.
+- Make the GUI window more malleable so it will expand or contract depending on how many XML buttons are on screen.
+
 
 
 This project is tested on the XML data from Early English Books Online - Text Creation Partnership at University of Michigan. https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/
