@@ -1,5 +1,9 @@
 # XML Customized Extraction Interface Tool
 
+Work in progress:
+Need to upgrade and connect to AWS and then to front end. Currently it only works on command line.
+
+
 Author:
 Jerry Zou
 
