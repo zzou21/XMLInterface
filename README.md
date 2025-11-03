@@ -5,7 +5,7 @@ Need to upgrade and connect to AWS and then to front end. Currently it only work
 
 
 Author:
-Jerry Zou
+Zhihui (Jerry) Zou
 
 **Functionality**: This tool is designed to help users quickly and efficiently extract information from an XML by selecting the specific XML tags to extract content from.
 
